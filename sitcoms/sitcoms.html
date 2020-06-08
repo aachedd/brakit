@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Brakit: Sitcoms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css_brack_sep.css">
+  <script src="js_brack_sep.js"></script>
+  <script src="https://files.codepedia.info/files/uploads/iScripts/html2canvas.js"></script> 
+</head>
+
+
+<nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="..\index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sitcoms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<body>
+
+<div class="northWestContainer">
+  <div id="floatTopLeft" class="floatTopLeft">
+
+    <table style="width: 400px">
+        <colgroup>
+           <col span="1" style="width: 50%;">
+           <col span="1" style="width: 25%;">
+           <col span="1" style="width: 25%;">
+        </colgroup>
+        <tr>
+          <th><strong>90's Region 1st Rd</strong></th>
+          <th><strong>Rd of 32</strong></th>
+          <th><strong>Sweet 16</strong></th>
+        </tr>
+        <tr>
+            <td>
+
+              <input onclick="northWestSeed1()"   type="button" title=""  value="" id="seed0"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32a()" style="font-size: 12px; white-space: normal" type="button"  title="" value="ROUND OF 32" id="northWestRd32a"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="northWestRd16a()" style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northWestRd16a"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed16()"   type="button" title="" value="" title="" id="seed63"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed8()"   type="button" title="" value="" id="seed31"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32b()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32b"></input>
+            </td>
+        </tr>
+        <tr>
+             <td>
+              <input onclick="northWestSeed9()"   type="button" title="" value="" id="seed32"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed5()"   type="button" title="" value="" id="seed16"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32c()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32c"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="northWestRd16b()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northWestRd16b"></input>
+            </td>
+        </tr>
+        <tr>
+           <td>
+            <input onclick="northWestSeed12()"   type="button" title="" value="" id="seed47"></input>
+          </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed4()"   type="button" title="" value="" id="seed15"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32d()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32d"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed13()"   type="button" title="" value="" id="seed48"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed6()"   type="button" title="" value="" id="seed23"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32e()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32e"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="northWestRd16c()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northWestRd16c"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed11()"   type="button" title="" value="" id="seed40"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed3()"   type="button" title="" value="" id="seed8"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32f()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32f"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed14()"   type="button" title="" value="" id="seed55"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed7()"   type="button" title="" value="" id="seed24"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32g()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32g"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="northWestRd16d()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northWestRd16d"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed10()"   type="button" title="" value="" id="seed39"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="northWestSeed2()"   type="button" title="" value="" id="seed7"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="northWestRd32h()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northWestRd32h"></input>
+            </td>
+        </tr>
+        <tr>
+          <td>
+              <input onclick="northWestSeed15()"   type="button" title="" value="" id="seed56"></input>
+            </td>
+        </tr>      
+      </table>
+  </div>
+
+  <div>
+    <img src="" id="northWestPic" height="425px" width="425px"/>
+  </div>
+</div>
+  <br>
+
+
+<div class="northEastContainer">
+  <div id="floatTopRight" class="floatTopRight">
+    <table style="width: 400px">
+      <colgroup>
+         <col span="1" style="width: 50%;">
+         <col span="1" style="width: 25%;">
+         <col span="1" style="width: 25%;">
+      </colgroup>
+      <tr>
+        <th><strong>2000's Region 1st Rd</strong></th>
+        <th><strong>Rd of 32</strong></th>
+        <th><strong>Sweet 16</strong></th>
+      </tr>
+      <tr>
+
+          <td>
+            <input onclick="northEastSeed1()"   type="button" title="" value="" id="seed1"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32a()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32a"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="northEastRd16a()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northEastRd16a"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed16()"   type="button" title="" value="" id="seed62"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed8()"   type="button" title="" value="" id="seed30"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32b()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32b"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed9()"   type="button" title="" value="" id="seed33"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed5()"   type="button" title="" value="" id="seed17"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32c()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32c"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="northEastRd16b()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northEastRd16b"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed12()"   type="button" title="" value="" id="seed46"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed4()"   type="button" title="" value="" id="seed14"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32d()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32d"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed13()"   type="button" title="" value="" id="seed49"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed6()"   type="button" title="" value="" id="seed22"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32e()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32e"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="northEastRd16c()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northEastRd16c"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed11()"   type="button" title="" value="" id="seed41"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed3()"   type="button" title="" value="" id="seed9"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32f()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32f"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed14()"   type="button" title="" value="" id="seed54"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed7()"   type="button" title="" value="" id="seed25"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32g()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32g"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="northEastRd16d()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="northEastRd16d"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed10()"   type="button" title="" value="" id="seed38"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed2()"   type="button" title="" value="" id="seed6"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd32h()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="northEastRd32h"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northEastSeed15()"   type="button" title="" value="" id="seed57"></input>
+          </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <img src="" id="northEastPic" height="425px" width="425px"/>
+  </div>
+</div>
+  <br>
+
+
+<div class="southWestContainer">
+  <div id="floatBottomLeft" class="floatBottomLeft">
+    <table style="width: 400px">
+      <colgroup>
+         <col span="1" style="width: 50%;">
+         <col span="1" style="width: 25%;">
+         <col span="1" style="width: 25%;">
+      </colgroup>
+      <tr>
+        <th><strong>Pre-90s 1st Rd</strong></th>
+        <th><strong>Rd of 32</strong></th>
+        <th><strong>Sweet 16</strong></th>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed1()"   type="button" title="" value="" id="seed3"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32a()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32a"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="southWestRd16a()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southWestRd16a"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed16()"   type="button" title="" value="" id="seed60"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed8()"   type="button" title="" value="" id="seed28"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32b()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32b"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed9()"   type="button" title="" value="" id="seed35"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed5()"   type="button" title="" value="" id="seed19"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32c()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32c"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="southWestRd16b()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southWestRd16b"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed12()"   type="button" title="" value="" id="seed44"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed4()"   type="button" title="" value="" id="seed12"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32d()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32d"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed13()"   type="button" title="" value="" id="seed51"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed6()"   type="button" title="" value="" id="seed20"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32e()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32e"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="southWestRd16c()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southWestRd16c"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed11()"   type="button" title="" value="" id="seed43"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed3()"   type="button" title="" value="" id="seed11"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32f()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32f"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed14()"   type="button" title="" value="" id="seed52"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed7()"   type="button" title="" value="" id="seed27"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32g()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32g"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="southWestRd16d()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southWestRd16d"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed10()"   type="button" title="" value="" id="seed36"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed2()"   type="button" title="" value="" id="seed4"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd32h()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southWestRd32h"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestSeed15()"   type="button" title="" value="" id="seed59"></input>
+          </td>
+      </tr>
+    </table>
+ </div>
+  <div>
+    <img src="" id="southWestPic" height="425px" width="425px"/>
+  </div>
+</div>
+  <br>
+
+<div class="southEastContainer">
+  <div id="floatBottomRight" class="floatBottomRight">
+    <table style="width: 400px">
+        <colgroup>
+           <col span="1" style="width: 50%;">
+           <col span="1" style="width: 25%;">
+           <col span="1" style="width: 25%;">
+        </colgroup>
+        <tr>
+          <th><strong>2010s 1st Rd</strong></th>
+          <th><strong>Rd of 32</strong></th>
+          <th><strong>Sweet 16</strong></th>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed1()"   type="button" title="" value="" id="seed2"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32a()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32a"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="southEastRd16a()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southEastRd16a"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed16()"   type="button" title="" value="" id="seed61"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed8()"   type="button" title="" value="" id="seed29"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32b()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32b"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed9()"   type="button" title="" value="" id="seed34"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed5()"   type="button" title="" value="" id="seed18"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32c()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32c"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="southEastRd16b()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southEastRd16b"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed12()"   type="button" title="" value="" id="seed45"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed4()"   type="button" title="" value="" id="seed13"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32d()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32d"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed13()"   type="button" title="" value="" id="seed50"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed6()"   type="button" title="" value="" id="seed21"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32e()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32e"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="southEastRd16c()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southEastRd16c"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed11()"   type="button" title="" value="" id="seed42"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed3()"   type="button" title="" value="" id="seed10"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32f()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32f"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed14()"   type="button" title="" value="" id="seed53"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed7()"   type="button" title="" value="" id="seed26"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32g()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32g"></input>
+            </td>
+            <td rowspan="4">
+              <input onclick="southEastRd16d()"   style="font-size: 14px; white-space: normal" type="button" title="" value="SWEET 16" id="southEastRd16d"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed10()"   type="button" title="" value="" id="seed37"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed2()"   type="button" title="" value="" id="seed5"></input>
+            </td>
+            <td rowspan="2">
+              <input onclick="southEastRd32h()"   style="font-size: 12px; white-space: normal" type="button" title="" value="ROUND OF 32" id="southEastRd32h"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input onclick="southEastSeed15()"   type="button" title="" value="" id="seed58"></input>
+            </td>
+        </tr>
+    </table>
+  </div>
+  <div>
+    <img src="" id="southEastPic" height="425px" width="425px"/>
+  </div>
+</div>
+  <br>
+
+
+
+<div class="titleContainer">
+  <div id="floatTitle"  class="floatTitle">
+    <table style="width: 400px">
+      <colgroup>
+         <col span="1" style="width: 20%;">
+         <col span="1" style="width: 15%;">
+         <col span="1" style="width: 10%;">
+         <col span="1" style="width: 10%;">
+         <col span="1" style="width: 10%;">
+         <col span="1" style="width: 15%;">
+         <col span="1" style="width: 20%;">
+      </colgroup>
+      <tr>
+        <th><strong>Elite 8</strong></th>
+        <th><strong>Final 4</strong></th>
+        <th><strong>Final Round</strong></th>
+        <th><strong>WINNER!!!</strong></th>
+        <th><strong>Final Round</strong></th>
+        <th><strong>Final 4</strong></th>
+        <th><strong>Elite 8</strong></th>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northWestRd8a()" style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="northWestRd8a"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northWestRd4()" style="font-size: 17px; white-space: normal" type="button" title="" value="FINAL 4" id="northWestRd4"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="westRd2()"  style="text-align: left; font-size:20px;white-space: normal" type="button" title="" value="WEST FINAL" id="westRd2"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="winner()" style="height:150px;font-size:20px;white-space: normal" type="button" title="" value="WINNER IS..." id="winner"></input>
+          </td>
+          <td rowspan="4">
+            <input onclick="eastRd2()" style="text-align: right; font-size:20px;white-space: normal" type="button" title="" value="EAST FINAL" id="eastRd2"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="northEastRd4()"   style="font-size: 15px; white-space: normal" type="button" title="" value="FINAL 4" id="northEastRd4"></input>
+          </td>
+          <td>
+            <input onclick="northEastRd8a()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="northEastRd8a"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="northWestRd8b()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="northWestRd8b"></input>
+          </td>
+          <td>
+            <input onclick="northEastRd8b()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="northEastRd8b"></input>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input onclick="southWestRd8a()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="southWestRd8a"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southWestRd4()"   style="font-size: 17px; white-space: normal" type="button" title="" value="FINAL 4" id="southWestRd4"></input>
+          </td>
+          <td rowspan="2">
+            <input onclick="southEastRd4()"   style="font-size: 17px; white-space: normal" type="button" title="" value="FINAL 4" id="southEastRd4"></input>
+          </td>
+          <td>
+            <input onclick="southEastRd8a()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="southEastRd8a"></input>
+          </td>
+      </tr>
+      <tr>
+        <td><input onclick="southWestRd8b()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="southWestRd8b"></input></td>
+        <td><input onclick="southEastRd8b()"   style="font-size: 15px; white-space: normal" type="button" title="" value="ELITE 8" id="southEastRd8b"></input></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="dwnld">
+  <h3>Links to Downloads:</h3> 
+  <a id="btn-floatTopRight" href="#"> 
+    Download NorthWest Region
+  </a> 
+<br>
+  <a id="btn-floatTopLeft" href="#"> 
+    Download NorthEast Region
+  </a> 
+<br>
+  <a id="btn-floatBottomRight" href="#"> 
+    Download SouthWest Region
+  </a> 
+<br>
+  <a id="btn-floatBottomLeft" href="#"> 
+    Download SouthEast Region
+  </a> 
+<br>
+  <a id="btn-TitleFloat" href="#"> 
+    Download Championship Bracket
+  </a> 
+</div>
+
+<br>
+<br>
+
+<h3>Preview of Downloads:</h3> 
+
+<div id="previewDownloads">
+</div> 
+</body>
+</html>
+
+<script>
+
+
+//north west screenshot function
+  var floatTopLeft = $("#floatTopLeft"); 
+
+  var getCanvas5; 
+
+  $("#winner").on('click', function() { 
+    html2canvas(floatTopLeft, { 
+      onrendered: function(canvas) { 
+        $("#previewDownloads").append(canvas); 
+        getCanvas5 = canvas; 
+      } 
+    }); 
+  }); 
+
+  $("#btn-floatTopLeft").on('click', function() { 
+    var imgageData = 
+      getCanvas5.toDataURL("image/png"); 
+  
+    var newData = imgageData.replace( 
+    /^data:image\/png/, "data:application/octet-stream"); 
+  
+    $("#btn-floatTopLeft").attr( 
+    "download", "SitcomsNorthWestRegion.png").attr( 
+    "href", newData); 
+  }); 
+
+
+//north east screenshot function
+  var floatTopRight = $("#floatTopRight"); 
+
+  var getCanvas4; 
+
+  $("#winner").on('click', function() { 
+    html2canvas(floatTopRight, { 
+      onrendered: function(canvas) { 
+        $("#previewDownloads").append(canvas); 
+        getCanvas4 = canvas; 
+      } 
+    }); 
+  }); 
+
+  $("#btn-floatTopRight").on('click', function() { 
+    var imgageData = 
+      getCanvas4.toDataURL("image/png"); 
+  
+    var newData = imgageData.replace( 
+    /^data:image\/png/, "data:application/octet-stream"); 
+  
+    $("#btn-floatTopRight").attr( 
+    "download", "SitcomsNorthEastRegion.png").attr( 
+    "href", newData); 
+  });  
+
+
+//south west screenshot function
+  var floatBottomLeft = $("#floatBottomLeft"); 
+
+  var getCanvas3; 
+
+  $("#winner").on('click', function() { 
+    html2canvas(floatBottomLeft, { 
+      onrendered: function(canvas) { 
+        $("#previewDownloads").append(canvas); 
+        getCanvas3 = canvas; 
+      } 
+    }); 
+  }); 
+
+  $("#btn-floatBottomLeft").on('click', function() { 
+    var imgageData = 
+      getCanvas3.toDataURL("image/png"); 
+  
+    var newData = imgageData.replace( 
+    /^data:image\/png/, "data:application/octet-stream"); 
+  
+    $("#btn-floatBottomLeft").attr( 
+    "download", "SitcomsSouthWestRegion.png").attr( 
+    "href", newData); 
+  });  
+
+
+
+//south east screenshot function
+  var floatBottomRight = $("#floatBottomRight"); 
+
+  var getCanvas2; 
+
+  $("#winner").on('click', function() { 
+    html2canvas(floatBottomRight, { 
+      onrendered: function(canvas) { 
+        $("#previewDownloads").append(canvas); 
+        getCanvas2 = canvas; 
+      } 
+    }); 
+  }); 
+
+  $("#btn-floatBottomRight").on('click', function() { 
+    var imgageData = 
+      getCanvas2.toDataURL("image/png"); 
+  
+    var newData = imgageData.replace( 
+    /^data:image\/png/, "data:application/octet-stream"); 
+  
+    $("#btn-floatBottomRight").attr( 
+    "download", "SitcomsSouthEastRegion.png").attr( 
+    "href", newData); 
+  });  
+
+
+//title screenshot function
+  var floatTitle = $("#floatTitle"); 
+
+  var getCanvas1; 
+
+  $("#winner").on('click', function() { 
+    html2canvas(floatTitle, { 
+      onrendered: function(canvas) { 
+        $("#previewDownloads").append(canvas); 
+        getCanvas1 = canvas; 
+      } 
+    }); 
+  }); 
+
+  $("#btn-TitleFloat").on('click', function() { 
+    var imgageData = 
+      getCanvas1.toDataURL("image/png"); 
+  
+    var newData = imgageData.replace( 
+    /^data:image\/png/, "data:application/octet-stream"); 
+  
+    $("#btn-TitleFloat").attr( 
+    "download", "SitcomsFinalRegion.png").attr( 
+    "href", newData); 
+  });  
+
+</script>
