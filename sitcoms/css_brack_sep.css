@@ -7,7 +7,7 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-  background:#6ab446;
+  background:#336699;
 }
 
 .nav-link,
@@ -85,20 +85,14 @@ input {
   top: 0;
   width: 100%; 
 }
-/*table { 
-  width: 100%; 
-  border: 1px solid #ccc; 
 
-  border-collapse: collapse; 
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
 }
 
-th { 
-  background: #333; 
-  color: white; 
-  font-weight: bold; 
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
 }
-td, th { 
-  padding: 6px; 
-  border: 1px solid #ccc; 
-  text-align: left; 
-}*/

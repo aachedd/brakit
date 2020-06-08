@@ -7,7 +7,7 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-  background:#6ab446;
+  background:#336699;
 }
 
 .nav-link,
@@ -52,24 +52,12 @@ body {
   text-align: center;
 }
 .description h1 {
-  color: #6ab446;
+  color: #fff;
 }
 .description p {
   color: #fff;
   font-size: 1.3rem;
   line-height: 1.5;
-}
-
-.description button {
-  border:1px solid #6ab446;
-  background:#6ab446;
-  border-radius: 0;
-  color:#fff;
-}
-.description button:hover {
-  border:1px solid #fff;
-  background:#fff;
-  color:#000;
 }
 
 .features {
