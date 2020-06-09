@@ -1,13 +1,7 @@
-body {
-  padding: 0;
-  margin: 0;
-  background: #f2f6e9;
-}
-
 /*--- navigation bar ---*/
 
 .navbar {
-  background:#336699;
+  background: #336699;
 }
 
 .nav-link,
@@ -28,21 +22,27 @@ body {
   justify-content: flex-end;
 }
 
+.header {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
 .floatTopLeft {float: left; }
-.floatTopRight {float: left; }
-.northWestContainer { overflow: hidden; }
-.northEastContainer { overflow: hidden; }
+.floatTopRight {float: right; }
+.topContainer { overflow: hidden; }
 .floatBottomLeft { float: left; }
-.floatBottomRight {float: left; }
-.southWestContainer { overflow: hidden; }
-.southEastContainer { overflow: hidden; }
-.floatTitle {float: left; }
-.titleContainer { overflow: hidden; }
+.floatBottomRight {float: right; }
+.bottomContainer { overflow: hidden; }
+.floatTitle {
+  float: left;
+}.titleContainer { overflow: hidden; }
 
-body {background-image: url("nosignal.png"); }
+body {background-color: coral; 
+  background-image: url("90s.jpg");
+}
 
-.dwnld{background-color: coral;   width:70%;     margin-left:15%;     margin-right:15%; text-align: center;}
+.dwnld{background-color: coral;  text-align: center;}
 
 h2 {
     width:50%;     margin-left:47%;     margin-right:47%;
@@ -51,12 +51,11 @@ h2 {
 table, th, td, tr {
 width: 5px;
 height: 5px;
-background: #000000; 
+background: #333; 
 color: white; 
 font-weight: bold; 
-font-family: Trebuchet MS;
+font-family: Comic Sans MS;
 }
-
 
 input {
   width: 100%;
@@ -64,7 +63,7 @@ input {
   white-space: normal
   text-overflow: ellipsis;
   overflow: hidden;
-  font-family: Trebuchet MS;
+  font-family: Comic Sans MS;
 }
 
 .canvas__container {
@@ -85,6 +84,23 @@ input {
   top: 0;
   width: 100%; 
 }
+/*table { 
+  width: 100%; 
+  border: 1px solid #ccc; 
+
+  border-collapse: collapse; 
+}
+
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}*/
 
 .page-footer {
   background-color: #222;
