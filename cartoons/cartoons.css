@@ -1,5 +1,4 @@
-/*--- navigation bar ---*/
-
+/*--- start navigation bar ---*/
 .navbar {
   background: #336699;
 }
@@ -21,49 +20,78 @@
 .navbar-collapse {
   justify-content: flex-end;
 }
+/*--- navigation bar ---*/
 
-.header {
-  background-size: cover;
-  background-position: center;
-  position: relative;
+/*--- start table alignment ---*/
+.floatTopLeft {
+  float: left;
 }
 
-.floatTopLeft {float: left; }
-.floatTopRight {float: right; }
-.topContainer { overflow: hidden; }
-.floatBottomLeft { float: left; }
-.floatBottomRight {float: right; }
-.bottomContainer { overflow: hidden; }
+.floatTopRight {
+  float: left;
+}
+
+.northWestContainer {
+  overflow: hidden;
+}
+
+.northEastContainer {
+  overflow: hidden;
+}
+
+.floatBottomLeft {
+  float: left;
+}
+
+.floatBottomRight {
+  float: left;
+}
+
+.southWestContainer {
+  overflow: hidden;
+}
+
+.southEastContainer {
+  overflow: hidden;
+}
+
 .floatTitle {
   float: left;
-}.titleContainer { overflow: hidden; }
-
-body {background-color: coral; 
-  background-image: url("90s.jpg");
 }
 
-.dwnld{background-color: coral;  text-align: center;}
-
-h2 {
-    width:50%;     margin-left:47%;     margin-right:47%;
+.titleContainer {
+  overflow: hidden;
 }
 
-table, th, td, tr {
-width: 5px;
-height: 5px;
-background: #333; 
-color: white; 
-font-weight: bold; 
-font-family: Comic Sans MS;
+body {
+  background-image: url("cartoons.jpg");
+}
+
+table,
+th,
+td,
+tr {
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  color: white;
+  font-weight: bold;
+  font-family: Comic Sans MS;
 }
 
 input {
   width: 100%;
   height: 100%;
-  white-space: normal
-  text-overflow: ellipsis;
+  white-space: normal text-overflow: ellipsis;
   overflow: hidden;
   font-family: Comic Sans MS;
+}
+/*--- end table alignment ---*/
+
+/*--- start download functionality ---*/
+.dwnld {
+  background-color: coral;
+  text-align: center;
 }
 
 .canvas__container {
@@ -71,37 +99,24 @@ input {
   position: relative;
   width: 100%;
 }
+
 .canvas__canvas {
   height: 100%;
   position: relative;
   width: 100%;
   z-index: 1;
 }
+
 .canvas__mirror {
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%; 
+  width: 100%;
 }
-/*table { 
-  width: 100%; 
-  border: 1px solid #ccc; 
+/*--- end download functionality ---*/
 
-  border-collapse: collapse; 
-}
-
-th { 
-  background: #333; 
-  color: white; 
-  font-weight: bold; 
-}
-td, th { 
-  padding: 6px; 
-  border: 1px solid #ccc; 
-  text-align: left; 
-}*/
-
+/*--- start footer nav bar ---*/
 .page-footer {
   background-color: #222;
   color: #ccc;
@@ -112,3 +127,4 @@ td, th {
   color: #666;
   padding: 40px 0;
 }
+/*--- end footer nav bar ---*/

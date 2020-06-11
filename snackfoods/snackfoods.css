@@ -1,5 +1,4 @@
-/*--- navigation bar ---*/
-
+/*--- start navigation bar ---*/
 .navbar {
   background: #336699;
 }
@@ -21,13 +20,9 @@
 .navbar-collapse {
   justify-content: flex-end;
 }
+/*--- navigation bar ---*/
 
-.header {
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
+/*--- start table alignment ---*/
 .floatTopLeft {
   float: left;
 }
@@ -69,19 +64,7 @@
 }
 
 body {
-  background-color: coral;
-  background-image: url("sncks.jpg");
-}
-
-.dwnld {
-  background-color: coral;
-  text-align: center;
-}
-
-h2 {
-  width: 50%;
-  margin-left: 47%;
-  margin-right: 47%;
+  background-image: url("snackfoods.jpg");
 }
 
 table,
@@ -90,10 +73,10 @@ td,
 tr {
   width: 5px;
   height: 5px;
-  background: #333;
+  background: #000000;
   color: white;
   font-weight: bold;
-  font-family: Trebuchet MS;
+  font-family: Brushstroke;
 }
 
 input {
@@ -101,7 +84,14 @@ input {
   height: 100%;
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
-  font-family: Trebuchet MS;
+  font-family: Brushstroke;
+}
+/*--- end table alignment ---*/
+
+/*--- start download functionality ---*/
+.dwnld {
+  background-color: coral;
+  text-align: center;
 }
 
 .canvas__container {
@@ -124,7 +114,9 @@ input {
   top: 0;
   width: 100%;
 }
+/*--- end download functionality ---*/
 
+/*--- start footer nav bar ---*/
 .page-footer {
   background-color: #222;
   color: #ccc;
@@ -135,3 +127,4 @@ input {
   color: #666;
   padding: 40px 0;
 }
+/*--- end footer nav bar ---*/

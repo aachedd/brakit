@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Brakit: Cartoons</title>
+      <title>Brakit: One Hit Wonders</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="cartoons.css">
-      <script src="cartoons.js"></script>
+      <link rel="stylesheet" type="text/css" href="onehit.css">
+      <script src="onehit.js"></script>
       <script src="https://files.codepedia.info/files/uploads/iScripts/html2canvas.js"></script> 
    </head>
 
@@ -582,7 +582,7 @@
 
    <div class="titleContainer">
       <div id="floatTitle"  class="floatTitle">
-         <table style="width: 400px; height: 400px">
+         <table style=" height: 400px">
             <colgroup>
                <col span="1" style="width: 25%;">
                <col span="1" style="width: 15%;">
@@ -685,6 +685,7 @@
    <br>
    <div id="previewDownloads"></div>
  </body>
+
    <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -698,6 +699,7 @@
          </ul>
       </div>
    </nav>
+
    <footer class="page-footer">
       <div class="container">
       <div class="row">
@@ -713,7 +715,9 @@
       </div>
       <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
    </footer>
+
 </html>
+
 <script>
    //north west screenshot function
      var floatTopLeft = $("#floatTopLeft"); 
@@ -737,11 +741,11 @@
        /^data:image\/png/, "data:application/octet-stream"); 
      
        $("#btn-floatTopLeft").attr( 
-       "download", "CartoonsNorthWestRegion.png").attr( 
+       "download", "OneHitWondersNorthWestRegion.png").attr( 
        "href", newData); 
      }); 
-   
-   
+
+
    //north east screenshot function
      var floatTopRight = $("#floatTopRight"); 
    
@@ -764,10 +768,10 @@
        /^data:image\/png/, "data:application/octet-stream"); 
      
        $("#btn-floatTopRight").attr( 
-       "download", "CartoonsNorthEastRegion.png").attr( 
+       "download", "OneHitWondersNorthEastRegion.png").attr( 
        "href", newData); 
      });  
-   
+
    
    //south west screenshot function
      var floatBottomLeft = $("#floatBottomLeft"); 
@@ -791,12 +795,11 @@
        /^data:image\/png/, "data:application/octet-stream"); 
      
        $("#btn-floatBottomLeft").attr( 
-       "download", "CartoonsSouthWestRegion.png").attr( 
+       "download", "OneHitWondersSouthWestRegion.png").attr( 
        "href", newData); 
      });  
-   
-   
-   
+
+
    //south east screenshot function
      var floatBottomRight = $("#floatBottomRight"); 
    
@@ -819,11 +822,11 @@
        /^data:image\/png/, "data:application/octet-stream"); 
      
        $("#btn-floatBottomRight").attr( 
-       "download", "CartoonsSouthEastRegion.png").attr( 
+       "download", "OneHitWondersSouthEastRegion.png").attr( 
        "href", newData); 
      });  
-   
-   
+
+
    //title screenshot function
      var floatTitle = $("#floatTitle"); 
    
@@ -846,7 +849,7 @@
        /^data:image\/png/, "data:application/octet-stream"); 
      
        $("#btn-TitleFloat").attr( 
-       "download", "CartoonsFinalRegion.png").attr( 
+       "download", "OneHitWondersFinalRegion.png").attr( 
        "href", newData); 
      });  
    

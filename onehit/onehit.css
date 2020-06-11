@@ -64,7 +64,7 @@
 }
 
 body {
-  background-image: url("cereals.jpg");
+  background-image: url("https://lh3.googleusercontent.com/-L6j1bd_8w1I/XqpEltGNvsI/AAAAAAAABPE/NhZgZkoVpRooRhqkFDP2k2UpPbsMwxc-wCK8BGAsYHg/s0/albums.jpg");
 }
 
 table,
@@ -76,7 +76,7 @@ tr {
   background: #000000;
   color: white;
   font-weight: bold;
-  font-family: Trebuchet MS;
+  font-family: Helvetica Narrow;
 }
 
 input {
@@ -84,7 +84,7 @@ input {
   height: 100%;
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
-  font-family: Trebuchet MS;
+  font-family: Helvetica Narrow;
 }
 /*--- end table alignment ---*/
 
