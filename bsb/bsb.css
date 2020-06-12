@@ -34,7 +34,7 @@
 }
 
 body {
-  background-image: url("cereals.jpg");
+  background-image: url("bsb.jpg");
 }
 
 table,
@@ -46,7 +46,7 @@ tr {
   background: #000000;
   color: white;
   font-weight: bold;
-  font-family: Trebuchet MS;
+  font-family: Calibri;
 }
 
 input {
@@ -54,7 +54,7 @@ input {
   height: 100%;
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
-  font-family: Trebuchet MS;
+  font-family: Calibri;
 }
 /*--- end table alignment ---*/
 

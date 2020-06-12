@@ -24,27 +24,12 @@
 /*--- navigation bar ---*/
 
 /*--- start table alignment ---*/
-.floatTopLeft {
-  float: left;
-  overflow: hidden;
-}
-
-.floatTopRight {
-  float: left;
-  overflow: hidden;
-}
-
-.floatBottomLeft {
-  float: left;
-  overflow: hidden;
-}
-
-.floatBottomRight {
-  float: left;
-  overflow: hidden;
-}
-
-.floatTitle {
+.floatTopLeft,
+.floatTopRight,
+.floatBottomLeft,
+.floatBottomRight,
+.floatTitle
+ {
   float: left;
   overflow: hidden;
 }

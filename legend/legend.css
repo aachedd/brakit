@@ -23,43 +23,13 @@
 /*--- navigation bar ---*/
 
 /*--- start table alignment ---*/
-.floatTopLeft {
+.floatTopLeft,
+.floatTopRight,
+.floatBottomLeft,
+.floatBottomRight,
+.floatTitle
+ {
   float: left;
-}
-
-.floatTopRight {
-  float: left;
-}
-
-.northWestContainer {
-  overflow: hidden;
-}
-
-.northEastContainer {
-  overflow: hidden;
-}
-
-.floatBottomLeft {
-  float: left;
-}
-
-.floatBottomRight {
-  float: left;
-}
-
-.southWestContainer {
-  overflow: hidden;
-}
-
-.southEastContainer {
-  overflow: hidden;
-}
-
-.floatTitle {
-  float: left;
-}
-
-.titleContainer {
   overflow: hidden;
 }
 
