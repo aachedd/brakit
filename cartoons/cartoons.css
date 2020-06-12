@@ -25,17 +25,11 @@
 /*--- start table alignment ---*/
 .floatTopLeft {
   float: left;
+  overflow: hidden;
 }
 
 .floatTopRight {
   float: left;
-}
-
-.northWestContainer {
-  overflow: hidden;
-}
-
-.northEastContainer {
   overflow: hidden;
 }
 

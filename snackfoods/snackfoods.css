@@ -55,7 +55,13 @@
   overflow: hidden;
 }
 
+.floatTitle {
+  float: left;
+}
 
+.titleContainer {
+  overflow: hidden;
+}
 
 body {
   background-image: url("snackfoods.jpg");
