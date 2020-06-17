@@ -8,12 +8,12 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-  background: #336699;
+  background: #d1d1e0;
 }
 
 .nav-link,
 .navbar-brand {
-  color: #fff;
+  color: #72B01D;
   cursor: pointer;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #000;
+  color: #00B2CA;
 }
 
 .navbar-collapse {
