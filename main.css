@@ -53,12 +53,12 @@ body {
   text-align: center;
 }
 
-.description h1 {
-  color: #fff;
+.description h1, h2 {
+  color: #ffffff;
 }
 
 .description p {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.3rem;
   line-height: 1.5;
 }
