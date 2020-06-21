@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-  background-image: url('https://previews.123rf.com/images/nartgraphic/nartgraphic1809/nartgraphic180900558/110023742-tournament-bracket-8-team-icon-template.jpg');
+  background-image: url("grey_empty_full_bracket.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
