@@ -1,7 +1,12 @@
 /*--- start navigation bar ---*/
 .navbar {
-  background: #d1d1e0;
+  background: #f0ede4;
 }
+
+h4{
+  color: #00B2CA;
+}
+
 
 .nav-link,
 .navbar-brand {
@@ -22,6 +27,16 @@
 }
 /*--- navigation bar ---*/
 
+.spotify
+ {
+  position: fixed;
+  overflow: hidden;
+   left:75%;
+   top: 10%;
+   bottom: 45%;
+}
+
+
 /*--- start table alignment ---*/
 .floatTopLeft,
 .floatTopRight,
@@ -31,22 +46,30 @@
  {
   float: left;
   overflow: hidden;
+    background: #00B2CA;
+}
+
+#btn-floatTopLeft,
+#btn-floatBottomLeft,
+#btn-floatTopRight,
+#btn-floatBottomRight,
+#btn-TitleFloat
+ {
+    color: #00B2CA;
 }
 
 body {
-  background-image: url("maroon5.jpg");
+  background-color: #706C61;
 }
-
+ 
 table,
 th,
 td,
 tr {
   width: 5px;
   height: 5px;
-  background: #000000;
   color: white;
   font-weight: bold;
-  font-family: Times New Roman;
 }
 
 input {
@@ -54,14 +77,15 @@ input {
   height: 100%;
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
-  font-family: Times New Roman;
 }
 /*--- end table alignment ---*/
 
 /*--- start download functionality ---*/
-.dwnld {
-  background-color: coral;
-  text-align: center;
+.dwnld, .previewDownloads {
+  text-align: left;
+    background-color: #d1d1e0;
+  width: 400px;
+
 }
 
 .canvas__container {

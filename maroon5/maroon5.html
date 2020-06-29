@@ -13,12 +13,18 @@
 
    <header>
       <nav class="navbar">
-         <img src = "brakit_greenblue.png" width="200" height="40" >
+         <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+         <h4><strong>Maroon 5 Greatest Hits</strong></h4>
          <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
       </nav>
    </header>
 
    <body>
+   <div class = "spotify" id = "spotify">
+      <iframe src="https://open.spotify.com/embed/playlist/2Q4L9HXc8foJqTo58lSyMs" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+   </div>
+   <br>
+
    <div class="table-responsive">
       <div id="floatTopLeft" class="floatTopLeft">
          <table style="width: 400px">
@@ -426,7 +432,7 @@
             </tr>
          </table>
       </div>
-      <<div>
+      <div>
          <img src="" id="northEastPic" height="425px" width="425px"/>
       </div>
    </div>
@@ -646,55 +652,32 @@
    </div>
 
    <br>
-   <br>
-   <br>
-
-   <div class="dwnld">
-      <h3>Links to Downloads:</h3>
-      <a id="btn-floatTopLeft" href="#"> 
-      Download Maroon 5 Bop Region
-      </a> 
-      <br>
-      <a id="btn-floatBottomLeft" href="#"> 
-      Download Maroon 5 Sex Region
-      </a> 
-      <br>
-      <a id="btn-floatTopRight" href="#"> 
-      Download Maroon 5 Love Region
-      </a> 
-      <br>
-      <a id="btn-floatBottomRight" href="#"> 
-      Download Maroon 5 Sad Region
-      </a> 
-      <br>
-      <a id="btn-TitleFloat" href="#"> 
-      Download Championship Region
-      </a> 
-      <br>
-      <br>
-      <h3>Preview of Downloads:</h3>
-   </div>
-   <br>
-   <br>
    <div id="previewDownloads"></div>
  </body>
 
    <nav class="navbar">
-      <img src = "brakit_greenblue.png" width="200" height="40" >
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+
+      <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+
+      <strong> Download Regions ⇒ </strong>
+      <a id="btn-floatTopLeft" href="#" background-color ="black"><strong> Bop </strong></a>
+      <a id="btn-floatBottomLeft" href="#"><strong> Sex </strong></a>
+      <a id="btn-floatTopRight" href="#"><strong> Love </strong></a>
+      <a id="btn-floatBottomRight" href="#"><strong> Sad </strong></a>
+      <a id="btn-TitleFloat" href="#"><strong> Champs </strong></a>
+
    </nav>
 
    <footer class="page-footer">
       <div class="container">
       <div class="row">
-         <div class="col-lg-8 col-md-8 col-sm-12">
+         <div class="col-lg-8 col-md-8 col-sm-12" align="left">
             <h6 class="text-uppercase font-weight-bold">Last Updated:</h6>
             <p><i>27-JUN-2020</i></p>
          </div>
-         <div class="col-lg-4 col-md-4 col-sm-12">
-            <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <p>brakit@gmail.com
-            </p>
+         <div class="col-lg-4 col-md-4 col-sm-12" align="right">
+            <h6 class="text-uppercase font-weight-bold">Contact:</h6>
+            <p><i>brakit@gmail.com</i></p>
          </div>
       </div>
       <div class="footer-copyright text-center">© 2020 Copyright: Brakit</div>
@@ -705,11 +688,15 @@
 </html>
 
 <script>
+
+   $("#previewDownloads").hide();
+
    //north west screenshot function
      var floatTopLeft = $("#floatTopLeft"); 
    
      var getCanvas5; 
-   
+
+
      $("#winner").on('click', function() { 
        html2canvas(floatTopLeft, { 
          onrendered: function(canvas) { 
