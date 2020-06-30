@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Brakit: SnackFoods</title>
+      <title>Brakit: Snack Foods</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -12,13 +12,17 @@
    </head>
 
    <header>
-   <nav class="navbar">
-      <img src = "brakit_greenblue.png" width="200" height="40" >
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
-   </nav>
+      <nav class="navbar">
+         <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+         <h2><strong>Best Snack Foods</strong></h2>
+         <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+      </nav>
    </header>
 
    <body>
+
+   <br>
+
       <div class="table-responsive">
          <div id="floatBottomLeft" class="floatBottomLeft">
             <table style="width: 400px">
@@ -28,7 +32,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>Savory Region 1st Rd</strong></th>
+                  <th class="text-center"><strong>Savory Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -166,7 +170,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>Salty Region 1st Rd</strong></th>
+                  <th class="text-center"><strong>Salty Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -304,7 +308,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>Sweet Region 1st Rd</strong></th>
+                  <th class="text-center"><strong>Sweet Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -442,7 +446,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>Sugary Region 1st Rd</strong></th>
+                  <th class="text-center"><strong>Sugary Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -644,55 +648,36 @@
             </table>
          </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <div class="dwnld">
-         <h3>Links to Downloads:</h3>
-         <a id="btn-floatBottomLeft" href="#"> 
-         Download Savory Region
-         </a> 
-         <br>
-         <a id="btn-floatTopLeft" href="#"> 
-         Download Salty Region
-         </a> 
-         <br>
-         <a id="btn-floatTopRight" href="#"> 
-         Download Sweet Region
-         </a> 
-         <br>
-         <a id="btn-floatBottomRight" href="#"> 
-         Download Sugary Region
-         </a> 
-         <br>
-         <a id="btn-TitleFloat" href="#"> 
-         Download Championship Region
-         </a> 
-         <br>
-         <br>
-         <h3>Preview of Downloads:</h3>
-      </div>
-      <br>
-      <br>
-      <div id="previewDownloads"></div>
-   </body>
+
+   <br>
+
+   <div id="previewDownloads"></div>
+
+ </body>
 
    <nav class="navbar">
-      <img src = "brakit_greenblue.png" width="200" height="40" >
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+
+      <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+
+      <strong> Download Regions ⇒ </strong>
+      <a id="btn-floatTopLeft" href="#"><strong> Salty </strong></a>
+      <a id="btn-floatBottomLeft" href="#"><strong> Savory </strong></a>
+      <a id="btn-floatTopRight" href="#"><strong> Sweet </strong></a>
+      <a id="btn-floatBottomRight" href="#"><strong> Sugary </strong></a>
+      <a id="btn-TitleFloat" href="#"><strong> Champs </strong></a>
+
    </nav>
 
    <footer class="page-footer">
       <div class="container">
       <div class="row">
-         <div class="col-lg-8 col-md-8 col-sm-12">
-            <h6 class="text-uppercase font-weight-bold">Last Updated:</h6>
-            <p><i>27-JUN-2020</i></p>
+         <div class="col-lg-8 col-md-8 col-sm-12" align="left">
+            <h6 class="text-uppercase font-weight-bold">Last Updated</h6>
+            <p><i>15-MAY-2020</i></p>
          </div>
-         <div class="col-lg-4 col-md-4 col-sm-12">
+         <div class="col-lg-4 col-md-4 col-sm-12" align="right">
             <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <p>brakit@gmail.com
-            </p>
+            <p><i>brakit@gmail.com</i></p>
          </div>
       </div>
       <div class="footer-copyright text-center">© 2020 Copyright: Brakit</div>
@@ -702,6 +687,9 @@
 </html>
 
 <script>
+
+   $("#previewDownloads").hide();
+
    //north west screenshot function
      var floatTopLeft = $("#floatTopLeft"); 
    

@@ -1,11 +1,15 @@
 /*--- start navigation bar ---*/
 .navbar {
-  background: #d1d1e0;
+  background: #f0ede4;
+}
+
+h2{
+  color: #00B2CA;
 }
 
 .nav-link,
 .navbar-brand {
-  color: #00B2CA;
+  color: #72B01D;
   cursor: pointer;
 }
 
@@ -14,13 +18,23 @@
 }
 
 .nav-link:hover {
-  color: #72B01D;
+  color: #00B2CA;
 }
 
 .navbar-collapse {
   justify-content: flex-end;
 }
 /*--- navigation bar ---*/
+
+.spotify
+ {
+  position: fixed;
+  overflow: hidden;
+   left:75%;
+   top: 10%;
+   bottom: 45%;
+}
+
 
 /*--- start table alignment ---*/
 .floatTopLeft,
@@ -31,22 +45,30 @@
  {
   float: left;
   overflow: hidden;
+    background: #00B2CA;
+}
+
+#btn-floatTopLeft,
+#btn-floatBottomLeft,
+#btn-floatTopRight,
+#btn-floatBottomRight,
+#btn-TitleFloat
+ {
+    color: #00B2CA;
 }
 
 body {
-  background-image: url("bsbvnsync.jpg");
+  background-color: #706C61;
 }
-
+ 
 table,
 th,
 td,
 tr {
   width: 5px;
   height: 5px;
-  background: #000000;
   color: white;
   font-weight: bold;
-  font-family: Calibri;
 }
 
 input {
@@ -54,16 +76,10 @@ input {
   height: 100%;
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
-  font-family: Calibri;
 }
 /*--- end table alignment ---*/
 
 /*--- start download functionality ---*/
-.dwnld {
-  background-color: coral;
-  text-align: center;
-}
-
 .canvas__container {
   height: 100%;
   position: relative;

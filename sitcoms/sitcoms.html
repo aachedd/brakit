@@ -13,12 +13,16 @@
 
    <header>
       <nav class="navbar">
-         <img src = "brakit_greenblue.png" width="200" height="40" >
+         <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+         <h2><strong>Greatest Sitcoms</strong></h2>
          <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
       </nav>
    </header>
 
    <body>
+
+   <br>
+
       <div class="table-responsive">
          <div id="floatBottomLeft" class="floatBottomLeft">
             <table style="width: 400px">
@@ -28,7 +32,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>Pre-90s 1st Rd</strong></th>
+                  <th class="text-center"><strong>Pre-1990s Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -166,7 +170,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>90's Region 1st Rd</strong></th>
+                  <th class="text-center"><strong>1990s Region Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -304,7 +308,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>2000's Region 1st Rd</strong></th>
+                  <th class="text-center"><strong>2000s Region Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -442,7 +446,7 @@
                   <col span="1" style="width: 25%;">
                </colgroup>
                <tr>
-                  <th class="text-center"><strong>2010s 1st Rd</strong></th>
+                  <th class="text-center"><strong>2010s Rd of 64</strong></th>
                   <th class="text-center"><strong>Rd of 32</strong></th>
                   <th class="text-center"><strong>Sweet 16</strong></th>
                </tr>
@@ -645,60 +649,35 @@
          </div>
       </div>
 
-      <br>
-      <br>
-      <br>
+   <br>
 
-      <div class="dwnld">
-         <h3>Links to Downloads:</h3>
-         <a id="btn-floatBottomLeft" href="#"> 
-         Download Pre1990S Region
-         </a> 
-         <br>
-         <a id="btn-floatTopLeft" href="#"> 
-         Download 1990s Region
-         </a> 
-         <br>
-         <a id="btn-floatTopRight" href="#"> 
-         Download 2000s Region
-         </a> 
-         <br>
-         <a id="btn-floatBottomRight" href="#"> 
-         Download 2010s Region
-         </a> 
-         <br>
-         <a id="btn-TitleFloat" href="#"> 
-         Download Championship Region
-         </a> 
+   <div id="previewDownloads"></div>
 
-         <br>
-         <br>
-
-         <h3>Preview of Downloads:</h3>
-      </div>
-
-      <br>
-      <br>
-
-      <div id="previewDownloads"></div>
-   </body>
+ </body>
 
    <nav class="navbar">
-      <img src = "brakit_greenblue.png" width="200" height="40" >
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+
+      <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+
+      <strong> Download Regions ⇒ </strong>
+      <a id="btn-floatBottomLeft" href="#"><strong> Pre1990s </strong></a>
+      <a id="btn-floatTopLeft" href="#"><strong> 1990s </strong></a>
+      <a id="btn-floatTopRight" href="#"><strong> 2000s </strong></a>
+      <a id="btn-floatBottomRight" href="#"><strong> 2010s </strong></a>
+      <a id="btn-TitleFloat" href="#"><strong> Champs </strong></a>
+
    </nav>
 
    <footer class="page-footer">
       <div class="container">
       <div class="row">
-         <div class="col-lg-8 col-md-8 col-sm-12">
-            <h6 class="text-uppercase font-weight-bold">Last Updated:</h6>
-            <p><i>27-JUN-2020</i></p>
+         <div class="col-lg-8 col-md-8 col-sm-12" align="left">
+            <h6 class="text-uppercase font-weight-bold">Last Updated</h6>
+            <p><i>05-JUN-2020</i></p>
          </div>
-         <div class="col-lg-4 col-md-4 col-sm-12">
+         <div class="col-lg-4 col-md-4 col-sm-12" align="right">
             <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <p>brakit@gmail.com
-            </p>
+            <p><i>brakit@gmail.com</i></p>
          </div>
       </div>
       <div class="footer-copyright text-center">© 2020 Copyright: Brakit</div>
@@ -709,6 +688,9 @@
 </html>
 
 <script>
+
+   $("#previewDownloads").hide();
+
    //north west screenshot function
      var floatTopLeft = $("#floatTopLeft"); 
    

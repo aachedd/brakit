@@ -9,14 +9,19 @@ Green RYB #72B01D
 body {
   padding: 0;
   margin: 0;
-  background: #d1d1e0;
+  background-color: #00B2CA;
+
 }
 
 
 /*--- navigation bar ---*/
 
 .navbar {
-  background: #d1d1e0;
+  background: #f0ede4;
+}
+
+.navbar-toggler-icon {
+  background: #00B2CA;
 }
 
 .nav-link,
@@ -38,7 +43,8 @@ body {
 }
 
 .page-header {
-  background-image: url("https://previews.123rf.com/images/nartgraphic/nartgraphic1809/nartgraphic180900558/110023742-tournament-bracket-8-team-icon-template.jpg");
+  /*  background-image: url("https://drive.google.com/uc?export=view&id=1_NszFqSiUt2H1mSViUVXcRV4NZI9CrwW");*/
+  background-image: url("grey-empty-partial-bracket-comp.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -72,7 +78,8 @@ body {
 }
 
 .features {
-  color: #d1d1e0;
+  background-color: #00B2CA;
+  color: #F8F4E3;
   margin: 4em auto;
   padding: 1em;
   position: relative;

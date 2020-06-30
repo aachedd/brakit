@@ -23,7 +23,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32a" ).title = inputTitle;       
         document.getElementById("northWestRd32a").value= inputVal;
         $("#northWestRd32a").val(inputVal);
-        $("#seed0").css("background-color", "Coral");
+        $("#seed0").css("background-color", "#72B01D");
         $("#seed63").css("background-color", "silver");
     }
 
@@ -46,7 +46,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32a" ).title = inputTitle;  
         document.getElementById("northWestRd32a").value= inputVal;
         $("#northWestRd32a").val(inputVal);
-        $("#seed63").css("background-color", "Coral");
+        $("#seed63").css("background-color", "#72B01D");
         $("#seed0").css("background-color", "silver");
     }
 
@@ -68,7 +68,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32b" ).title = inputTitle; 
         document.getElementById("northWestRd32b").value= inputVal;
         $("#northWestRd32b").val(inputVal);
-        $("#seed31").css("background-color", "Coral");
+        $("#seed31").css("background-color", "#72B01D");
         $("#seed32").css("background-color", "silver");
     }
 
@@ -90,7 +90,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32b" ).title = inputTitle; 
         document.getElementById("northWestRd32b").value= inputVal;
         $("#northWestRd32b").val(inputVal);
-        $("#seed32").css("background-color", "Coral");
+        $("#seed32").css("background-color", "#72B01D");
         $("#seed31").css("background-color", "silver");
     }
 
@@ -112,7 +112,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32c" ).title = inputTitle; 
         document.getElementById("northWestRd32c").value= inputVal;
         $("#northWestRd32c").val(inputVal);
-        $("#seed16").css("background-color", "Coral");
+        $("#seed16").css("background-color", "#72B01D");
         $("#seed47").css("background-color", "silver");
     }
 
@@ -134,7 +134,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32c" ).title = inputTitle; 
         document.getElementById("northWestRd32c").value= inputVal;
         $("#northWestRd32c").val(inputVal);
-        $("#seed47").css("background-color", "Coral");
+        $("#seed47").css("background-color", "#72B01D");
         $("#seed16").css("background-color", "silver");
     }
 
@@ -156,7 +156,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32d" ).title = inputTitle; 
         document.getElementById("northWestRd32d").value= inputVal;
         $("#northWestRd32d").val(inputVal);
-        $("#seed15").css("background-color", "Coral");
+        $("#seed15").css("background-color", "#72B01D");
         $("#seed48").css("background-color", "silver");
     }
 
@@ -178,7 +178,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32d" ).title = inputTitle; 
         document.getElementById("northWestRd32d").value= inputVal;
         $("#northWestRd32d").val(inputVal);
-        $("#seed48").css("background-color", "Coral");
+        $("#seed48").css("background-color", "#72B01D");
         $("#seed15").css("background-color", "silver");
     }
 
@@ -200,7 +200,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32e" ).title = inputTitle;
         document.getElementById("northWestRd32e").value= inputVal;
         $("#northWestRd32e").val(inputVal);
-        $("#seed23").css("background-color", "Coral");
+        $("#seed23").css("background-color", "#72B01D");
         $("#seed40").css("background-color", "silver");
     }
 
@@ -222,7 +222,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32e" ).title = inputTitle;
         document.getElementById("northWestRd32e").value= inputVal;
         $("#northWestRd32e").val(inputVal);
-        $("#seed40").css("background-color", "Coral");
+        $("#seed40").css("background-color", "#72B01D");
         $("#seed23").css("background-color", "silver");
     }
 
@@ -244,7 +244,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32f" ).title = inputTitle;
         document.getElementById("northWestRd32f").value= inputVal;
         $("#northWestRd32f").val(inputVal);
-        $("#seed8").css("background-color", "Coral");
+        $("#seed8").css("background-color", "#72B01D");
         $("#seed55").css("background-color", "silver");
     }
 
@@ -266,7 +266,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32f" ).title = inputTitle;
         document.getElementById("northWestRd32f").value= inputVal;
         $("#northWestRd32f").val(inputVal);
-        $("#seed55").css("background-color", "Coral");
+        $("#seed55").css("background-color", "#72B01D");
         $("#seed8").css("background-color", "silver");
     }
 
@@ -288,7 +288,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32g" ).title = inputTitle;
         document.getElementById("northWestRd32g").value= inputVal;
         $("#northWestRd32g").val(inputVal);
-        $("#seed24").css("background-color", "Coral");
+        $("#seed24").css("background-color", "#72B01D");
         $("#seed39").css("background-color", "silver");
     }
 
@@ -310,7 +310,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32g" ).title = inputTitle;
         document.getElementById("northWestRd32g").value= inputVal;
         $("#northWestRd32g").val(inputVal);
-        $("#seed39").css("background-color", "Coral");
+        $("#seed39").css("background-color", "#72B01D");
         $("#seed24").css("background-color", "silver");
     }
 
@@ -332,7 +332,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32h" ).title = inputTitle;
         document.getElementById("northWestRd32h").value= inputVal;
         $("#northWestRd32h").val(inputVal);
-        $("#seed7").css("background-color", "Coral");
+        $("#seed7").css("background-color", "#72B01D");
         $("#seed56").css("background-color", "silver");
     }
 
@@ -354,7 +354,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd32h" ).title = inputTitle;
         document.getElementById("northWestRd32h").value= inputVal;
         $("#northWestRd32h").val(inputVal);
-        $("#seed56").css("background-color", "Coral");
+        $("#seed56").css("background-color", "#72B01D");
         $("#seed7").css("background-color", "silver");
     }
 
@@ -378,7 +378,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16a" ).title = inputTitle;
         document.getElementById("northWestRd16a").value= inputVal;
         $("#northWestRd16a").val(inputVal);
-        $("#northWestRd32a").css("background-color", "Coral");
+        $("#northWestRd32a").css("background-color", "#72B01D");
         $("#northWestRd32b").css("background-color", "silver");
     }
 
@@ -400,7 +400,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16a" ).title = inputTitle;
         document.getElementById("northWestRd16a").value= inputVal;
         $("#northWestRd16a").val(inputVal);
-        $("#northWestRd32b").css("background-color", "Coral");
+        $("#northWestRd32b").css("background-color", "#72B01D");
         $("#northWestRd32a").css("background-color", "silver");
     }
 
@@ -422,7 +422,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16b" ).title = inputTitle;
         document.getElementById("northWestRd16b").value= inputVal;
         $("#northWestRd16b").val(inputVal);
-        $("#northWestRd32c").css("background-color", "Coral");
+        $("#northWestRd32c").css("background-color", "#72B01D");
         $("#northWestRd32d").css("background-color", "silver");
     }
 
@@ -444,7 +444,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16b" ).title = inputTitle;
         document.getElementById("northWestRd16b").value= inputVal;
         $("#northWestRd16b").val(inputVal);
-        $("#northWestRd32d").css("background-color", "Coral");
+        $("#northWestRd32d").css("background-color", "#72B01D");
         $("#northWestRd32c").css("background-color", "silver");
     }
 
@@ -466,7 +466,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16c" ).title = inputTitle;
         document.getElementById("northWestRd16c").value= inputVal;
         $("#northWestRd16c").val(inputVal);
-        $("#northWestRd32e").css("background-color", "Coral");
+        $("#northWestRd32e").css("background-color", "#72B01D");
         $("#northWestRd32f").css("background-color", "silver");
     }
 
@@ -488,7 +488,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16c" ).title = inputTitle;
         document.getElementById("northWestRd16c").value= inputVal;
         $("#northWestRd16c").val(inputVal);
-        $("#northWestRd32f").css("background-color", "Coral");
+        $("#northWestRd32f").css("background-color", "#72B01D");
         $("#northWestRd32e").css("background-color", "silver");
     }
 
@@ -510,7 +510,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16d" ).title = inputTitle;
         document.getElementById("northWestRd16d").value= inputVal;
         $("#northWestRd16d").val(inputVal);
-        $("#northWestRd32g").css("background-color", "Coral");
+        $("#northWestRd32g").css("background-color", "#72B01D");
         $("#northWestRd32h").css("background-color", "silver");
     }
 
@@ -532,7 +532,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd16d" ).title = inputTitle;
         document.getElementById("northWestRd16d").value= inputVal;
         $("#northWestRd16d").val(inputVal);
-        $("#northWestRd32h").css("background-color", "Coral");
+        $("#northWestRd32h").css("background-color", "#72B01D");
         $("#northWestRd32g").css("background-color", "silver");
     }
 
@@ -555,7 +555,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd8a" ).title = inputTitle;
         document.getElementById("northWestRd8a").value= inputVal;
         $("#northWestRd8a").val(inputVal);
-        $("#northWestRd16a").css("background-color", "Coral");
+        $("#northWestRd16a").css("background-color", "#72B01D");
         $("#northWestRd16b").css("background-color", "silver");
     }
 
@@ -577,7 +577,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd8a" ).title = inputTitle;
         document.getElementById("northWestRd8a").value= inputVal;
         $("#northWestRd8a").val(inputVal);
-        $("#northWestRd16b").css("background-color", "Coral");
+        $("#northWestRd16b").css("background-color", "#72B01D");
         $("#northWestRd16a").css("background-color", "silver");
     }
 
@@ -599,7 +599,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd8b" ).title = inputTitle;
         document.getElementById("northWestRd8b").value= inputVal;
         $("#northWestRd8b").val(inputVal);
-        $("#northWestRd16c").css("background-color", "Coral");
+        $("#northWestRd16c").css("background-color", "#72B01D");
         $("#northWestRd16d").css("background-color", "silver");
     }
 
@@ -621,7 +621,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd8b" ).title = inputTitle;
         document.getElementById("northWestRd8b").value= inputVal;
         $("#northWestRd8b").val(inputVal);
-        $("#northWestRd16d").css("background-color", "Coral");
+        $("#northWestRd16d").css("background-color", "#72B01D");
         $("#northWestRd16c").css("background-color", "silver");
     }
 
@@ -644,7 +644,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd4" ).title = inputTitle;
         document.getElementById("northWestRd4").value= inputVal;
         $("#northWestRd4").val(inputVal);
-        $("#northWestRd8a").css("background-color", "Coral");
+        $("#northWestRd8a").css("background-color", "#72B01D");
         $("#northWestRd8b").css("background-color", "silver");
     }
     function northWestRd8b() 
@@ -654,7 +654,7 @@ $(document).ready(function(){
         document.getElementById("northWestRd4" ).title = inputTitle;
         document.getElementById("northWestRd4").value= inputVal;
         $("#northWestRd4").val(inputVal);
-        $("#northWestRd8b").css("background-color", "Coral");
+        $("#northWestRd8b").css("background-color", "#72B01D");
         $("#northWestRd8a").css("background-color", "silver");
     }
 
@@ -667,7 +667,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32a" ).title = inputTitle;
         document.getElementById("northEastRd32a").value= inputVal;
         $("#northEastRd32a").val(inputVal);
-        $("#seed1").css("background-color", "Coral");
+        $("#seed1").css("background-color", "#72B01D");
         $("#seed62").css("background-color", "silver");
     }
 
@@ -689,7 +689,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32a" ).title = inputTitle;
         document.getElementById("northEastRd32a").value= inputVal;
         $("#northEastRd32a").val(inputVal);
-        $("#seed62").css("background-color", "Coral");
+        $("#seed62").css("background-color", "#72B01D");
         $("#seed1").css("background-color", "silver");
     }
 
@@ -711,7 +711,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32b" ).title = inputTitle;
         document.getElementById("northEastRd32b").value= inputVal;
         $("#northEastRd32b").val(inputVal);
-        $("#seed30").css("background-color", "Coral");
+        $("#seed30").css("background-color", "#72B01D");
         $("#seed33").css("background-color", "silver");
     }
 
@@ -733,7 +733,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32b" ).title = inputTitle;
         document.getElementById("northEastRd32b").value= inputVal;
         $("#northEastRd32b").val(inputVal);
-        $("#seed33").css("background-color", "Coral");
+        $("#seed33").css("background-color", "#72B01D");
         $("#seed30").css("background-color", "silver");
     }
 
@@ -755,7 +755,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32c" ).title = inputTitle;
         document.getElementById("northEastRd32c").value= inputVal;
         $("#northEastRd32c").val(inputVal);
-        $("#seed17").css("background-color", "Coral");
+        $("#seed17").css("background-color", "#72B01D");
         $("#seed46").css("background-color", "silver");
     }
 
@@ -777,7 +777,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32c" ).title = inputTitle;
         document.getElementById("northEastRd32c").value= inputVal;
         $("#northEastRd32c").val(inputVal);
-        $("#seed46").css("background-color", "Coral");
+        $("#seed46").css("background-color", "#72B01D");
         $("#seed17").css("background-color", "silver");
     }
 
@@ -799,7 +799,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32d" ).title = inputTitle;
         document.getElementById("northEastRd32d").value= inputVal;
         $("#northEastRd32d").val(inputVal);
-        $("#seed14").css("background-color", "Coral");
+        $("#seed14").css("background-color", "#72B01D");
         $("#seed49").css("background-color", "silver");
     }
 
@@ -821,7 +821,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32d" ).title = inputTitle;
         document.getElementById("northEastRd32d").value= inputVal;
         $("#northEastRd32d").val(inputVal);
-        $("#seed49").css("background-color", "Coral");
+        $("#seed49").css("background-color", "#72B01D");
         $("#seed14").css("background-color", "silver");
     }
 
@@ -843,7 +843,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32e" ).title = inputTitle;
         document.getElementById("northEastRd32e").value= inputVal;
         $("#northEastRd32e").val(inputVal);
-        $("#seed22").css("background-color", "Coral");
+        $("#seed22").css("background-color", "#72B01D");
         $("#seed41").css("background-color", "silver");
     }
 
@@ -865,7 +865,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32e" ).title = inputTitle;
         document.getElementById("northEastRd32e").value= inputVal;
         $("#northEastRd32e").val(inputVal);
-        $("#seed41").css("background-color", "Coral");
+        $("#seed41").css("background-color", "#72B01D");
         $("#seed22").css("background-color", "silver");
     }
 
@@ -887,7 +887,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32f" ).title = inputTitle;
         document.getElementById("northEastRd32f").value= inputVal;
         $("#northEastRd32f").val(inputVal);
-        $("#seed9").css("background-color", "Coral");
+        $("#seed9").css("background-color", "#72B01D");
         $("#seed54").css("background-color", "silver");
     }
 
@@ -909,7 +909,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32f" ).title = inputTitle;
         document.getElementById("northEastRd32f").value= inputVal;
         $("#northEastRd32f").val(inputVal);
-        $("#seed54").css("background-color", "Coral");
+        $("#seed54").css("background-color", "#72B01D");
         $("#seed9").css("background-color", "silver");
     }
 
@@ -931,7 +931,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32g" ).title = inputTitle;
         document.getElementById("northEastRd32g").value= inputVal;
         $("#northEastRd32g").val(inputVal);
-        $("#seed25").css("background-color", "Coral");
+        $("#seed25").css("background-color", "#72B01D");
         $("#seed38").css("background-color", "silver");
     }
 
@@ -953,7 +953,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32g" ).title = inputTitle;
         document.getElementById("northEastRd32g").value= inputVal;
         $("#northEastRd32g").val(inputVal);
-        $("#seed38").css("background-color", "Coral");
+        $("#seed38").css("background-color", "#72B01D");
         $("#seed25").css("background-color", "silver");
     }
 
@@ -975,7 +975,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32h" ).title = inputTitle;
         document.getElementById("northEastRd32h").value= inputVal;
         $("#northEastRd32h").val(inputVal);
-        $("#seed6").css("background-color", "Coral");
+        $("#seed6").css("background-color", "#72B01D");
         $("#seed57").css("background-color", "silver");
     }
 
@@ -997,7 +997,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd32h" ).title = inputTitle;
         document.getElementById("northEastRd32h").value= inputVal;
         $("#northEastRd32h").val(inputVal);
-        $("#seed57").css("background-color", "Coral");
+        $("#seed57").css("background-color", "#72B01D");
         $("#seed6").css("background-color", "silver");
     }
 
@@ -1020,7 +1020,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16a" ).title = inputTitle;
         document.getElementById("northEastRd16a").value= inputVal;
         $("#northEastRd16a").val(inputVal);
-        $("#northEastRd32a").css("background-color", "Coral");
+        $("#northEastRd32a").css("background-color", "#72B01D");
         $("#northEastRd32b").css("background-color", "silver");
     }
 
@@ -1042,7 +1042,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16a" ).title = inputTitle;
         document.getElementById("northEastRd16a").value= inputVal;
         $("#northEastRd16a").val(inputVal);
-        $("#northEastRd32b").css("background-color", "Coral");
+        $("#northEastRd32b").css("background-color", "#72B01D");
         $("#northEastRd32a").css("background-color", "silver");
     }
 
@@ -1064,7 +1064,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16b" ).title = inputTitle;
         document.getElementById("northEastRd16b").value= inputVal;
         $("#northEastRd16b").val(inputVal);
-        $("#northEastRd32c").css("background-color", "Coral");
+        $("#northEastRd32c").css("background-color", "#72B01D");
         $("#northEastRd32d").css("background-color", "silver");
     }
 
@@ -1086,7 +1086,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16b" ).title = inputTitle;
         document.getElementById("northEastRd16b").value= inputVal;
         $("#northEastRd16b").val(inputVal);
-        $("#northEastRd32d").css("background-color", "Coral");
+        $("#northEastRd32d").css("background-color", "#72B01D");
         $("#northEastRd32c").css("background-color", "silver");
     }
 
@@ -1108,7 +1108,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16c" ).title = inputTitle;
         document.getElementById("northEastRd16c").value= inputVal;
         $("#northEastRd16c").val(inputVal);
-        $("#northEastRd32e").css("background-color", "Coral");
+        $("#northEastRd32e").css("background-color", "#72B01D");
         $("#northEastRd32f").css("background-color", "silver");
     }
 
@@ -1130,7 +1130,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16c" ).title = inputTitle;
         document.getElementById("northEastRd16c").value= inputVal;
         $("#northEastRd16c").val(inputVal);
-        $("#northEastRd32f").css("background-color", "Coral");
+        $("#northEastRd32f").css("background-color", "#72B01D");
         $("#northEastRd32e").css("background-color", "silver");
     }
 
@@ -1152,7 +1152,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16d" ).title = inputTitle;
         document.getElementById("northEastRd16d").value= inputVal;
         $("#northEastRd16d").val(inputVal);
-        $("#northEastRd32g").css("background-color", "Coral");
+        $("#northEastRd32g").css("background-color", "#72B01D");
         $("#northEastRd32h").css("background-color", "silver");
     }
 
@@ -1174,7 +1174,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd16d" ).title = inputTitle;
         document.getElementById("northEastRd16d").value= inputVal;
         $("#northEastRd16d").val(inputVal);
-        $("#northEastRd32h").css("background-color", "Coral");
+        $("#northEastRd32h").css("background-color", "#72B01D");
         $("#northEastRd32g").css("background-color", "silver");
     }
 
@@ -1197,7 +1197,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd8a" ).title = inputTitle;
         document.getElementById("northEastRd8a").value= inputVal;
         $("#northEastRd8a").val(inputVal);
-        $("#northEastRd16a").css("background-color", "Coral");
+        $("#northEastRd16a").css("background-color", "#72B01D");
         $("#northEastRd16b").css("background-color", "silver");
     }
 
@@ -1219,7 +1219,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd8a" ).title = inputTitle;
         document.getElementById("northEastRd8a").value= inputVal;
         $("#northEastRd8a").val(inputVal);
-        $("#northEastRd16b").css("background-color", "Coral");
+        $("#northEastRd16b").css("background-color", "#72B01D");
         $("#northEastRd16a").css("background-color", "silver");
     }
 
@@ -1241,7 +1241,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd8b" ).title = inputTitle;
         document.getElementById("northEastRd8b").value= inputVal;
         $("#northEastRd8b").val(inputVal);
-        $("#northEastRd16c").css("background-color", "Coral");
+        $("#northEastRd16c").css("background-color", "#72B01D");
         $("#northEastRd16d").css("background-color", "silver");
     }
 
@@ -1263,7 +1263,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd8b" ).title = inputTitle;
         document.getElementById("northEastRd8b").value= inputVal;
         $("#northEastRd8b").val(inputVal);
-        $("#northEastRd16d").css("background-color", "Coral");
+        $("#northEastRd16d").css("background-color", "#72B01D");
         $("#northEastRd16c").css("background-color", "silver");
     }
 
@@ -1286,7 +1286,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd4" ).title = inputTitle;
         document.getElementById("northEastRd4").value= inputVal;
         $("#northEastRd4").val(inputVal);
-        $("#northEastRd8a").css("background-color", "Coral");
+        $("#northEastRd8a").css("background-color", "#72B01D");
         $("#northEastRd8b").css("background-color", "silver");
     }
     function northEastRd8b() 
@@ -1296,7 +1296,7 @@ $(document).ready(function(){
         document.getElementById("northEastRd4" ).title = inputTitle;
         document.getElementById("northEastRd4").value= inputVal;
         $("#northEastRd4").val(inputVal);
-        $("#northEastRd8b").css("background-color", "Coral");
+        $("#northEastRd8b").css("background-color", "#72B01D");
         $("#northEastRd8a").css("background-color", "silver");
     }
 
@@ -1309,7 +1309,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32a" ).title = inputTitle;
         document.getElementById("southWestRd32a").value= inputVal;
         $("#southWestRd32a").val(inputVal);
-        $("#seed3").css("background-color", "Coral");
+        $("#seed3").css("background-color", "#72B01D");
         $("#seed60").css("background-color", "silver");
     }
 
@@ -1331,7 +1331,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32a" ).title = inputTitle;
         document.getElementById("southWestRd32a").value= inputVal;
         $("#southWestRd32a").val(inputVal);
-        $("#seed60").css("background-color", "Coral");
+        $("#seed60").css("background-color", "#72B01D");
         $("#seed3").css("background-color", "silver");
     }
 
@@ -1353,7 +1353,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32b" ).title = inputTitle;
         document.getElementById("southWestRd32b").value= inputVal;
         $("#southWestRd32b").val(inputVal);
-        $("#seed28").css("background-color", "Coral");
+        $("#seed28").css("background-color", "#72B01D");
         $("#seed35").css("background-color", "silver");
     }
 
@@ -1375,7 +1375,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32b" ).title = inputTitle;
         document.getElementById("southWestRd32b").value= inputVal;
         $("#southWestRd32b").val(inputVal);
-        $("#seed35").css("background-color", "Coral");
+        $("#seed35").css("background-color", "#72B01D");
         $("#seed28").css("background-color", "silver");
     }
 
@@ -1397,7 +1397,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32c" ).title = inputTitle;
         document.getElementById("southWestRd32c").value= inputVal;
         $("#southWestRd32c").val(inputVal);
-        $("#seed19").css("background-color", "Coral");
+        $("#seed19").css("background-color", "#72B01D");
         $("#seed44").css("background-color", "silver");
     }
 
@@ -1419,7 +1419,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32c" ).title = inputTitle;
         document.getElementById("southWestRd32c").value= inputVal;
         $("#southWestRd32c").val(inputVal);
-        $("#seed44").css("background-color", "Coral");
+        $("#seed44").css("background-color", "#72B01D");
         $("#seed19").css("background-color", "silver");
     }
 
@@ -1441,7 +1441,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32d" ).title = inputTitle;
         document.getElementById("southWestRd32d").value= inputVal;
         $("#southWestRd32d").val(inputVal);
-        $("#seed12").css("background-color", "Coral");
+        $("#seed12").css("background-color", "#72B01D");
         $("#seed51").css("background-color", "silver");
     }
 
@@ -1463,7 +1463,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32d" ).title = inputTitle;
         document.getElementById("southWestRd32d").value= inputVal;
         $("#southWestRd32d").val(inputVal);
-        $("#seed51").css("background-color", "Coral");
+        $("#seed51").css("background-color", "#72B01D");
         $("#seed12").css("background-color", "silver");
     }
 
@@ -1485,7 +1485,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32e" ).title = inputTitle;
         document.getElementById("southWestRd32e").value= inputVal;
         $("#southWestRd32e").val(inputVal);
-        $("#seed20").css("background-color", "Coral");
+        $("#seed20").css("background-color", "#72B01D");
         $("#seed43").css("background-color", "silver");
     }
 
@@ -1507,7 +1507,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32e" ).title = inputTitle;
         document.getElementById("southWestRd32e").value= inputVal;
         $("#southWestRd32e").val(inputVal);
-        $("#seed43").css("background-color", "Coral");
+        $("#seed43").css("background-color", "#72B01D");
         $("#seed20").css("background-color", "silver");
     }
 
@@ -1529,7 +1529,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32f" ).title = inputTitle;
         document.getElementById("southWestRd32f").value= inputVal;
         $("#southWestRd32f").val(inputVal);
-        $("#seed11").css("background-color", "Coral");
+        $("#seed11").css("background-color", "#72B01D");
         $("#seed52").css("background-color", "silver");
     }
 
@@ -1551,7 +1551,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32f" ).title = inputTitle;
         document.getElementById("southWestRd32f").value= inputVal;
         $("#southWestRd32f").val(inputVal);
-        $("#seed52").css("background-color", "Coral");
+        $("#seed52").css("background-color", "#72B01D");
         $("#seed11").css("background-color", "silver");
     }
 
@@ -1573,7 +1573,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32g" ).title = inputTitle;
         document.getElementById("southWestRd32g").value= inputVal;
         $("#southWestRd32g").val(inputVal);
-        $("#seed27").css("background-color", "Coral");
+        $("#seed27").css("background-color", "#72B01D");
         $("#seed36").css("background-color", "silver");
     }
 
@@ -1595,7 +1595,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32g" ).title = inputTitle;
         document.getElementById("southWestRd32g").value= inputVal;
         $("#southWestRd32g").val(inputVal);
-        $("#seed36").css("background-color", "Coral");
+        $("#seed36").css("background-color", "#72B01D");
         $("#seed27").css("background-color", "silver");
     }
 
@@ -1617,7 +1617,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32h" ).title = inputTitle;
         document.getElementById("southWestRd32h").value= inputVal;
         $("#southWestRd32h").val(inputVal);
-        $("#seed4").css("background-color", "Coral");
+        $("#seed4").css("background-color", "#72B01D");
         $("#seed59").css("background-color", "silver");
     }
 
@@ -1639,7 +1639,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd32h" ).title = inputTitle;
         document.getElementById("southWestRd32h").value= inputVal;
         $("#southWestRd32h").val(inputVal);
-        $("#seed59").css("background-color", "Coral");
+        $("#seed59").css("background-color", "#72B01D");
         $("#seed4").css("background-color", "silver");
     }
 
@@ -1662,7 +1662,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16a" ).title = inputTitle;
         document.getElementById("southWestRd16a").value= inputVal;
         $("#southWestRd16a").val(inputVal);
-        $("#southWestRd32a").css("background-color", "Coral");
+        $("#southWestRd32a").css("background-color", "#72B01D");
         $("#southWestRd32b").css("background-color", "silver");
     }
 
@@ -1684,7 +1684,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16a" ).title = inputTitle;
         document.getElementById("southWestRd16a").value= inputVal;
         $("#southWestRd16a").val(inputVal);
-        $("#southWestRd32b").css("background-color", "Coral");
+        $("#southWestRd32b").css("background-color", "#72B01D");
         $("#southWestRd32a").css("background-color", "silver");
     }
 
@@ -1706,7 +1706,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16b" ).title = inputTitle;
         document.getElementById("southWestRd16b").value= inputVal;
         $("#southWestRd16b").val(inputVal);
-        $("#southWestRd32c").css("background-color", "Coral");
+        $("#southWestRd32c").css("background-color", "#72B01D");
         $("#southWestRd32d").css("background-color", "silver");
     }
 
@@ -1728,7 +1728,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16b" ).title = inputTitle;
         document.getElementById("southWestRd16b").value= inputVal;
         $("#southWestRd16b").val(inputVal);
-        $("#southWestRd32d").css("background-color", "Coral");
+        $("#southWestRd32d").css("background-color", "#72B01D");
         $("#southWestRd32c").css("background-color", "silver");
     }
 
@@ -1750,7 +1750,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16c" ).title = inputTitle;
         document.getElementById("southWestRd16c").value= inputVal;
         $("#southWestRd16c").val(inputVal);
-        $("#southWestRd32e").css("background-color", "Coral");
+        $("#southWestRd32e").css("background-color", "#72B01D");
         $("#southWestRd32f").css("background-color", "silver");
     }
 
@@ -1772,7 +1772,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16c" ).title = inputTitle;
         document.getElementById("southWestRd16c").value= inputVal;
         $("#southWestRd16c").val(inputVal);
-        $("#southWestRd32f").css("background-color", "Coral");
+        $("#southWestRd32f").css("background-color", "#72B01D");
         $("#southWestRd32e").css("background-color", "silver");
     }
 
@@ -1794,7 +1794,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16d" ).title = inputTitle;
         document.getElementById("southWestRd16d").value= inputVal;
         $("#southWestRd16d").val(inputVal);
-        $("#southWestRd32g").css("background-color", "Coral");
+        $("#southWestRd32g").css("background-color", "#72B01D");
         $("#southWestRd32h").css("background-color", "silver");
     }
 
@@ -1816,7 +1816,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd16d" ).title = inputTitle;
         document.getElementById("southWestRd16d").value= inputVal;
         $("#southWestRd16d").val(inputVal);
-        $("#southWestRd32h").css("background-color", "Coral");
+        $("#southWestRd32h").css("background-color", "#72B01D");
         $("#southWestRd32g").css("background-color", "silver");
     }
 
@@ -1839,7 +1839,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd8a" ).title = inputTitle;
         document.getElementById("southWestRd8a").value= inputVal;
         $("#southWestRd8a").val(inputVal);
-        $("#southWestRd16a").css("background-color", "Coral");
+        $("#southWestRd16a").css("background-color", "#72B01D");
         $("#southWestRd16b").css("background-color", "silver");
     }
 
@@ -1861,7 +1861,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd8a" ).title = inputTitle;
         document.getElementById("southWestRd8a").value= inputVal;
         $("#southWestRd8a").val(inputVal);
-        $("#southWestRd16b").css("background-color", "Coral");
+        $("#southWestRd16b").css("background-color", "#72B01D");
         $("#southWestRd16a").css("background-color", "silver");
     }
 
@@ -1883,7 +1883,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd8b" ).title = inputTitle;
         document.getElementById("southWestRd8b").value= inputVal;
         $("#southWestRd8b").val(inputVal);
-        $("#southWestRd16c").css("background-color", "Coral");
+        $("#southWestRd16c").css("background-color", "#72B01D");
         $("#southWestRd16d").css("background-color", "silver");
     }
 
@@ -1905,7 +1905,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd8b" ).title = inputTitle;
         document.getElementById("southWestRd8b").value= inputVal;
         $("#southWestRd8b").val(inputVal);
-        $("#southWestRd16d").css("background-color", "Coral");
+        $("#southWestRd16d").css("background-color", "#72B01D");
         $("#southWestRd16c").css("background-color", "silver");
     }
 
@@ -1928,7 +1928,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd4" ).title = inputTitle;
         document.getElementById("southWestRd4").value= inputVal;
         $("#southWestRd4").val(inputVal);
-        $("#southWestRd8a").css("background-color", "Coral");
+        $("#southWestRd8a").css("background-color", "#72B01D");
         $("#southWestRd8b").css("background-color", "silver");
     }
     function southWestRd8b() 
@@ -1938,7 +1938,7 @@ $(document).ready(function(){
         document.getElementById("southWestRd4" ).title = inputTitle;
         document.getElementById("southWestRd4").value= inputVal;
         $("#southWestRd4").val(inputVal);
-        $("#southWestRd8b").css("background-color", "Coral");
+        $("#southWestRd8b").css("background-color", "#72B01D");
         $("#southWestRd8a").css("background-color", "silver");
     }
 
@@ -1951,7 +1951,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32a" ).title = inputTitle;
         document.getElementById("southEastRd32a").value= inputVal;
         $("#southEastRd32a").val(inputVal);
-        $("#seed2").css("background-color", "Coral");
+        $("#seed2").css("background-color", "#72B01D");
         $("#seed61").css("background-color", "silver");
     }
 
@@ -1973,7 +1973,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32a" ).title = inputTitle;
         document.getElementById("southEastRd32a").value= inputVal;
         $("#southEastRd32a").val(inputVal);
-        $("#seed61").css("background-color", "Coral");
+        $("#seed61").css("background-color", "#72B01D");
         $("#seed2").css("background-color", "silver");
     }
 
@@ -1995,7 +1995,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32b" ).title = inputTitle;
         document.getElementById("southEastRd32b").value= inputVal;
         $("#southEastRd32b").val(inputVal);
-        $("#seed29").css("background-color", "Coral");
+        $("#seed29").css("background-color", "#72B01D");
         $("#seed34").css("background-color", "silver");
     }
 
@@ -2017,7 +2017,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32b" ).title = inputTitle;
         document.getElementById("southEastRd32b").value= inputVal;
         $("#southEastRd32b").val(inputVal);
-        $("#seed34").css("background-color", "Coral");
+        $("#seed34").css("background-color", "#72B01D");
         $("#seed29").css("background-color", "silver");
     }
 
@@ -2039,7 +2039,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32c" ).title = inputTitle;
         document.getElementById("southEastRd32c").value= inputVal;
         $("#southEastRd32c").val(inputVal);
-        $("#seed18").css("background-color", "Coral");
+        $("#seed18").css("background-color", "#72B01D");
         $("#seed45").css("background-color", "silver");
     }
 
@@ -2061,7 +2061,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32c" ).title = inputTitle;
         document.getElementById("southEastRd32c").value= inputVal;
         $("#southEastRd32c").val(inputVal);
-        $("#seed45").css("background-color", "Coral");
+        $("#seed45").css("background-color", "#72B01D");
         $("#seed18").css("background-color", "silver");
     }
 
@@ -2083,7 +2083,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32d" ).title = inputTitle;
         document.getElementById("southEastRd32d").value= inputVal;
         $("#southEastRd32d").val(inputVal);
-        $("#seed13").css("background-color", "Coral");
+        $("#seed13").css("background-color", "#72B01D");
         $("#seed50").css("background-color", "silver");
     }
 
@@ -2105,7 +2105,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32d" ).title = inputTitle;
         document.getElementById("southEastRd32d").value= inputVal;
         $("#southEastRd32d").val(inputVal);
-        $("#seed50").css("background-color", "Coral");
+        $("#seed50").css("background-color", "#72B01D");
         $("#seed13").css("background-color", "silver");
     }
 
@@ -2127,7 +2127,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32e" ).title = inputTitle;
         document.getElementById("southEastRd32e").value= inputVal;
         $("#southEastRd32e").val(inputVal);
-        $("#seed21").css("background-color", "Coral");
+        $("#seed21").css("background-color", "#72B01D");
         $("#seed42").css("background-color", "silver");
     }
 
@@ -2149,7 +2149,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32e" ).title = inputTitle;
         document.getElementById("southEastRd32e").value= inputVal;
         $("#southEastRd32e").val(inputVal);
-        $("#seed42").css("background-color", "Coral");
+        $("#seed42").css("background-color", "#72B01D");
         $("#seed21").css("background-color", "silver");
     }
 
@@ -2171,7 +2171,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32f" ).title = inputTitle;
         document.getElementById("southEastRd32f").value= inputVal;
         $("#southEastRd32f").val(inputVal);
-        $("#seed10").css("background-color", "Coral");
+        $("#seed10").css("background-color", "#72B01D");
         $("#seed53").css("background-color", "silver");
     }
 
@@ -2193,7 +2193,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32f" ).title = inputTitle;
         document.getElementById("southEastRd32f").value= inputVal;
         $("#southEastRd32f").val(inputVal);
-        $("#seed53").css("background-color", "Coral");
+        $("#seed53").css("background-color", "#72B01D");
         $("#seed10").css("background-color", "silver");
     }
 
@@ -2215,7 +2215,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32g" ).title = inputTitle;
         document.getElementById("southEastRd32g").value= inputVal;
         $("#southEastRd32g").val(inputVal);
-        $("#seed26").css("background-color", "Coral");
+        $("#seed26").css("background-color", "#72B01D");
         $("#seed37").css("background-color", "silver");
     }
 
@@ -2237,7 +2237,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32g" ).title = inputTitle;
         document.getElementById("southEastRd32g").value= inputVal;
         $("#southEastRd32g").val(inputVal);
-        $("#seed37").css("background-color", "Coral");
+        $("#seed37").css("background-color", "#72B01D");
         $("#seed26").css("background-color", "silver");
     }
 
@@ -2259,7 +2259,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32h" ).title = inputTitle;
         document.getElementById("southEastRd32h").value= inputVal;
         $("#southEastRd32h").val(inputVal);
-        $("#seed5").css("background-color", "Coral");
+        $("#seed5").css("background-color", "#72B01D");
         $("#seed58").css("background-color", "silver");
     }
 
@@ -2281,7 +2281,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd32h" ).title = inputTitle;
         document.getElementById("southEastRd32h").value= inputVal;
         $("#southEastRd32h").val(inputVal);
-        $("#seed58").css("background-color", "Coral");
+        $("#seed58").css("background-color", "#72B01D");
         $("#seed5").css("background-color", "silver");
     }
 
@@ -2304,7 +2304,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16a" ).title = inputTitle;
         document.getElementById("southEastRd16a").value= inputVal;
         $("#southEastRd16a").val(inputVal);
-        $("#southEastRd32a").css("background-color", "Coral");
+        $("#southEastRd32a").css("background-color", "#72B01D");
         $("#southEastRd32b").css("background-color", "silver");
     }
 
@@ -2326,7 +2326,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16a" ).title = inputTitle;
         document.getElementById("southEastRd16a").value= inputVal;
         $("#southEastRd16a").val(inputVal);
-        $("#southEastRd32b").css("background-color", "Coral");
+        $("#southEastRd32b").css("background-color", "#72B01D");
         $("#southEastRd32a").css("background-color", "silver");
     }
 
@@ -2348,7 +2348,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16b" ).title = inputTitle;
         document.getElementById("southEastRd16b").value= inputVal;
         $("#southEastRd16b").val(inputVal);
-        $("#southEastRd32c").css("background-color", "Coral");
+        $("#southEastRd32c").css("background-color", "#72B01D");
         $("#southEastRd32d").css("background-color", "silver");
     }
 
@@ -2370,7 +2370,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16b" ).title = inputTitle;
         document.getElementById("southEastRd16b").value= inputVal;
         $("#southEastRd16b").val(inputVal);
-        $("#southEastRd32d").css("background-color", "Coral");
+        $("#southEastRd32d").css("background-color", "#72B01D");
         $("#southEastRd32c").css("background-color", "silver");
     }
 
@@ -2392,7 +2392,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16c" ).title = inputTitle;
         document.getElementById("southEastRd16c").value= inputVal;
         $("#southEastRd16c").val(inputVal);
-        $("#southEastRd32e").css("background-color", "Coral");
+        $("#southEastRd32e").css("background-color", "#72B01D");
         $("#southEastRd32f").css("background-color", "silver");
     }
 
@@ -2414,7 +2414,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16c" ).title = inputTitle;
         document.getElementById("southEastRd16c").value= inputVal;
         $("#southEastRd16c").val(inputVal);
-        $("#southEastRd32f").css("background-color", "Coral");
+        $("#southEastRd32f").css("background-color", "#72B01D");
         $("#southEastRd32e").css("background-color", "silver");
     }
 
@@ -2436,7 +2436,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16d" ).title = inputTitle;
         document.getElementById("southEastRd16d").value= inputVal;
         $("#southEastRd16d").val(inputVal);
-        $("#southEastRd32g").css("background-color", "Coral");
+        $("#southEastRd32g").css("background-color", "#72B01D");
         $("#southEastRd32h").css("background-color", "silver");
     }
 
@@ -2458,7 +2458,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd16d" ).title = inputTitle;
         document.getElementById("southEastRd16d").value= inputVal;
         $("#southEastRd16d").val(inputVal);
-        $("#southEastRd32h").css("background-color", "Coral");
+        $("#southEastRd32h").css("background-color", "#72B01D");
         $("#southEastRd32g").css("background-color", "silver");
     }
 
@@ -2481,7 +2481,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd8a" ).title = inputTitle;
         document.getElementById("southEastRd8a").value= inputVal;
         $("#southEastRd8a").val(inputVal);
-        $("#southEastRd16a").css("background-color", "Coral");
+        $("#southEastRd16a").css("background-color", "#72B01D");
         $("#southEastRd16b").css("background-color", "silver");
     }
 
@@ -2503,7 +2503,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd8a" ).title = inputTitle;
         document.getElementById("southEastRd8a").value= inputVal;
         $("#southEastRd8a").val(inputVal);
-        $("#southEastRd16b").css("background-color", "Coral");
+        $("#southEastRd16b").css("background-color", "#72B01D");
         $("#southEastRd16a").css("background-color", "silver");
     }
 
@@ -2525,7 +2525,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd8b" ).title = inputTitle;
         document.getElementById("southEastRd8b").value= inputVal;
         $("#southEastRd8b").val(inputVal);
-        $("#southEastRd16c").css("background-color", "Coral");
+        $("#southEastRd16c").css("background-color", "#72B01D");
         $("#southEastRd16d").css("background-color", "silver");
     }
 
@@ -2547,7 +2547,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd8b" ).title = inputTitle;
         document.getElementById("southEastRd8b").value= inputVal;
         $("#southEastRd8b").val(inputVal);
-        $("#southEastRd16d").css("background-color", "Coral");
+        $("#southEastRd16d").css("background-color", "#72B01D");
         $("#southEastRd16c").css("background-color", "silver");
     }
 
@@ -2570,7 +2570,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd4" ).title = inputTitle;
         document.getElementById("southEastRd4").value= inputVal;
         $("#southEastRd4").val(inputVal);
-        $("#southEastRd8a").css("background-color", "Coral");
+        $("#southEastRd8a").css("background-color", "#72B01D");
         $("#southEastRd8b").css("background-color", "silver");
     }
     function southEastRd8b() 
@@ -2580,7 +2580,7 @@ $(document).ready(function(){
         document.getElementById("southEastRd4" ).title = inputTitle;
         document.getElementById("southEastRd4").value= inputVal;
         $("#southEastRd4").val(inputVal);
-        $("#southEastRd8b").css("background-color", "Coral");
+        $("#southEastRd8b").css("background-color", "#72B01D");
         $("#southEastRd8a").css("background-color", "silver");
     }
 
@@ -2593,7 +2593,7 @@ $(document).ready(function(){
         document.getElementById("westRd2" ).title = inputTitle;
         document.getElementById("westRd2").value= inputVal;
         $("#westRd2").val(inputVal);
-        $("#northWestRd4").css("background-color", "Coral");
+        $("#northWestRd4").css("background-color", "#72B01D");
         $("#southWestRd4").css("background-color", "silver");
     }
     function southWestRd4() 
@@ -2603,7 +2603,7 @@ $(document).ready(function(){
         document.getElementById("westRd2" ).title = inputTitle;
         document.getElementById("westRd2").value= inputVal;
         $("#westRd2").val(inputVal);
-        $("#southWestRd4").css("background-color", "Coral");
+        $("#southWestRd4").css("background-color", "#72B01D");
         $("#northWestRd4").css("background-color", "silver");
     }
     function northEastRd4() 
@@ -2613,7 +2613,7 @@ $(document).ready(function(){
         document.getElementById("eastRd2" ).title = inputTitle;
         document.getElementById("eastRd2").value= inputVal;
         $("#eastRd2").val(inputVal);
-        $("#northEastRd4").css("background-color", "Coral");
+        $("#northEastRd4").css("background-color", "#72B01D");
         $("#southEastRd4").css("background-color", "silver");
     }
     function southEastRd4() 
@@ -2623,7 +2623,7 @@ $(document).ready(function(){
         document.getElementById("eastRd2" ).title = inputTitle;
         document.getElementById("eastRd2").value= inputVal;
         $("#eastRd2").val(inputVal);
-        $("#southEastRd4").css("background-color", "Coral");
+        $("#southEastRd4").css("background-color", "#72B01D");
         $("#northEastRd4").css("background-color", "silver");
     }
 
@@ -2636,9 +2636,9 @@ $(document).ready(function(){
         document.getElementById("winner" ).title = inputTitle;
         document.getElementById("winner").value= inputVal;
         $("#winner").val(inputVal);
-        $("#westRd2").css("background-color", "Coral");
+        $("#westRd2").css("background-color", "#72B01D");
         $("#eastRd2").css("background-color", "silver");
-        $("#winner").css("background-color", "Coral");
+        $("#winner").css("background-color", "#72B01D");
     }
     function eastRd2() 
     {
@@ -2647,9 +2647,9 @@ $(document).ready(function(){
         document.getElementById("winner" ).title = inputTitle;
         document.getElementById("winner").value= inputVal;
         $("#winner").val(inputVal);
-        $("#eastRd2").css("background-color", "Coral");
+        $("#eastRd2").css("background-color", "#72B01D");
         $("#westRd2").css("background-color", "silver");
-        $("#winner").css("background-color", "Coral");
+        $("#winner").css("background-color", "#72B01D");
     }
 
     function winner() 

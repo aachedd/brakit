@@ -13,12 +13,15 @@
 
    <header>
       <nav class="navbar">
-         <img src = "brakit_greenblue.png" width="200" height="40" >
+         <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+         <h2><strong>Best Cereals</strong></h2>
          <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
       </nav>
    </header>
 
    <body>
+   <br>
+
    <div class="table-responsive">
       <div id="floatTopLeft" class="floatTopLeft">
          <table style="width: 400px">
@@ -28,7 +31,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>Diabeetus Region 1st Rd</strong></th>
+               <th class="text-center"><strong>Diabeetus Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -166,7 +169,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>Yellow-ish Region 1st Rd</strong></th>
+               <th class="text-center"><strong>Yellow-ish Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -304,7 +307,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>Hate Yourself 1st Rd</strong></th>
+               <th class="text-center"><strong>Hate Yourself Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -442,7 +445,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>Frooty Fucks 1st Rd</strong></th>
+               <th class="text-center"><strong>Frooty Fucks Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -644,55 +647,37 @@
          </table>
       </div>
    </div>
+
    <br>
-   <br>
-   <br>
-   <div class="dwnld">
-      <h3>Links to Downloads:</h3>
-      <a id="btn-floatTopLeft" href="#"> 
-      Download Diabeetus Region
-      </a> 
-      <br>
-      <a id="btn-floatTopRight" href="#"> 
-      Download Yellowish Region
-      </a> 
-      <br>
-      <a id="btn-floatBottomLeft" href="#"> 
-      Download Hate Yourself Region
-      </a> 
-      <br>
-      <a id="btn-floatBottomRight" href="#"> 
-      Download Frooty Fucks Region
-      </a> 
-      <br>
-      <a id="btn-TitleFloat" href="#"> 
-      Download Championship Region
-      </a> 
-      <br>
-      <br>
-      <h3>Preview of Downloads:</h3>
-   </div>
-   <br>
-   <br>
+
    <div id="previewDownloads"></div>
+
  </body>
 
+
    <nav class="navbar">
-      <img src = "brakit_greenblue.png" width="200" height="40" >
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+
+      <a href="..\index.html"> <img src = "brakit_greenblue.png" width="200" height="40" ></a>
+
+      <strong> Download Regions ⇒ </strong>
+      <a id="btn-floatTopLeft" href="#"><strong> Diabeetus </strong></a>
+      <a id="btn-floatBottomLeft" href="#"><strong> Hate Yourself </strong></a>
+      <a id="btn-floatTopRight" href="#"><strong> Yellowish </strong></a>
+      <a id="btn-floatBottomRight" href="#"><strong> Frooty Fucks </strong></a>
+      <a id="btn-TitleFloat" href="#"><strong> Champs </strong></a>
+
    </nav>
 
    <footer class="page-footer">
       <div class="container">
       <div class="row">
-         <div class="col-lg-8 col-md-8 col-sm-12">
-            <h6 class="text-uppercase font-weight-bold">Last Updated:</h6>
-            <p><i>27-JUN-2020</i></p>
+         <div class="col-lg-8 col-md-8 col-sm-12" align="left">
+            <h6 class="text-uppercase font-weight-bold">Last Updated</h6>
+            <p><i>22-MAY-2020</i></p>
          </div>
-         <div class="col-lg-4 col-md-4 col-sm-12">
+         <div class="col-lg-4 col-md-4 col-sm-12" align="right">
             <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <p>brakit@gmail.com
-            </p>
+            <p><i>brakit@gmail.com</i></p>
          </div>
       </div>
       <div class="footer-copyright text-center">© 2020 Copyright: Brakit</div>
@@ -703,6 +688,9 @@
 </html>
 
 <script>
+
+   $("#previewDownloads").hide();
+
    //north west screenshot function
      var floatTopLeft = $("#floatTopLeft"); 
    

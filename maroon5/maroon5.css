@@ -3,14 +3,13 @@
   background: #f0ede4;
 }
 
-h4{
+h2{
   color: #00B2CA;
 }
 
-
 .nav-link,
 .navbar-brand {
-  color: #00B2CA;
+  color: #72B01D;
   cursor: pointer;
 }
 
@@ -19,7 +18,7 @@ h4{
 }
 
 .nav-link:hover {
-  color: #72B01D;
+  color: #00B2CA;
 }
 
 .navbar-collapse {
@@ -81,13 +80,6 @@ input {
 /*--- end table alignment ---*/
 
 /*--- start download functionality ---*/
-.dwnld, .previewDownloads {
-  text-align: left;
-    background-color: #d1d1e0;
-  width: 400px;
-
-}
-
 .canvas__container {
   height: 100%;
   position: relative;
