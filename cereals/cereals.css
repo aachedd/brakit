@@ -1,4 +1,72 @@
-/*--- start navigation bar ---*/
+/*---start popup styling---*/
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+
+.cnt223 a{
+text-decoration: none;
+}
+
+.popup{
+width: 100%;
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 101;
+}
+
+.cnt223{
+min-width: 600px;
+width: 600px;
+min-height: 150px;
+margin: 100px auto;
+background: #f3f3f3;
+position: relative;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+box-shadow: 0 2px 5px #000;
+}
+
+.cnt223 p{
+clear: both;
+    color: #555555;
+    /* text-align: justify; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.cnt223 p a{
+color: #d91900;
+font-weight: bold;
+}
+
+.cnt223 .x{
+float: right;
+height: 35px;
+left: 22px;
+position: relative;
+top: -25px;
+width: 34px;
+}
+
+.cnt223 .x:hover{
+cursor: pointer;
+}
+/*---end popup styling---*/
+
+/*---start navigation bar---*/
 .navbar {
   background: #f0ede4;
 }
@@ -24,9 +92,9 @@ h2{
 .navbar-collapse {
   justify-content: flex-end;
 }
-/*--- navigation bar ---*/
+/*---end navigation bar---*/
 
-/*--- start table alignment ---*/
+/*---start table alignment ---*/
 .floatTopLeft,
 .floatTopRight,
 .floatBottomLeft,
@@ -67,9 +135,9 @@ input {
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
 }
-/*--- end table alignment ---*/
+/*---end table alignment---*/
 
-/*--- start download functionality ---*/
+/*---start download functionality---*/
 .canvas__container {
   height: 100%;
   position: relative;
@@ -90,9 +158,9 @@ input {
   top: 0;
   width: 100%;
 }
-/*--- end download functionality ---*/
+/*---end download functionality---*/
 
-/*--- start footer nav bar ---*/
+/*---start footer nav bar---*/
 .page-footer {
   background-color: #222;
   color: #ccc;
@@ -103,4 +171,4 @@ input {
   color: #666;
   padding: 40px 0;
 }
-/*--- end footer nav bar ---*/
+/*---end footer nav bar---*/
