@@ -43,7 +43,7 @@
 
 <!--This DIV is for the spotify iframe-->
    <div class = "spotify" id = "spotify">
-      <iframe src="https://open.spotify.com/embed/playlist/6dTvM7r0vIDIIWGJTaxCJY" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/4UcKjNnby3o6qqApDYBYqq" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
    </div>
    
    <br>
@@ -58,7 +58,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>NorthWest Rd of 64</strong></th>
+               <th class="text-center"><strong>Northwest Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -200,7 +200,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>NorthEast Rd of 64</strong></th>
+               <th class="text-center"><strong>Northeast Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -342,7 +342,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>SouthWest Rd of 64</strong></th>
+               <th class="text-center"><strong>Southwest Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -484,7 +484,7 @@
                <col span="1" style="width: 25%;">
             </colgroup>
             <tr>
-               <th class="text-center"><strong>SouthEast Rd of 64</strong></th>
+               <th class="text-center"><strong>Southeast Rd of 64</strong></th>
                <th class="text-center"><strong>Rd of 32</strong></th>
                <th class="text-center"><strong>Sweet 16</strong></th>
             </tr>
@@ -738,30 +738,30 @@
 
 
    //northwest screenshot function
-     var floatTopLeft = $("#floatTopLeft"); 
+     var floatTopLeft = $("#floatTopLeft");
      var getCanvas5;
 
-     $("#winner").on('click', function() { 
-       html2canvas(floatTopLeft, { 
-         onrendered: function(canvas) { 
-           $("#previewDownloads").append(canvas); 
+     $("#winner").on('click', function() {
+       html2canvas(floatTopLeft, {
+         onrendered: function(canvas) {
+           $("#previewDownloads").append(canvas);
            getCanvas5 = canvas;
          }
        });
      });
 
-     $("#btn-floatTopLeft").on('click', function() { 
-       var imgageData = 
+     $("#btn-floatTopLeft").on('click', function() {
+      var imgageData =
          getCanvas5.toDataURL("image/png");
 
       var userVal = $("#userDivusername").val();
       var dnldTopLeft = userVal + "NSYNCNorthwestRegion.png"
 
-       var newData = imgageData.replace(
+      var newData = imgageData.replace(
        /^data:image\/png/, "data:application/octet-stream");
 
-       $("#btn-floatTopLeft").attr( 
-       "download", dnldTopLeft).attr( 
+       $("#btn-floatTopLeft").attr(
+       "download", dnldTopLeft).attr(
        "href", newData);
      });
 
