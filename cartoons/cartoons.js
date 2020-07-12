@@ -13,7 +13,7 @@ $(function(){
             event.preventDefault();
         }
         else {
-            $.trim($("#username").text(user + "'s Best Cereal Brakit"));
+            $.trim($("#username").text(user + "'s Greatest Cartoons Brakit"));
             $("#username").css("font-weight","Bold");
             $("#userDivusername").val(user);
             $('.popup').hide();
