@@ -163,12 +163,12 @@ input {
 /*---start footer nav bar---*/
 .page-footer {
   background-color: #222;
-  color: #ccc;
-  padding: 60px 0 30px;
+  color: #F8F4E3;
+  padding: 20px 0 10px;
 }
 
 .footer-copyright {
   color: #666;
-  padding: 40px 0;
+  padding: 5px 0;
 }
 /*---end footer nav bar---*/
