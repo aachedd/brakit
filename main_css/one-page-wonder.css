@@ -1,0 +1,187 @@
+/*! 
+This page was built off a template from:
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ 
+Common Colors:
+ * Charleston Green #2A2B2A
+ * Nickel #706c61
+ * Eggshell #F8F4E3
+ * Pacific Blue #00B2CA
+ * Green RYB #72B01D
+ */
+
+html {
+  scroll-behavior: smooth;
+ }
+
+
+body {
+  font-family: Lato;
+  background-color: #706C61;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar {
+  background: #2A2B2A;
+}
+
+.navbar-toggler-icon {
+  background: #72B01D;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #72B01D;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #00B2CA;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dropdown-menu {
+  color: #F8F4E3;
+  background-color: #F8F4E3;
+  border-color: #F8F4E3;
+}
+
+.dropdown-menu a:hover {
+  color: #F8F4E3;
+  background-color: #00B2CA;
+  border-color: #72B01D;
+}
+
+.landing {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url("grey-empty-partial-bracket-comp.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+  color: #F8F4E3;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+  color: #F8F4E3;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 8rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 3rem;
+  }
+}
+
+.bg-primary {
+  background-color: #72B01D !important;
+}
+
+.btn-primary {
+  background-color: #00B2CA;
+  border-color: #72B01D;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #72B01D !important;
+  border-color: #00B2CA !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.display-3 {
+  color: #00B2CA;
+}
+
+.howto-info {
+  font-size: 1.5rem;
+  color: #F8F4E3;
+}
+
+.centered {
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F8F4E3;
+
+}
+
+#featured-img {
+    opacity: 0.3;
+    filter: alpha(opacity=40);
+}
+
+.page-footer {
+  background-color: #222;
+  color: #F8F4E3;
+  padding: 20px 0 10px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 5px 0;
+}
