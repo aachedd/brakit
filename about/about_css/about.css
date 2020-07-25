@@ -16,7 +16,6 @@ html {
   scroll-behavior: smooth;
  }
 
-
 body {
   font-family: Lato;
   background-color: #706C61;
@@ -30,18 +29,6 @@ h5,
 h6 {
   font-family: 'Catamaran';
   font-weight: 800 !important;
-}
-
-.btn-xl {
-  text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-}
-
-.rounded-pill {
-  border-radius: 5rem;
 }
 
 .navbar {
@@ -80,15 +67,6 @@ h6 {
   color: #F8F4E3;
   background-color: #00B2CA;
   border-color: #72B01D;
-}
-
-.landing {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.6);
 }
 
 header.masthead {
@@ -131,48 +109,8 @@ header.masthead .masthead-content .masthead-subheading {
   }
 }
 
-.bg-primary {
-  background-color: #72B01D !important;
-}
-
-.btn-primary {
-  background-color: #00B2CA;
-  border-color: #72B01D;
-}
-
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:hover {
-  background-color: #72B01D !important;
-  border-color: #00B2CA !important;
-}
-
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
-}
-
 .display-3 {
   color: #00B2CA;
-}
-
-.howto-info {
-  font-size: 1.5rem;
-  color: #F8F4E3;
-}
-
-.centered {
-  font-size: 3rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #F8F4E3;
-
-}
-
-#featured-img {
-    opacity: 0.3;
-    filter: alpha(opacity=40);
 }
 
 .page-footer {
