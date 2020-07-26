@@ -1,25 +1,38 @@
-/*---start of popup function---*/
-$(function(){
-    var overlay = $('<div id="overlay"></div>');
-    overlay.show();
-    overlay.appendTo(document.body);
-    $(".popup").show();
 
-    $(".close").click(function(){
-        var user = $("#userPopup").val();
+/*---Hiding the two popups until the page loads---*/
+$(".modal").hide();
+$('.popup').hide();
 
-        if($.trim($("#userPopup").val()) == '') {
-            alert("Please enter your name in the box below");
+/*---start of modal and popup function---*/
+$(document).ready(function(){
+    $(function(){
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $(".modal").show();
+
+        $(".confirm").click(function(){
+            $(".popup").show();
+            $(".modal").hide();
             event.preventDefault();
-        }
-        else {
-            $.trim($("#username").text(user + "'s Best Cereal Brakit"));
-            $("#username").css("font-weight","Bold");
-            $("#userDivusername").val(user);
-            $('.popup').hide();
-            overlay.appendTo(document.body).remove();
-            return false;
-        }
+        });
+
+        $(".close").click(function(){
+            var user = $("#userPopup").val();
+
+            if($.trim($("#userPopup").val()) == '') {
+                alert("Please enter your name in the box below");
+                event.preventDefault();
+            }
+            else {
+                $.trim($("#username").text(user + "'s Best Cereal Brakit"));
+                $("#username").css("font-weight","Bold");
+                $("#userDivusername").val(user);
+                $('.popup').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            }
+        });
     });
 });
 /*---end of popup function---*/

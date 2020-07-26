@@ -5,7 +5,7 @@ Do you like having arguments with your friends over "the greatest snack food is.
 ## Getting Started
 
 To go to Brakit, simply go to 
-[http://www.brakit.games/]](http://www.brakit.games/) 
+(http://www.brakit.games/) 
 
 Brakit is hosted from this Github repo, so all of the code you see here is what will show on the site.
 
