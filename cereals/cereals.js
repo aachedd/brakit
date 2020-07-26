@@ -1,4 +1,3 @@
-
 /*---Hiding the two popups until the page loads---*/
 $(".modal").hide();
 $('.popup').hide();

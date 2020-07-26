@@ -1,77 +1,129 @@
+/*---The Modal (background)---*/
+
+.modal {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 101;
+  overflow-y: auto;
+}
+
+
+/*---Modal Content/Box---*/
+
+.modal-content {
+  background-color: #f3f3f3;
+  margin: 10% auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 80%;
+  overflow-y: auto;
+}
+
+
+/*---Modal Confirm Button---*/
+
+.confirm {
+  color: #72B01D;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/*---Modal Go Back Button---*/
+
+.goback {
+  color: #706c61;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/*---End of Modal Code---*/
+
+
 /*---start popup styling---*/
+
 #overlay {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #000;
-filter:alpha(opacity=70);
--moz-opacity:0.7;
--khtml-opacity: 0.7;
-opacity: 0.7;
-z-index: 100;
-display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 100;
+  display: none;
 }
 
-.cnt223 a{
-text-decoration: none;
+.cnt223 a {
+  text-decoration: none;
 }
 
-.popup{
-width: 100%;
-margin: 0 auto;
-display: none;
-position: fixed;
-z-index: 101;
+.popup {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 101;
 }
 
-.cnt223{
-min-width: 600px;
-width: 600px;
-min-height: 150px;
-margin: 100px auto;
-background: #f3f3f3;
-position: relative;
-z-index: 103;
-padding: 15px 35px;
-border-radius: 5px;
-box-shadow: 0 2px 5px #000;
+.cnt223 {
+  min-width: 600px;
+  width: 600px;
+  min-height: 150px;
+  margin: 100px auto;
+  background: #f3f3f3;
+  position: relative;
+  z-index: 103;
+  padding: 15px 35px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000;
 }
 
-.cnt223 p{
-clear: both;
-    color: #555555;
-    /* text-align: justify; */
-    font-size: 20px;
-    font-family: sans-serif;
+.cnt223 p {
+  clear: both;
+  color: #555555;
+  text-align: justify;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
-.cnt223 p a{
-color: #d91900;
-font-weight: bold;
+.cnt223 p a {
+  color: #d91900;
+  font-weight: bold;
 }
 
-.cnt223 .x{
-float: right;
-height: 35px;
-left: 22px;
-position: relative;
-top: -25px;
-width: 34px;
+.cnt223 .x {
+  float: right;
+  height: 35px;
+  left: 22px;
+  position: relative;
+  top: -25px;
+  width: 34px;
 }
 
-.cnt223 .x:hover{
-cursor: pointer;
+.cnt223 .x:hover {
+  cursor: pointer;
 }
+
+
 /*---end popup styling---*/
 
+
 /*---start navigation bar---*/
+
 .navbar {
   background: #f0ede4;
 }
 
-h2{
+h2 {
   color: #00B2CA;
 }
 
@@ -92,33 +144,35 @@ h2{
 .navbar-collapse {
   justify-content: flex-end;
 }
+
+
 /*---end navigation bar---*/
 
+
 /*---start table alignment ---*/
+
 .floatTopLeft,
 .floatTopRight,
 .floatBottomLeft,
 .floatBottomRight,
-.floatTitle
- {
+.floatTitle {
   float: left;
   overflow: hidden;
-    background: #00B2CA;
+  background: #00B2CA;
 }
 
 #btn-floatTopLeft,
 #btn-floatBottomLeft,
 #btn-floatTopRight,
 #btn-floatBottomRight,
-#btn-TitleFloat
- {
-    color: #00B2CA;
+#btn-TitleFloat {
+  color: #00B2CA;
 }
 
 body {
   background-color: #706C61;
 }
- 
+
 table,
 th,
 td,
@@ -135,9 +189,13 @@ input {
   white-space: normal text-overflow: ellipsis;
   overflow: hidden;
 }
+
+
 /*---end table alignment---*/
 
+
 /*---start download functionality---*/
+
 .canvas__container {
   height: 100%;
   position: relative;
@@ -158,9 +216,13 @@ input {
   top: 0;
   width: 100%;
 }
+
+
 /*---end download functionality---*/
 
+
 /*---start footer nav bar---*/
+
 .page-footer {
   background-color: #222;
   color: #F8F4E3;
@@ -171,4 +233,6 @@ input {
   color: #666;
   padding: 5px 0;
 }
+
+
 /*---end footer nav bar---*/
