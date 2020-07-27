@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://brakit.games/</loc>
+  <lastmod>2020-07-26</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://brakit.games/index.html</loc>
+  <lastmod>2020-07-26</lastmod>
+  <priority>0.80</priority>
+</url>
+ <url>
+    <loc>http://brakit.games/about/about.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/cereals/cereals.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/snackfoods/snackfoods.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/bsb/bsb.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/bsbvnsync/bsbvnsync.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/legend/legend.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/maroon5/maroon5.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/nsync/nsync.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/onehit/onehit.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/tswift/tswift.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/sitcoms/sitcoms.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+ <url>
+    <loc>http://brakit.games/cartoons/cartoons.html</loc>
+    <lastmod>2020-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+ </url>
+
+</urlset>
