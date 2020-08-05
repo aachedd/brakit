@@ -72,19 +72,21 @@
   display: none;
   position: fixed;
   z-index: 101;
+  padding: 15px;
 }
 
 .cnt223 {
   min-width: 75%;
   width: 80%;
-  min-height: 170px;
+  min-height: 200px;
   margin: 5% auto;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
-  padding: 15px 35px;
+  padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 5px #000;
+  overflow-y: auto;
 }
 
 .cnt223 p {
