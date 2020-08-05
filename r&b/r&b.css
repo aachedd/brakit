@@ -67,18 +67,18 @@
 }
 
 .popup {
-  width: 100%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 5% auto;
   display: none;
   position: fixed;
   z-index: 101;
 }
 
 .cnt223 {
-  min-width: 600px;
-  width: 600px;
-  min-height: 150px;
-  margin: 100px auto;
+  min-width: 75%;
+  width: 80%;
+  min-height: 170px;
+  margin: 5% auto;
   background: #f3f3f3;
   position: relative;
   z-index: 103;
