@@ -24,7 +24,7 @@ $(document).ready(function(){
                 event.preventDefault();
             }
             else {
-                $.trim($("#username").text(user + "'s Best Cereal Brakit"));
+                $.trim($("#username").text(user + "'s *NSYNC Bracket"));
                 $("#username").css("font-weight","Bold");
                 $("#userDivusername").val(user);
                 $('.popup').hide();

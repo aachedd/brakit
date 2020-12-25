@@ -24,7 +24,7 @@ $(document).ready(function(){
                 event.preventDefault();
             }
             else {
-                $.trim($("#username").text(user + "'s R&B Legends 90s and After"));
+                $.trim($("#username").text(user + "'s R&B Legends Bracket"));
                 $("#username").css("font-weight","Bold");
                 $("#userDivusername").val(user);
                 $('.popup').hide();

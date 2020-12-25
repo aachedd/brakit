@@ -4,14 +4,19 @@ Do you like having arguments with your friends over "the greatest snack food is.
 
 ## Getting Started
 
-To go to Brakit, simply go to 
-(http://www.brakit.games/) 
+To access Brakit, simply go to: 
+http://www.brakit.games/
+
+For a tutorial of how to use Brakit, go to:
+http://brakit.games/index.html#howto
 
 Brakit is hosted from this Github repo, so all of the code you see here is what will show on the site.
 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Hat tip to anyone whose code was used, including:
+* https://html2canvas.hertzen.com/
+* https://mdbootstrap.com/snippets/jquery/ascensus/453950 
+* https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/ 
+* https://www.w3schools.com/colors/colors_names.asp
