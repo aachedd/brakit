@@ -43,14 +43,14 @@
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-      <h2 class="text-center"><strong>Who did the poet Beyonce said, "when he do you good, you take him to Red Lobster." Who is the he?</strong></h2>
+      <h2 class="text-center"><strong>Pop quiz: who was the poet Beyonce referring to when she said "when he do me good, I take him to Red Lobster"? </strong></h2>
       <h3 class="text-center">If you answered JayZ, well we've got the perfect bracket! We've assembled a list of the top 32 JayZ songs and the top 32 Beyonce songs. The regions are: </h3>
       <h3 class="text-left" >
          <ol>
-            <li><strong>Early Beyonce:</strong> <i> </i></li>
-            <li><strong>Late Beyonce:</strong> <i></i></li>
-            <li><strong>Early JayZ:</strong> <i></i></li>
-            <li><strong>Late JayZ:</strong> <i> </i></li>
+            <li><strong>Early Beyonce:</strong> <i>The top songs from Dangerously in Love, B'Day, and I Am...Sasha Fierce, </i></li>
+            <li><strong>Late Beyonce:</strong> <i>The top songs from 4, Beyonce, and Lemonade</i></li>
+            <li><strong>Early JayZ:</strong> <i>The top songs from Reasonable Doubt, In My Lifetime Vol 1, Vol 2... Hard Knock Life, Vol 3... Life and Times, The Dynasty, The Blueprint, The Blueprint 2, and the Black Album </i></li>
+            <li><strong>Late JayZ:</strong> <i>The top songs from Kingdom Come, The Blueprint 3, Magna Carta... Holy Grail, and 4:44</i></li>
          </ol>  
       </h3>
       <h3 class="text-center">Ready to get started?? </h3>
@@ -71,11 +71,15 @@
 </div>
 <!--End of the code for the name popup box that first appears on the page-->
 
-
 <body>
 
 <!--This DIV is hidden, its for storing the name form the input popup to be used in the download file names-->
    <div id="userDiv"><h2 id = "userDivusername"> </h2></div>
+
+<!--This DIV is for the spotify iframe-->
+   <div class = "spotify" id = "spotify">
+      <iframe src="https://open.spotify.com/embed/playlist/6dmL8kV55JwOFXsBCwXeiK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+   </div>
 
    <br>
 
@@ -904,7 +908,7 @@
          getCanvas1.toDataURL("image/png");
 
       var userVal = $("#userDivusername").val();
-      var dnldTitle = userVal + "ChainRestaurantsFinalRegion.png"
+      var dnldTitle = userVal + "JayZBeyonceFinalRegion.png"
 
        var newData = imgageData.replace(
        /^data:image\/png/, "data:application/octet-stream");
