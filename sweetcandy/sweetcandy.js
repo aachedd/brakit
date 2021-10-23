@@ -37,13 +37,13 @@ $(document).ready(function(){
 /*---end of popup function---*/
 
 /*---start logic to grab data from google sheet---*/
-$.getJSON("https://spreadsheets.google.com/feeds/list/1YxRFsYqGt9OPMxXi5x2vECE3D9kQyF82wQIBW2jAZJc/1/public/full?alt=json", function (data) {
 
+$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/1YxRFsYqGt9OPMxXi5x2vECE3D9kQyF82wQIBW2jAZJc/values/Main?alt=json&key=AIzaSyBsA6aH4dLLJgdtrUjFg3UqrHJRvD7Kq3k", function (data) {
   var i;
-  for (i = 0; i < 65; i++) {
-    var seed = data.feed.entry[i]['gsx$sweetcandy']['$t'];
-    var descrip = data.feed.entry[i]['gsx$sweetcandylinks']['$t'];
-    $("#seed" + i).val(i+1+'. ' + seed);
+  for (i = 1; i < 65; i++) {
+    var seed = data.values[i]['26'];
+    var descrip = data.values[i]['27'];
+    $("#seed" + i).val(i+'. ' + seed);
     document.getElementById("seed" + i).title = descrip;
                          }
 });
@@ -53,21 +53,21 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1YxRFsYqGt9OPMxXi5x2vECE3D
 //  first round northwest matchup
 function northWestSeed1() 
 {
-    var inputVal = document.getElementById("seed0").value;
-    var inputTitle = document.getElementById("seed0").title;
+    var inputVal = document.getElementById("seed1").value;
+    var inputTitle = document.getElementById("seed1").title;
     document.getElementById("northWestRd32a" ).title = inputTitle;       
     document.getElementById("northWestRd32a").value= inputVal;
     $("#northWestRd32a").val(inputVal);
-    $("#seed0").css("background-color", "#72B01D");
-    $("#seed63").css("background-color", "silver");
+    $("#seed1").css("background-color", "#72B01D");
+    $("#seed64").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed0").mouseover(function() {
-        var inputTitle = document.getElementById("seed0").title;
+        $("#seed1").mouseover(function() {
+        var inputTitle = document.getElementById("seed1").title;
         $('#northWestPic').attr('src', inputTitle).show();
     }); 
-        $("#seed0").mouseout(function(){
+        $("#seed1").mouseout(function(){
         $("#northWestPic").hide();
     }); 
   });
@@ -75,21 +75,21 @@ $(document).ready(function(){
 
 function northWestSeed16() 
 {
-    var inputVal = document.getElementById("seed63").value;
-    var inputTitle = document.getElementById("seed63").title;
+    var inputVal = document.getElementById("seed64").value;
+    var inputTitle = document.getElementById("seed64").title;
     document.getElementById("northWestRd32a" ).title = inputTitle;  
     document.getElementById("northWestRd32a").value= inputVal;
     $("#northWestRd32a").val(inputVal);
-    $("#seed63").css("background-color", "#72B01D");
-    $("#seed0").css("background-color", "silver");
+    $("#seed64").css("background-color", "#72B01D");
+    $("#seed1").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed63").mouseover(function() {
-        var inputTitle = document.getElementById("seed63").title;
+        $("#seed64").mouseover(function() {
+        var inputTitle = document.getElementById("seed64").title;
         $('#northWestPic').attr('src', inputTitle).show();
     }); 
-        $("#seed63").mouseout(function(){
+        $("#seed64").mouseout(function(){
         $("#northWestPic").hide();
     }); 
   });
@@ -97,35 +97,13 @@ $(document).ready(function(){
 
 function northWestSeed8() 
 {
-    var inputVal = document.getElementById("seed31").value;
-    var inputTitle = document.getElementById("seed31").title;
-    document.getElementById("northWestRd32b" ).title = inputTitle; 
-    document.getElementById("northWestRd32b").value= inputVal;
-    $("#northWestRd32b").val(inputVal);
-    $("#seed31").css("background-color", "#72B01D");
-    $("#seed32").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed31").mouseover(function() {
-        var inputTitle = document.getElementById("seed31").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed31").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed9() 
-{
     var inputVal = document.getElementById("seed32").value;
     var inputTitle = document.getElementById("seed32").title;
     document.getElementById("northWestRd32b" ).title = inputTitle; 
     document.getElementById("northWestRd32b").value= inputVal;
     $("#northWestRd32b").val(inputVal);
     $("#seed32").css("background-color", "#72B01D");
-    $("#seed31").css("background-color", "silver");
+    $("#seed33").css("background-color", "silver");
 }
 
 $(document).ready(function(){
@@ -139,23 +117,45 @@ $(document).ready(function(){
   });
 
 
-function northWestSeed5() 
+function northWestSeed9() 
 {
-    var inputVal = document.getElementById("seed16").value;
-    var inputTitle = document.getElementById("seed16").title;
-    document.getElementById("northWestRd32c" ).title = inputTitle; 
-    document.getElementById("northWestRd32c").value= inputVal;
-    $("#northWestRd32c").val(inputVal);
-    $("#seed16").css("background-color", "#72B01D");
-    $("#seed47").css("background-color", "silver");
+    var inputVal = document.getElementById("seed33").value;
+    var inputTitle = document.getElementById("seed33").title;
+    document.getElementById("northWestRd32b" ).title = inputTitle; 
+    document.getElementById("northWestRd32b").value= inputVal;
+    $("#northWestRd32b").val(inputVal);
+    $("#seed33").css("background-color", "#72B01D");
+    $("#seed32").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed16").mouseover(function() {
-        var inputTitle = document.getElementById("seed16").title;
+        $("#seed33").mouseover(function() {
+        var inputTitle = document.getElementById("seed33").title;
         $('#northWestPic').attr('src', inputTitle).show();
     }); 
-        $("#seed16").mouseout(function(){
+        $("#seed33").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
+function northWestSeed5() 
+{
+    var inputVal = document.getElementById("seed17").value;
+    var inputTitle = document.getElementById("seed17").title;
+    document.getElementById("northWestRd32c" ).title = inputTitle; 
+    document.getElementById("northWestRd32c").value= inputVal;
+    $("#northWestRd32c").val(inputVal);
+    $("#seed17").css("background-color", "#72B01D");
+    $("#seed48").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed17").mouseover(function() {
+        var inputTitle = document.getElementById("seed17").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed17").mouseout(function(){
         $("#northWestPic").hide();
     }); 
   });
@@ -163,57 +163,13 @@ $(document).ready(function(){
 
 function northWestSeed12() 
 {
-    var inputVal = document.getElementById("seed47").value;
-    var inputTitle = document.getElementById("seed47").title;
+    var inputVal = document.getElementById("seed48").value;
+    var inputTitle = document.getElementById("seed48").title;
     document.getElementById("northWestRd32c" ).title = inputTitle; 
     document.getElementById("northWestRd32c").value= inputVal;
     $("#northWestRd32c").val(inputVal);
-    $("#seed47").css("background-color", "#72B01D");
-    $("#seed16").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed47").mouseover(function() {
-        var inputTitle = document.getElementById("seed47").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed47").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed4() 
-{
-    var inputVal = document.getElementById("seed15").value;
-    var inputTitle = document.getElementById("seed15").title;
-    document.getElementById("northWestRd32d" ).title = inputTitle; 
-    document.getElementById("northWestRd32d").value= inputVal;
-    $("#northWestRd32d").val(inputVal);
-    $("#seed15").css("background-color", "#72B01D");
-    $("#seed48").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed15").mouseover(function() {
-        var inputTitle = document.getElementById("seed15").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed15").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed13() 
-{
-    var inputVal = document.getElementById("seed48").value;
-    var inputTitle = document.getElementById("seed48").title;
-    document.getElementById("northWestRd32d" ).title = inputTitle; 
-    document.getElementById("northWestRd32d").value= inputVal;
-    $("#northWestRd32d").val(inputVal);
     $("#seed48").css("background-color", "#72B01D");
-    $("#seed15").css("background-color", "silver");
+    $("#seed17").css("background-color", "silver");
 }
 
 $(document).ready(function(){
@@ -227,103 +183,59 @@ $(document).ready(function(){
   });
 
 
+function northWestSeed4() 
+{
+    var inputVal = document.getElementById("seed16").value;
+    var inputTitle = document.getElementById("seed16").title;
+    document.getElementById("northWestRd32d" ).title = inputTitle; 
+    document.getElementById("northWestRd32d").value= inputVal;
+    $("#northWestRd32d").val(inputVal);
+    $("#seed16").css("background-color", "#72B01D");
+    $("#seed49").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed16").mouseover(function() {
+        var inputTitle = document.getElementById("seed16").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed16").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
+function northWestSeed13() 
+{
+    var inputVal = document.getElementById("seed49").value;
+    var inputTitle = document.getElementById("seed49").title;
+    document.getElementById("northWestRd32d" ).title = inputTitle; 
+    document.getElementById("northWestRd32d").value= inputVal;
+    $("#northWestRd32d").val(inputVal);
+    $("#seed49").css("background-color", "#72B01D");
+    $("#seed16").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed49").mouseover(function() {
+        var inputTitle = document.getElementById("seed49").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed49").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
 function northWestSeed6() 
-{
-    var inputVal = document.getElementById("seed23").value;
-    var inputTitle = document.getElementById("seed23").title;
-    document.getElementById("northWestRd32e" ).title = inputTitle;
-    document.getElementById("northWestRd32e").value= inputVal;
-    $("#northWestRd32e").val(inputVal);
-    $("#seed23").css("background-color", "#72B01D");
-    $("#seed40").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed23").mouseover(function() {
-        var inputTitle = document.getElementById("seed23").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed23").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed11() 
-{
-    var inputVal = document.getElementById("seed40").value;
-    var inputTitle = document.getElementById("seed40").title;
-    document.getElementById("northWestRd32e" ).title = inputTitle;
-    document.getElementById("northWestRd32e").value= inputVal;
-    $("#northWestRd32e").val(inputVal);
-    $("#seed40").css("background-color", "#72B01D");
-    $("#seed23").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed40").mouseover(function() {
-        var inputTitle = document.getElementById("seed40").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed40").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed3() 
-{
-    var inputVal = document.getElementById("seed8").value;
-    var inputTitle = document.getElementById("seed8").title;
-    document.getElementById("northWestRd32f" ).title = inputTitle;
-    document.getElementById("northWestRd32f").value= inputVal;
-    $("#northWestRd32f").val(inputVal);
-    $("#seed8").css("background-color", "#72B01D");
-    $("#seed55").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed8").mouseover(function() {
-        var inputTitle = document.getElementById("seed8").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed8").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed14() 
-{
-    var inputVal = document.getElementById("seed55").value;
-    var inputTitle = document.getElementById("seed55").title;
-    document.getElementById("northWestRd32f" ).title = inputTitle;
-    document.getElementById("northWestRd32f").value= inputVal;
-    $("#northWestRd32f").val(inputVal);
-    $("#seed55").css("background-color", "#72B01D");
-    $("#seed8").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed55").mouseover(function() {
-        var inputTitle = document.getElementById("seed55").title;
-        $('#northWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed55").mouseout(function(){
-        $("#northWestPic").hide();
-    }); 
-  });
-
-
-function northWestSeed7() 
 {
     var inputVal = document.getElementById("seed24").value;
     var inputTitle = document.getElementById("seed24").title;
-    document.getElementById("northWestRd32g" ).title = inputTitle;
-    document.getElementById("northWestRd32g").value= inputVal;
-    $("#northWestRd32g").val(inputVal);
+    document.getElementById("northWestRd32e" ).title = inputTitle;
+    document.getElementById("northWestRd32e").value= inputVal;
+    $("#northWestRd32e").val(inputVal);
     $("#seed24").css("background-color", "#72B01D");
-    $("#seed39").css("background-color", "silver");
+    $("#seed41").css("background-color", "silver");
 }
 
 $(document).ready(function(){
@@ -337,59 +249,59 @@ $(document).ready(function(){
   });
 
 
-function northWestSeed10() 
+function northWestSeed11() 
 {
-    var inputVal = document.getElementById("seed39").value;
-    var inputTitle = document.getElementById("seed39").title;
-    document.getElementById("northWestRd32g" ).title = inputTitle;
-    document.getElementById("northWestRd32g").value= inputVal;
-    $("#northWestRd32g").val(inputVal);
-    $("#seed39").css("background-color", "#72B01D");
+    var inputVal = document.getElementById("seed41").value;
+    var inputTitle = document.getElementById("seed41").title;
+    document.getElementById("northWestRd32e" ).title = inputTitle;
+    document.getElementById("northWestRd32e").value= inputVal;
+    $("#northWestRd32e").val(inputVal);
+    $("#seed41").css("background-color", "#72B01D");
     $("#seed24").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed39").mouseover(function() {
-        var inputTitle = document.getElementById("seed39").title;
+        $("#seed41").mouseover(function() {
+        var inputTitle = document.getElementById("seed41").title;
         $('#northWestPic').attr('src', inputTitle).show();
     }); 
-        $("#seed39").mouseout(function(){
+        $("#seed41").mouseout(function(){
         $("#northWestPic").hide();
     }); 
   });
 
 
-function northWestSeed2() 
+function northWestSeed3() 
 {
-    var inputVal = document.getElementById("seed7").value;
-    var inputTitle = document.getElementById("seed7").title;
-    document.getElementById("northWestRd32h" ).title = inputTitle;
-    document.getElementById("northWestRd32h").value= inputVal;
-    $("#northWestRd32h").val(inputVal);
-    $("#seed7").css("background-color", "#72B01D");
+    var inputVal = document.getElementById("seed9").value;
+    var inputTitle = document.getElementById("seed9").title;
+    document.getElementById("northWestRd32f" ).title = inputTitle;
+    document.getElementById("northWestRd32f").value= inputVal;
+    $("#northWestRd32f").val(inputVal);
+    $("#seed9").css("background-color", "#72B01D");
     $("#seed56").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed7").mouseover(function() {
-        var inputTitle = document.getElementById("seed7").title;
+        $("#seed9").mouseover(function() {
+        var inputTitle = document.getElementById("seed9").title;
         $('#northWestPic').attr('src', inputTitle).show();
     }); 
-        $("#seed7").mouseout(function(){
+        $("#seed9").mouseout(function(){
         $("#northWestPic").hide();
     }); 
   });
 
 
-function northWestSeed15() 
+function northWestSeed14() 
 {
     var inputVal = document.getElementById("seed56").value;
     var inputTitle = document.getElementById("seed56").title;
-    document.getElementById("northWestRd32h" ).title = inputTitle;
-    document.getElementById("northWestRd32h").value= inputVal;
-    $("#northWestRd32h").val(inputVal);
+    document.getElementById("northWestRd32f" ).title = inputTitle;
+    document.getElementById("northWestRd32f").value= inputVal;
+    $("#northWestRd32f").val(inputVal);
     $("#seed56").css("background-color", "#72B01D");
-    $("#seed7").css("background-color", "silver");
+    $("#seed9").css("background-color", "silver");
 }
 
 $(document).ready(function(){
@@ -398,6 +310,94 @@ $(document).ready(function(){
         $('#northWestPic').attr('src', inputTitle).show();
     }); 
         $("#seed56").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
+function northWestSeed7() 
+{
+    var inputVal = document.getElementById("seed25").value;
+    var inputTitle = document.getElementById("seed25").title;
+    document.getElementById("northWestRd32g" ).title = inputTitle;
+    document.getElementById("northWestRd32g").value= inputVal;
+    $("#northWestRd32g").val(inputVal);
+    $("#seed25").css("background-color", "#72B01D");
+    $("#seed40").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed25").mouseover(function() {
+        var inputTitle = document.getElementById("seed25").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed25").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
+function northWestSeed10() 
+{
+    var inputVal = document.getElementById("seed40").value;
+    var inputTitle = document.getElementById("seed40").title;
+    document.getElementById("northWestRd32g" ).title = inputTitle;
+    document.getElementById("northWestRd32g").value= inputVal;
+    $("#northWestRd32g").val(inputVal);
+    $("#seed40").css("background-color", "#72B01D");
+    $("#seed25").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed40").mouseover(function() {
+        var inputTitle = document.getElementById("seed40").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed40").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
+function northWestSeed2() 
+{
+    var inputVal = document.getElementById("seed8").value;
+    var inputTitle = document.getElementById("seed8").title;
+    document.getElementById("northWestRd32h" ).title = inputTitle;
+    document.getElementById("northWestRd32h").value= inputVal;
+    $("#northWestRd32h").val(inputVal);
+    $("#seed8").css("background-color", "#72B01D");
+    $("#seed57").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed8").mouseover(function() {
+        var inputTitle = document.getElementById("seed8").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed8").mouseout(function(){
+        $("#northWestPic").hide();
+    }); 
+  });
+
+
+function northWestSeed15() 
+{
+    var inputVal = document.getElementById("seed57").value;
+    var inputTitle = document.getElementById("seed57").title;
+    document.getElementById("northWestRd32h" ).title = inputTitle;
+    document.getElementById("northWestRd32h").value= inputVal;
+    $("#northWestRd32h").val(inputVal);
+    $("#seed57").css("background-color", "#72B01D");
+    $("#seed8").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed57").mouseover(function() {
+        var inputTitle = document.getElementById("seed57").title;
+        $('#northWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed57").mouseout(function(){
         $("#northWestPic").hide();
     }); 
   });
@@ -696,21 +696,21 @@ function northWestRd8b()
 // first round northeast matchup
 function northEastSeed1() 
 {
-    var inputVal = document.getElementById("seed1").value;
-    var inputTitle = document.getElementById("seed1").title;
+    var inputVal = document.getElementById("seed2").value;
+    var inputTitle = document.getElementById("seed2").title;
     document.getElementById("northEastRd32a" ).title = inputTitle;
     document.getElementById("northEastRd32a").value= inputVal;
     $("#northEastRd32a").val(inputVal);
-    $("#seed1").css("background-color", "#72B01D");
-    $("#seed62").css("background-color", "silver");
+    $("#seed2").css("background-color", "#72B01D");
+    $("#seed63").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed1").mouseover(function() {
-        var inputTitle = document.getElementById("seed1").title;
+        $("#seed2").mouseover(function() {
+        var inputTitle = document.getElementById("seed2").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed1").mouseout(function(){
+        $("#seed2").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -718,21 +718,21 @@ $(document).ready(function(){
 
 function northEastSeed16() 
 {
-    var inputVal = document.getElementById("seed62").value;
-    var inputTitle = document.getElementById("seed62").title;
+    var inputVal = document.getElementById("seed63").value;
+    var inputTitle = document.getElementById("seed63").title;
     document.getElementById("northEastRd32a" ).title = inputTitle;
     document.getElementById("northEastRd32a").value= inputVal;
     $("#northEastRd32a").val(inputVal);
-    $("#seed62").css("background-color", "#72B01D");
-    $("#seed1").css("background-color", "silver");
+    $("#seed63").css("background-color", "#72B01D");
+    $("#seed2").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed62").mouseover(function() {
-        var inputTitle = document.getElementById("seed62").title;
+        $("#seed63").mouseover(function() {
+        var inputTitle = document.getElementById("seed63").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed62").mouseout(function(){
+        $("#seed63").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -740,21 +740,21 @@ $(document).ready(function(){
 
 function northEastSeed8() 
 {
-    var inputVal = document.getElementById("seed30").value;
-    var inputTitle = document.getElementById("seed30").title;
+    var inputVal = document.getElementById("seed31").value;
+    var inputTitle = document.getElementById("seed31").title;
     document.getElementById("northEastRd32b" ).title = inputTitle;
     document.getElementById("northEastRd32b").value= inputVal;
     $("#northEastRd32b").val(inputVal);
-    $("#seed30").css("background-color", "#72B01D");
-    $("#seed33").css("background-color", "silver");
+    $("#seed31").css("background-color", "#72B01D");
+    $("#seed34").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed30").mouseover(function() {
-        var inputTitle = document.getElementById("seed30").title;
+        $("#seed31").mouseover(function() {
+        var inputTitle = document.getElementById("seed31").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed30").mouseout(function(){
+        $("#seed31").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -762,21 +762,21 @@ $(document).ready(function(){
 
 function northEastSeed9() 
 {
-    var inputVal = document.getElementById("seed33").value;
-    var inputTitle = document.getElementById("seed33").title;
+    var inputVal = document.getElementById("seed34").value;
+    var inputTitle = document.getElementById("seed34").title;
     document.getElementById("northEastRd32b" ).title = inputTitle;
     document.getElementById("northEastRd32b").value= inputVal;
     $("#northEastRd32b").val(inputVal);
-    $("#seed33").css("background-color", "#72B01D");
-    $("#seed30").css("background-color", "silver");
+    $("#seed34").css("background-color", "#72B01D");
+    $("#seed31").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed33").mouseover(function() {
-        var inputTitle = document.getElementById("seed33").title;
+        $("#seed34").mouseover(function() {
+        var inputTitle = document.getElementById("seed34").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed33").mouseout(function(){
+        $("#seed34").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -784,21 +784,21 @@ $(document).ready(function(){
 
 function northEastSeed5() 
 {
-    var inputVal = document.getElementById("seed17").value;
-    var inputTitle = document.getElementById("seed17").title;
+    var inputVal = document.getElementById("seed18").value;
+    var inputTitle = document.getElementById("seed18").title;
     document.getElementById("northEastRd32c" ).title = inputTitle;
     document.getElementById("northEastRd32c").value= inputVal;
     $("#northEastRd32c").val(inputVal);
-    $("#seed17").css("background-color", "#72B01D");
-    $("#seed46").css("background-color", "silver");
+    $("#seed18").css("background-color", "#72B01D");
+    $("#seed47").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed17").mouseover(function() {
-        var inputTitle = document.getElementById("seed17").title;
+        $("#seed18").mouseover(function() {
+        var inputTitle = document.getElementById("seed18").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed17").mouseout(function(){
+        $("#seed18").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -806,21 +806,21 @@ $(document).ready(function(){
 
 function northEastSeed12() 
 {
-    var inputVal = document.getElementById("seed46").value;
-    var inputTitle = document.getElementById("seed46").title;
+    var inputVal = document.getElementById("seed47").value;
+    var inputTitle = document.getElementById("seed47").title;
     document.getElementById("northEastRd32c" ).title = inputTitle;
     document.getElementById("northEastRd32c").value= inputVal;
     $("#northEastRd32c").val(inputVal);
-    $("#seed46").css("background-color", "#72B01D");
-    $("#seed17").css("background-color", "silver");
+    $("#seed47").css("background-color", "#72B01D");
+    $("#seed18").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed46").mouseover(function() {
-        var inputTitle = document.getElementById("seed46").title;
+        $("#seed47").mouseover(function() {
+        var inputTitle = document.getElementById("seed47").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed46").mouseout(function(){
+        $("#seed47").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -828,21 +828,21 @@ $(document).ready(function(){
 
 function northEastSeed4() 
 {
-    var inputVal = document.getElementById("seed14").value;
-    var inputTitle = document.getElementById("seed14").title;
+    var inputVal = document.getElementById("seed15").value;
+    var inputTitle = document.getElementById("seed15").title;
     document.getElementById("northEastRd32d" ).title = inputTitle;
     document.getElementById("northEastRd32d").value= inputVal;
     $("#northEastRd32d").val(inputVal);
-    $("#seed14").css("background-color", "#72B01D");
-    $("#seed49").css("background-color", "silver");
+    $("#seed15").css("background-color", "#72B01D");
+    $("#seed50").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed14").mouseover(function() {
-        var inputTitle = document.getElementById("seed14").title;
+        $("#seed15").mouseover(function() {
+        var inputTitle = document.getElementById("seed15").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed14").mouseout(function(){
+        $("#seed15").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -850,21 +850,21 @@ $(document).ready(function(){
 
 function northEastSeed13() 
 {
-    var inputVal = document.getElementById("seed49").value;
-    var inputTitle = document.getElementById("seed49").title;
+    var inputVal = document.getElementById("seed50").value;
+    var inputTitle = document.getElementById("seed50").title;
     document.getElementById("northEastRd32d" ).title = inputTitle;
     document.getElementById("northEastRd32d").value= inputVal;
     $("#northEastRd32d").val(inputVal);
-    $("#seed49").css("background-color", "#72B01D");
-    $("#seed14").css("background-color", "silver");
+    $("#seed50").css("background-color", "#72B01D");
+    $("#seed15").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed49").mouseover(function() {
-        var inputTitle = document.getElementById("seed49").title;
+        $("#seed50").mouseover(function() {
+        var inputTitle = document.getElementById("seed50").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed49").mouseout(function(){
+        $("#seed50").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -872,21 +872,21 @@ $(document).ready(function(){
 
 function northEastSeed6() 
 {
-    var inputVal = document.getElementById("seed22").value;
-    var inputTitle = document.getElementById("seed22").title;
+    var inputVal = document.getElementById("seed23").value;
+    var inputTitle = document.getElementById("seed23").title;
     document.getElementById("northEastRd32e" ).title = inputTitle;
     document.getElementById("northEastRd32e").value= inputVal;
     $("#northEastRd32e").val(inputVal);
-    $("#seed22").css("background-color", "#72B01D");
-    $("#seed41").css("background-color", "silver");
+    $("#seed23").css("background-color", "#72B01D");
+    $("#seed42").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed22").mouseover(function() {
-        var inputTitle = document.getElementById("seed22").title;
+        $("#seed23").mouseover(function() {
+        var inputTitle = document.getElementById("seed23").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed22").mouseout(function(){
+        $("#seed23").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -894,21 +894,21 @@ $(document).ready(function(){
 
 function northEastSeed11() 
 {
-    var inputVal = document.getElementById("seed41").value;
-    var inputTitle = document.getElementById("seed41").title;
+    var inputVal = document.getElementById("seed42").value;
+    var inputTitle = document.getElementById("seed42").title;
     document.getElementById("northEastRd32e" ).title = inputTitle;
     document.getElementById("northEastRd32e").value= inputVal;
     $("#northEastRd32e").val(inputVal);
-    $("#seed41").css("background-color", "#72B01D");
-    $("#seed22").css("background-color", "silver");
+    $("#seed42").css("background-color", "#72B01D");
+    $("#seed23").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed41").mouseover(function() {
-        var inputTitle = document.getElementById("seed41").title;
+        $("#seed42").mouseover(function() {
+        var inputTitle = document.getElementById("seed42").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed41").mouseout(function(){
+        $("#seed42").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -916,21 +916,21 @@ $(document).ready(function(){
 
 function northEastSeed3() 
 {
-    var inputVal = document.getElementById("seed9").value;
-    var inputTitle = document.getElementById("seed9").title;
+    var inputVal = document.getElementById("seed10").value;
+    var inputTitle = document.getElementById("seed10").title;
     document.getElementById("northEastRd32f" ).title = inputTitle;
     document.getElementById("northEastRd32f").value= inputVal;
     $("#northEastRd32f").val(inputVal);
-    $("#seed9").css("background-color", "#72B01D");
-    $("#seed54").css("background-color", "silver");
+    $("#seed10").css("background-color", "#72B01D");
+    $("#seed55").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed9").mouseover(function() {
-        var inputTitle = document.getElementById("seed9").title;
+        $("#seed10").mouseover(function() {
+        var inputTitle = document.getElementById("seed10").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed9").mouseout(function(){
+        $("#seed10").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -938,21 +938,21 @@ $(document).ready(function(){
 
 function northEastSeed14() 
 {
-    var inputVal = document.getElementById("seed54").value;
-    var inputTitle = document.getElementById("seed54").title;
+    var inputVal = document.getElementById("seed55").value;
+    var inputTitle = document.getElementById("seed55").title;
     document.getElementById("northEastRd32f" ).title = inputTitle;
     document.getElementById("northEastRd32f").value= inputVal;
     $("#northEastRd32f").val(inputVal);
-    $("#seed54").css("background-color", "#72B01D");
-    $("#seed9").css("background-color", "silver");
+    $("#seed55").css("background-color", "#72B01D");
+    $("#seed10").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed54").mouseover(function() {
-        var inputTitle = document.getElementById("seed54").title;
+        $("#seed55").mouseover(function() {
+        var inputTitle = document.getElementById("seed55").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed54").mouseout(function(){
+        $("#seed55").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -960,21 +960,21 @@ $(document).ready(function(){
 
 function northEastSeed7() 
 {
-    var inputVal = document.getElementById("seed25").value;
-    var inputTitle = document.getElementById("seed25").title;
+    var inputVal = document.getElementById("seed26").value;
+    var inputTitle = document.getElementById("seed26").title;
     document.getElementById("northEastRd32g" ).title = inputTitle;
     document.getElementById("northEastRd32g").value= inputVal;
     $("#northEastRd32g").val(inputVal);
-    $("#seed25").css("background-color", "#72B01D");
-    $("#seed38").css("background-color", "silver");
+    $("#seed26").css("background-color", "#72B01D");
+    $("#seed39").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed25").mouseover(function() {
-        var inputTitle = document.getElementById("seed25").title;
+        $("#seed26").mouseover(function() {
+        var inputTitle = document.getElementById("seed26").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed25").mouseout(function(){
+        $("#seed26").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -982,21 +982,21 @@ $(document).ready(function(){
 
 function northEastSeed10() 
 {
-    var inputVal = document.getElementById("seed38").value;
-    var inputTitle = document.getElementById("seed38").title;
+    var inputVal = document.getElementById("seed39").value;
+    var inputTitle = document.getElementById("seed39").title;
     document.getElementById("northEastRd32g" ).title = inputTitle;
     document.getElementById("northEastRd32g").value= inputVal;
     $("#northEastRd32g").val(inputVal);
-    $("#seed38").css("background-color", "#72B01D");
-    $("#seed25").css("background-color", "silver");
+    $("#seed39").css("background-color", "#72B01D");
+    $("#seed26").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed38").mouseover(function() {
-        var inputTitle = document.getElementById("seed38").title;
+        $("#seed39").mouseover(function() {
+        var inputTitle = document.getElementById("seed39").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed38").mouseout(function(){
+        $("#seed39").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -1004,21 +1004,21 @@ $(document).ready(function(){
 
 function northEastSeed2() 
 {
-    var inputVal = document.getElementById("seed6").value;
-    var inputTitle = document.getElementById("seed6").title;
+    var inputVal = document.getElementById("seed7").value;
+    var inputTitle = document.getElementById("seed7").title;
     document.getElementById("northEastRd32h" ).title = inputTitle;
     document.getElementById("northEastRd32h").value= inputVal;
     $("#northEastRd32h").val(inputVal);
-    $("#seed6").css("background-color", "#72B01D");
-    $("#seed57").css("background-color", "silver");
+    $("#seed7").css("background-color", "#72B01D");
+    $("#seed58").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed6").mouseover(function() {
-        var inputTitle = document.getElementById("seed6").title;
+        $("#seed7").mouseover(function() {
+        var inputTitle = document.getElementById("seed7").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed6").mouseout(function(){
+        $("#seed7").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -1026,21 +1026,21 @@ $(document).ready(function(){
 
 function northEastSeed15() 
 {
-    var inputVal = document.getElementById("seed57").value;
-    var inputTitle = document.getElementById("seed57").title;
+    var inputVal = document.getElementById("seed58").value;
+    var inputTitle = document.getElementById("seed58").title;
     document.getElementById("northEastRd32h" ).title = inputTitle;
     document.getElementById("northEastRd32h").value= inputVal;
     $("#northEastRd32h").val(inputVal);
-    $("#seed57").css("background-color", "#72B01D");
-    $("#seed6").css("background-color", "silver");
+    $("#seed58").css("background-color", "#72B01D");
+    $("#seed7").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed57").mouseover(function() {
-        var inputTitle = document.getElementById("seed57").title;
+        $("#seed58").mouseover(function() {
+        var inputTitle = document.getElementById("seed58").title;
         $('#northEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed57").mouseout(function(){
+        $("#seed58").mouseout(function(){
         $("#northEastPic").hide();
     }); 
   });
@@ -1338,321 +1338,13 @@ function northEastRd8b()
 //  first round southwest matchup
 function southWestSeed1() 
 {
-    var inputVal = document.getElementById("seed3").value;
-    var inputTitle = document.getElementById("seed3").title;
-    document.getElementById("southWestRd32a" ).title = inputTitle;
-    document.getElementById("southWestRd32a").value= inputVal;
-    $("#southWestRd32a").val(inputVal);
-    $("#seed3").css("background-color", "#72B01D");
-    $("#seed60").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed3").mouseover(function() {
-        var inputTitle = document.getElementById("seed3").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed3").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed16() 
-{
-    var inputVal = document.getElementById("seed60").value;
-    var inputTitle = document.getElementById("seed60").title;
-    document.getElementById("southWestRd32a" ).title = inputTitle;
-    document.getElementById("southWestRd32a").value= inputVal;
-    $("#southWestRd32a").val(inputVal);
-    $("#seed60").css("background-color", "#72B01D");
-    $("#seed3").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed60").mouseover(function() {
-        var inputTitle = document.getElementById("seed60").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed60").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed8() 
-{
-    var inputVal = document.getElementById("seed28").value;
-    var inputTitle = document.getElementById("seed28").title;
-    document.getElementById("southWestRd32b" ).title = inputTitle;
-    document.getElementById("southWestRd32b").value= inputVal;
-    $("#southWestRd32b").val(inputVal);
-    $("#seed28").css("background-color", "#72B01D");
-    $("#seed35").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed28").mouseover(function() {
-        var inputTitle = document.getElementById("seed28").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed28").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed9() 
-{
-    var inputVal = document.getElementById("seed35").value;
-    var inputTitle = document.getElementById("seed35").title;
-    document.getElementById("southWestRd32b" ).title = inputTitle;
-    document.getElementById("southWestRd32b").value= inputVal;
-    $("#southWestRd32b").val(inputVal);
-    $("#seed35").css("background-color", "#72B01D");
-    $("#seed28").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed35").mouseover(function() {
-        var inputTitle = document.getElementById("seed35").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed35").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed5() 
-{
-    var inputVal = document.getElementById("seed19").value;
-    var inputTitle = document.getElementById("seed19").title;
-    document.getElementById("southWestRd32c" ).title = inputTitle;
-    document.getElementById("southWestRd32c").value= inputVal;
-    $("#southWestRd32c").val(inputVal);
-    $("#seed19").css("background-color", "#72B01D");
-    $("#seed44").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed19").mouseover(function() {
-        var inputTitle = document.getElementById("seed19").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed19").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed12() 
-{
-    var inputVal = document.getElementById("seed44").value;
-    var inputTitle = document.getElementById("seed44").title;
-    document.getElementById("southWestRd32c" ).title = inputTitle;
-    document.getElementById("southWestRd32c").value= inputVal;
-    $("#southWestRd32c").val(inputVal);
-    $("#seed44").css("background-color", "#72B01D");
-    $("#seed19").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed44").mouseover(function() {
-        var inputTitle = document.getElementById("seed44").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed44").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed4() 
-{
-    var inputVal = document.getElementById("seed12").value;
-    var inputTitle = document.getElementById("seed12").title;
-    document.getElementById("southWestRd32d" ).title = inputTitle;
-    document.getElementById("southWestRd32d").value= inputVal;
-    $("#southWestRd32d").val(inputVal);
-    $("#seed12").css("background-color", "#72B01D");
-    $("#seed51").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed12").mouseover(function() {
-        var inputTitle = document.getElementById("seed12").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed12").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed13() 
-{
-    var inputVal = document.getElementById("seed51").value;
-    var inputTitle = document.getElementById("seed51").title;
-    document.getElementById("southWestRd32d" ).title = inputTitle;
-    document.getElementById("southWestRd32d").value= inputVal;
-    $("#southWestRd32d").val(inputVal);
-    $("#seed51").css("background-color", "#72B01D");
-    $("#seed12").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed51").mouseover(function() {
-        var inputTitle = document.getElementById("seed51").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed51").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed6() 
-{
-    var inputVal = document.getElementById("seed20").value;
-    var inputTitle = document.getElementById("seed20").title;
-    document.getElementById("southWestRd32e" ).title = inputTitle;
-    document.getElementById("southWestRd32e").value= inputVal;
-    $("#southWestRd32e").val(inputVal);
-    $("#seed20").css("background-color", "#72B01D");
-    $("#seed43").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed20").mouseover(function() {
-        var inputTitle = document.getElementById("seed20").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed20").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed11() 
-{
-    var inputVal = document.getElementById("seed43").value;
-    var inputTitle = document.getElementById("seed43").title;
-    document.getElementById("southWestRd32e" ).title = inputTitle;
-    document.getElementById("southWestRd32e").value= inputVal;
-    $("#southWestRd32e").val(inputVal);
-    $("#seed43").css("background-color", "#72B01D");
-    $("#seed20").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed43").mouseover(function() {
-        var inputTitle = document.getElementById("seed43").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed43").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed3() 
-{
-    var inputVal = document.getElementById("seed11").value;
-    var inputTitle = document.getElementById("seed11").title;
-    document.getElementById("southWestRd32f" ).title = inputTitle;
-    document.getElementById("southWestRd32f").value= inputVal;
-    $("#southWestRd32f").val(inputVal);
-    $("#seed11").css("background-color", "#72B01D");
-    $("#seed52").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed11").mouseover(function() {
-        var inputTitle = document.getElementById("seed11").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed11").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed14() 
-{
-    var inputVal = document.getElementById("seed52").value;
-    var inputTitle = document.getElementById("seed52").title;
-    document.getElementById("southWestRd32f" ).title = inputTitle;
-    document.getElementById("southWestRd32f").value= inputVal;
-    $("#southWestRd32f").val(inputVal);
-    $("#seed52").css("background-color", "#72B01D");
-    $("#seed11").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed52").mouseover(function() {
-        var inputTitle = document.getElementById("seed52").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed52").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed7() 
-{
-    var inputVal = document.getElementById("seed27").value;
-    var inputTitle = document.getElementById("seed27").title;
-    document.getElementById("southWestRd32g" ).title = inputTitle;
-    document.getElementById("southWestRd32g").value= inputVal;
-    $("#southWestRd32g").val(inputVal);
-    $("#seed27").css("background-color", "#72B01D");
-    $("#seed36").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed27").mouseover(function() {
-        var inputTitle = document.getElementById("seed27").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed27").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed10() 
-{
-    var inputVal = document.getElementById("seed36").value;
-    var inputTitle = document.getElementById("seed36").title;
-    document.getElementById("southWestRd32g" ).title = inputTitle;
-    document.getElementById("southWestRd32g").value= inputVal;
-    $("#southWestRd32g").val(inputVal);
-    $("#seed36").css("background-color", "#72B01D");
-    $("#seed27").css("background-color", "silver");
-}
-
-$(document).ready(function(){
-        $("#seed36").mouseover(function() {
-        var inputTitle = document.getElementById("seed36").title;
-        $('#southWestPic').attr('src', inputTitle).show();
-    }); 
-        $("#seed36").mouseout(function(){
-        $("#southWestPic").hide();
-    }); 
-  });
-
-
-function southWestSeed2() 
-{
     var inputVal = document.getElementById("seed4").value;
     var inputTitle = document.getElementById("seed4").title;
-    document.getElementById("southWestRd32h" ).title = inputTitle;
-    document.getElementById("southWestRd32h").value= inputVal;
-    $("#southWestRd32h").val(inputVal);
+    document.getElementById("southWestRd32a" ).title = inputTitle;
+    document.getElementById("southWestRd32a").value= inputVal;
+    $("#southWestRd32a").val(inputVal);
     $("#seed4").css("background-color", "#72B01D");
-    $("#seed59").css("background-color", "silver");
+    $("#seed61").css("background-color", "silver");
 }
 
 $(document).ready(function(){
@@ -1666,23 +1358,331 @@ $(document).ready(function(){
   });
 
 
-function southWestSeed15() 
+function southWestSeed16() 
 {
-    var inputVal = document.getElementById("seed59").value;
-    var inputTitle = document.getElementById("seed59").title;
-    document.getElementById("southWestRd32h" ).title = inputTitle;
-    document.getElementById("southWestRd32h").value= inputVal;
-    $("#southWestRd32h").val(inputVal);
-    $("#seed59").css("background-color", "#72B01D");
+    var inputVal = document.getElementById("seed61").value;
+    var inputTitle = document.getElementById("seed61").title;
+    document.getElementById("southWestRd32a" ).title = inputTitle;
+    document.getElementById("southWestRd32a").value= inputVal;
+    $("#southWestRd32a").val(inputVal);
+    $("#seed61").css("background-color", "#72B01D");
     $("#seed4").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed59").mouseover(function() {
-        var inputTitle = document.getElementById("seed59").title;
+        $("#seed61").mouseover(function() {
+        var inputTitle = document.getElementById("seed61").title;
         $('#southWestPic').attr('src', inputTitle).show();
     }); 
-        $("#seed59").mouseout(function(){
+        $("#seed61").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed8() 
+{
+    var inputVal = document.getElementById("seed29").value;
+    var inputTitle = document.getElementById("seed29").title;
+    document.getElementById("southWestRd32b" ).title = inputTitle;
+    document.getElementById("southWestRd32b").value= inputVal;
+    $("#southWestRd32b").val(inputVal);
+    $("#seed29").css("background-color", "#72B01D");
+    $("#seed36").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed29").mouseover(function() {
+        var inputTitle = document.getElementById("seed29").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed29").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed9() 
+{
+    var inputVal = document.getElementById("seed36").value;
+    var inputTitle = document.getElementById("seed36").title;
+    document.getElementById("southWestRd32b" ).title = inputTitle;
+    document.getElementById("southWestRd32b").value= inputVal;
+    $("#southWestRd32b").val(inputVal);
+    $("#seed36").css("background-color", "#72B01D");
+    $("#seed29").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed36").mouseover(function() {
+        var inputTitle = document.getElementById("seed36").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed36").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed5() 
+{
+    var inputVal = document.getElementById("seed20").value;
+    var inputTitle = document.getElementById("seed20").title;
+    document.getElementById("southWestRd32c" ).title = inputTitle;
+    document.getElementById("southWestRd32c").value= inputVal;
+    $("#southWestRd32c").val(inputVal);
+    $("#seed20").css("background-color", "#72B01D");
+    $("#seed45").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed20").mouseover(function() {
+        var inputTitle = document.getElementById("seed20").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed20").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed12() 
+{
+    var inputVal = document.getElementById("seed45").value;
+    var inputTitle = document.getElementById("seed45").title;
+    document.getElementById("southWestRd32c" ).title = inputTitle;
+    document.getElementById("southWestRd32c").value= inputVal;
+    $("#southWestRd32c").val(inputVal);
+    $("#seed45").css("background-color", "#72B01D");
+    $("#seed20").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed45").mouseover(function() {
+        var inputTitle = document.getElementById("seed45").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed45").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed4() 
+{
+    var inputVal = document.getElementById("seed13").value;
+    var inputTitle = document.getElementById("seed13").title;
+    document.getElementById("southWestRd32d" ).title = inputTitle;
+    document.getElementById("southWestRd32d").value= inputVal;
+    $("#southWestRd32d").val(inputVal);
+    $("#seed13").css("background-color", "#72B01D");
+    $("#seed52").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed13").mouseover(function() {
+        var inputTitle = document.getElementById("seed13").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed13").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed13() 
+{
+    var inputVal = document.getElementById("seed52").value;
+    var inputTitle = document.getElementById("seed52").title;
+    document.getElementById("southWestRd32d" ).title = inputTitle;
+    document.getElementById("southWestRd32d").value= inputVal;
+    $("#southWestRd32d").val(inputVal);
+    $("#seed52").css("background-color", "#72B01D");
+    $("#seed13").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed52").mouseover(function() {
+        var inputTitle = document.getElementById("seed52").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed52").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed6() 
+{
+    var inputVal = document.getElementById("seed21").value;
+    var inputTitle = document.getElementById("seed21").title;
+    document.getElementById("southWestRd32e" ).title = inputTitle;
+    document.getElementById("southWestRd32e").value= inputVal;
+    $("#southWestRd32e").val(inputVal);
+    $("#seed21").css("background-color", "#72B01D");
+    $("#seed44").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed21").mouseover(function() {
+        var inputTitle = document.getElementById("seed21").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed21").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed11() 
+{
+    var inputVal = document.getElementById("seed44").value;
+    var inputTitle = document.getElementById("seed44").title;
+    document.getElementById("southWestRd32e" ).title = inputTitle;
+    document.getElementById("southWestRd32e").value= inputVal;
+    $("#southWestRd32e").val(inputVal);
+    $("#seed44").css("background-color", "#72B01D");
+    $("#seed21").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed44").mouseover(function() {
+        var inputTitle = document.getElementById("seed44").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed44").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed3() 
+{
+    var inputVal = document.getElementById("seed12").value;
+    var inputTitle = document.getElementById("seed12").title;
+    document.getElementById("southWestRd32f" ).title = inputTitle;
+    document.getElementById("southWestRd32f").value= inputVal;
+    $("#southWestRd32f").val(inputVal);
+    $("#seed12").css("background-color", "#72B01D");
+    $("#seed53").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed12").mouseover(function() {
+        var inputTitle = document.getElementById("seed12").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed12").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed14() 
+{
+    var inputVal = document.getElementById("seed53").value;
+    var inputTitle = document.getElementById("seed53").title;
+    document.getElementById("southWestRd32f" ).title = inputTitle;
+    document.getElementById("southWestRd32f").value= inputVal;
+    $("#southWestRd32f").val(inputVal);
+    $("#seed53").css("background-color", "#72B01D");
+    $("#seed12").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed53").mouseover(function() {
+        var inputTitle = document.getElementById("seed53").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed53").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed7() 
+{
+    var inputVal = document.getElementById("seed28").value;
+    var inputTitle = document.getElementById("seed28").title;
+    document.getElementById("southWestRd32g" ).title = inputTitle;
+    document.getElementById("southWestRd32g").value= inputVal;
+    $("#southWestRd32g").val(inputVal);
+    $("#seed28").css("background-color", "#72B01D");
+    $("#seed37").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed28").mouseover(function() {
+        var inputTitle = document.getElementById("seed28").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed28").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed10() 
+{
+    var inputVal = document.getElementById("seed37").value;
+    var inputTitle = document.getElementById("seed37").title;
+    document.getElementById("southWestRd32g" ).title = inputTitle;
+    document.getElementById("southWestRd32g").value= inputVal;
+    $("#southWestRd32g").val(inputVal);
+    $("#seed37").css("background-color", "#72B01D");
+    $("#seed28").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed37").mouseover(function() {
+        var inputTitle = document.getElementById("seed37").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed37").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed2() 
+{
+    var inputVal = document.getElementById("seed5").value;
+    var inputTitle = document.getElementById("seed5").title;
+    document.getElementById("southWestRd32h" ).title = inputTitle;
+    document.getElementById("southWestRd32h").value= inputVal;
+    $("#southWestRd32h").val(inputVal);
+    $("#seed5").css("background-color", "#72B01D");
+    $("#seed60").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed5").mouseover(function() {
+        var inputTitle = document.getElementById("seed5").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed5").mouseout(function(){
+        $("#southWestPic").hide();
+    }); 
+  });
+
+
+function southWestSeed15() 
+{
+    var inputVal = document.getElementById("seed60").value;
+    var inputTitle = document.getElementById("seed60").title;
+    document.getElementById("southWestRd32h" ).title = inputTitle;
+    document.getElementById("southWestRd32h").value= inputVal;
+    $("#southWestRd32h").val(inputVal);
+    $("#seed60").css("background-color", "#72B01D");
+    $("#seed5").css("background-color", "silver");
+}
+
+$(document).ready(function(){
+        $("#seed60").mouseover(function() {
+        var inputTitle = document.getElementById("seed60").title;
+        $('#southWestPic').attr('src', inputTitle).show();
+    }); 
+        $("#seed60").mouseout(function(){
         $("#southWestPic").hide();
     }); 
   });
@@ -1981,21 +1981,21 @@ function southWestRd8b()
 // first round southeast matchup
 function southEastSeed1() 
 {
-    var inputVal = document.getElementById("seed2").value;
-    var inputTitle = document.getElementById("seed2").title;
+    var inputVal = document.getElementById("seed3").value;
+    var inputTitle = document.getElementById("seed3").title;
     document.getElementById("southEastRd32a" ).title = inputTitle;
     document.getElementById("southEastRd32a").value= inputVal;
     $("#southEastRd32a").val(inputVal);
-    $("#seed2").css("background-color", "#72B01D");
-    $("#seed61").css("background-color", "silver");
+    $("#seed3").css("background-color", "#72B01D");
+    $("#seed62").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed2").mouseover(function() {
-        var inputTitle = document.getElementById("seed2").title;
+        $("#seed3").mouseover(function() {
+        var inputTitle = document.getElementById("seed3").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed2").mouseout(function(){
+        $("#seed3").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2003,21 +2003,21 @@ $(document).ready(function(){
 
 function southEastSeed16() 
 {
-    var inputVal = document.getElementById("seed61").value;
-    var inputTitle = document.getElementById("seed61").title;
+    var inputVal = document.getElementById("seed62").value;
+    var inputTitle = document.getElementById("seed62").title;
     document.getElementById("southEastRd32a" ).title = inputTitle;
     document.getElementById("southEastRd32a").value= inputVal;
     $("#southEastRd32a").val(inputVal);
-    $("#seed61").css("background-color", "#72B01D");
-    $("#seed2").css("background-color", "silver");
+    $("#seed62").css("background-color", "#72B01D");
+    $("#seed3").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed61").mouseover(function() {
-        var inputTitle = document.getElementById("seed61").title;
+        $("#seed62").mouseover(function() {
+        var inputTitle = document.getElementById("seed62").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed61").mouseout(function(){
+        $("#seed62").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2025,21 +2025,21 @@ $(document).ready(function(){
 
 function southEastSeed8() 
 {
-    var inputVal = document.getElementById("seed29").value;
-    var inputTitle = document.getElementById("seed29").title;
+    var inputVal = document.getElementById("seed30").value;
+    var inputTitle = document.getElementById("seed30").title;
     document.getElementById("southEastRd32b" ).title = inputTitle;
     document.getElementById("southEastRd32b").value= inputVal;
     $("#southEastRd32b").val(inputVal);
-    $("#seed29").css("background-color", "#72B01D");
-    $("#seed34").css("background-color", "silver");
+    $("#seed30").css("background-color", "#72B01D");
+    $("#seed35").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed29").mouseover(function() {
-        var inputTitle = document.getElementById("seed29").title;
+        $("#seed30").mouseover(function() {
+        var inputTitle = document.getElementById("seed30").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed29").mouseout(function(){
+        $("#seed30").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2047,21 +2047,21 @@ $(document).ready(function(){
 
 function southEastSeed9() 
 {
-    var inputVal = document.getElementById("seed34").value;
-    var inputTitle = document.getElementById("seed34").title;
+    var inputVal = document.getElementById("seed35").value;
+    var inputTitle = document.getElementById("seed35").title;
     document.getElementById("southEastRd32b" ).title = inputTitle;
     document.getElementById("southEastRd32b").value= inputVal;
     $("#southEastRd32b").val(inputVal);
-    $("#seed34").css("background-color", "#72B01D");
-    $("#seed29").css("background-color", "silver");
+    $("#seed35").css("background-color", "#72B01D");
+    $("#seed30").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed34").mouseover(function() {
-        var inputTitle = document.getElementById("seed34").title;
+        $("#seed35").mouseover(function() {
+        var inputTitle = document.getElementById("seed35").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed34").mouseout(function(){
+        $("#seed35").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2069,21 +2069,21 @@ $(document).ready(function(){
 
 function southEastSeed5() 
 {
-    var inputVal = document.getElementById("seed18").value;
-    var inputTitle = document.getElementById("seed18").title;
+    var inputVal = document.getElementById("seed19").value;
+    var inputTitle = document.getElementById("seed19").title;
     document.getElementById("southEastRd32c" ).title = inputTitle;
     document.getElementById("southEastRd32c").value= inputVal;
     $("#southEastRd32c").val(inputVal);
-    $("#seed18").css("background-color", "#72B01D");
-    $("#seed45").css("background-color", "silver");
+    $("#seed19").css("background-color", "#72B01D");
+    $("#seed46").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed18").mouseover(function() {
-        var inputTitle = document.getElementById("seed18").title;
+        $("#seed19").mouseover(function() {
+        var inputTitle = document.getElementById("seed19").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed18").mouseout(function(){
+        $("#seed19").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2091,21 +2091,21 @@ $(document).ready(function(){
 
 function southEastSeed12() 
 {
-    var inputVal = document.getElementById("seed45").value;
-    var inputTitle = document.getElementById("seed45").title;
+    var inputVal = document.getElementById("seed46").value;
+    var inputTitle = document.getElementById("seed46").title;
     document.getElementById("southEastRd32c" ).title = inputTitle;
     document.getElementById("southEastRd32c").value= inputVal;
     $("#southEastRd32c").val(inputVal);
-    $("#seed45").css("background-color", "#72B01D");
-    $("#seed18").css("background-color", "silver");
+    $("#seed46").css("background-color", "#72B01D");
+    $("#seed19").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed45").mouseover(function() {
-        var inputTitle = document.getElementById("seed45").title;
+        $("#seed46").mouseover(function() {
+        var inputTitle = document.getElementById("seed46").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed45").mouseout(function(){
+        $("#seed46").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2113,21 +2113,21 @@ $(document).ready(function(){
 
 function southEastSeed4() 
 {
-    var inputVal = document.getElementById("seed13").value;
-    var inputTitle = document.getElementById("seed13").title;
+    var inputVal = document.getElementById("seed14").value;
+    var inputTitle = document.getElementById("seed14").title;
     document.getElementById("southEastRd32d" ).title = inputTitle;
     document.getElementById("southEastRd32d").value= inputVal;
     $("#southEastRd32d").val(inputVal);
-    $("#seed13").css("background-color", "#72B01D");
-    $("#seed50").css("background-color", "silver");
+    $("#seed14").css("background-color", "#72B01D");
+    $("#seed51").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed13").mouseover(function() {
-        var inputTitle = document.getElementById("seed13").title;
+        $("#seed14").mouseover(function() {
+        var inputTitle = document.getElementById("seed14").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed13").mouseout(function(){
+        $("#seed14").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2135,21 +2135,21 @@ $(document).ready(function(){
 
 function southEastSeed13() 
 {
-    var inputVal = document.getElementById("seed50").value;
-    var inputTitle = document.getElementById("seed50").title;
+    var inputVal = document.getElementById("seed51").value;
+    var inputTitle = document.getElementById("seed51").title;
     document.getElementById("southEastRd32d" ).title = inputTitle;
     document.getElementById("southEastRd32d").value= inputVal;
     $("#southEastRd32d").val(inputVal);
-    $("#seed50").css("background-color", "#72B01D");
-    $("#seed13").css("background-color", "silver");
+    $("#seed51").css("background-color", "#72B01D");
+    $("#seed14").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed50").mouseover(function() {
-        var inputTitle = document.getElementById("seed50").title;
+        $("#seed51").mouseover(function() {
+        var inputTitle = document.getElementById("seed51").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed50").mouseout(function(){
+        $("#seed51").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2157,21 +2157,21 @@ $(document).ready(function(){
 
 function southEastSeed6() 
 {
-    var inputVal = document.getElementById("seed21").value;
-    var inputTitle = document.getElementById("seed21").title;
+    var inputVal = document.getElementById("seed22").value;
+    var inputTitle = document.getElementById("seed22").title;
     document.getElementById("southEastRd32e" ).title = inputTitle;
     document.getElementById("southEastRd32e").value= inputVal;
     $("#southEastRd32e").val(inputVal);
-    $("#seed21").css("background-color", "#72B01D");
-    $("#seed42").css("background-color", "silver");
+    $("#seed22").css("background-color", "#72B01D");
+    $("#seed43").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed21").mouseover(function() {
-        var inputTitle = document.getElementById("seed21").title;
+        $("#seed22").mouseover(function() {
+        var inputTitle = document.getElementById("seed22").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed21").mouseout(function(){
+        $("#seed22").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2179,21 +2179,21 @@ $(document).ready(function(){
 
 function southEastSeed11() 
 {
-    var inputVal = document.getElementById("seed42").value;
-    var inputTitle = document.getElementById("seed42").title;
+    var inputVal = document.getElementById("seed43").value;
+    var inputTitle = document.getElementById("seed43").title;
     document.getElementById("southEastRd32e" ).title = inputTitle;
     document.getElementById("southEastRd32e").value= inputVal;
     $("#southEastRd32e").val(inputVal);
-    $("#seed42").css("background-color", "#72B01D");
-    $("#seed21").css("background-color", "silver");
+    $("#seed43").css("background-color", "#72B01D");
+    $("#seed22").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed42").mouseover(function() {
-        var inputTitle = document.getElementById("seed42").title;
+        $("#seed43").mouseover(function() {
+        var inputTitle = document.getElementById("seed43").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed42").mouseout(function(){
+        $("#seed43").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2201,21 +2201,21 @@ $(document).ready(function(){
 
 function southEastSeed3() 
 {
-    var inputVal = document.getElementById("seed10").value;
-    var inputTitle = document.getElementById("seed10").title;
+    var inputVal = document.getElementById("seed11").value;
+    var inputTitle = document.getElementById("seed11").title;
     document.getElementById("southEastRd32f" ).title = inputTitle;
     document.getElementById("southEastRd32f").value= inputVal;
     $("#southEastRd32f").val(inputVal);
-    $("#seed10").css("background-color", "#72B01D");
-    $("#seed53").css("background-color", "silver");
+    $("#seed11").css("background-color", "#72B01D");
+    $("#seed54").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed10").mouseover(function() {
-        var inputTitle = document.getElementById("seed10").title;
+        $("#seed11").mouseover(function() {
+        var inputTitle = document.getElementById("seed11").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed10").mouseout(function(){
+        $("#seed11").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2223,21 +2223,21 @@ $(document).ready(function(){
 
 function southEastSeed14() 
 {
-    var inputVal = document.getElementById("seed53").value;
-    var inputTitle = document.getElementById("seed53").title;
+    var inputVal = document.getElementById("seed54").value;
+    var inputTitle = document.getElementById("seed54").title;
     document.getElementById("southEastRd32f" ).title = inputTitle;
     document.getElementById("southEastRd32f").value= inputVal;
     $("#southEastRd32f").val(inputVal);
-    $("#seed53").css("background-color", "#72B01D");
-    $("#seed10").css("background-color", "silver");
+    $("#seed54").css("background-color", "#72B01D");
+    $("#seed11").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed53").mouseover(function() {
-        var inputTitle = document.getElementById("seed53").title;
+        $("#seed54").mouseover(function() {
+        var inputTitle = document.getElementById("seed54").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed53").mouseout(function(){
+        $("#seed54").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2245,21 +2245,21 @@ $(document).ready(function(){
 
 function southEastSeed7() 
 {
-    var inputVal = document.getElementById("seed26").value;
-    var inputTitle = document.getElementById("seed26").title;
+    var inputVal = document.getElementById("seed27").value;
+    var inputTitle = document.getElementById("seed27").title;
     document.getElementById("southEastRd32g" ).title = inputTitle;
     document.getElementById("southEastRd32g").value= inputVal;
     $("#southEastRd32g").val(inputVal);
-    $("#seed26").css("background-color", "#72B01D");
-    $("#seed37").css("background-color", "silver");
+    $("#seed27").css("background-color", "#72B01D");
+    $("#seed38").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed26").mouseover(function() {
-        var inputTitle = document.getElementById("seed26").title;
+        $("#seed27").mouseover(function() {
+        var inputTitle = document.getElementById("seed27").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed26").mouseout(function(){
+        $("#seed27").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2267,21 +2267,21 @@ $(document).ready(function(){
 
 function southEastSeed10() 
 {
-    var inputVal = document.getElementById("seed37").value;
-    var inputTitle = document.getElementById("seed37").title;
+    var inputVal = document.getElementById("seed38").value;
+    var inputTitle = document.getElementById("seed38").title;
     document.getElementById("southEastRd32g" ).title = inputTitle;
     document.getElementById("southEastRd32g").value= inputVal;
     $("#southEastRd32g").val(inputVal);
-    $("#seed37").css("background-color", "#72B01D");
-    $("#seed26").css("background-color", "silver");
+    $("#seed38").css("background-color", "#72B01D");
+    $("#seed27").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed37").mouseover(function() {
-        var inputTitle = document.getElementById("seed37").title;
+        $("#seed38").mouseover(function() {
+        var inputTitle = document.getElementById("seed38").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed37").mouseout(function(){
+        $("#seed38").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2289,21 +2289,21 @@ $(document).ready(function(){
 
 function southEastSeed2() 
 {
-    var inputVal = document.getElementById("seed5").value;
-    var inputTitle = document.getElementById("seed5").title;
+    var inputVal = document.getElementById("seed6").value;
+    var inputTitle = document.getElementById("seed6").title;
     document.getElementById("southEastRd32h" ).title = inputTitle;
     document.getElementById("southEastRd32h").value= inputVal;
     $("#southEastRd32h").val(inputVal);
-    $("#seed5").css("background-color", "#72B01D");
-    $("#seed58").css("background-color", "silver");
+    $("#seed6").css("background-color", "#72B01D");
+    $("#seed59").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed5").mouseover(function() {
-        var inputTitle = document.getElementById("seed5").title;
+        $("#seed6").mouseover(function() {
+        var inputTitle = document.getElementById("seed6").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed5").mouseout(function(){
+        $("#seed6").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
@@ -2311,21 +2311,21 @@ $(document).ready(function(){
 
 function southEastSeed15() 
 {
-    var inputVal = document.getElementById("seed58").value;
-    var inputTitle = document.getElementById("seed58").title;
+    var inputVal = document.getElementById("seed59").value;
+    var inputTitle = document.getElementById("seed59").title;
     document.getElementById("southEastRd32h" ).title = inputTitle;
     document.getElementById("southEastRd32h").value= inputVal;
     $("#southEastRd32h").val(inputVal);
-    $("#seed58").css("background-color", "#72B01D");
-    $("#seed5").css("background-color", "silver");
+    $("#seed59").css("background-color", "#72B01D");
+    $("#seed6").css("background-color", "silver");
 }
 
 $(document).ready(function(){
-        $("#seed58").mouseover(function() {
-        var inputTitle = document.getElementById("seed58").title;
+        $("#seed59").mouseover(function() {
+        var inputTitle = document.getElementById("seed59").title;
         $('#southEastPic').attr('src', inputTitle).show();
     }); 
-        $("#seed58").mouseout(function(){
+        $("#seed59").mouseout(function(){
         $("#southEastPic").hide();
     }); 
   });
