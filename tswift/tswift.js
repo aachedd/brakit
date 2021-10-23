@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 /*---start logic to grab data from google sheet---*/
 
-$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/1YxRFsYqGt9OPMxXi5x2vECE3D9kQyF82wQIBW2jAZJc/values/Main?alt=json&key=AIzaSyBsA6aH4dLLJgdtrUjFg3UqrHJRvD7Kq3k", function (data) {
+$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/SHEET/values/Main?alt=json&key=ABC", function (data) {
   var i;
   for (i = 1; i < 65; i++) {
     var seed = data.values[i]['28'];
