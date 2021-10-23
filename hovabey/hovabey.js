@@ -36,14 +36,11 @@ $(document).ready(function(){
 });
 /*---end of popup function---*/
 
-/*---start logic to grab data from google sheet---
-https://docs.google.com/spreadsheets/d/e/2PACX-1vTuTj_d0x6Te-sgSIxCaFQ31DO56gcqft-8MXbe855H8xGjqbFa4jNpPT0DqtsfDYdmd-_DC7EB6J5J/pubhtml
-https://sheets.googleapis.com/v4/spreadsheets/1YxRFsYqGt9OPMxXi5x2vECE3D9kQyF82wQIBW2jAZJc/values/Main?key=AIzaSyBsA6aH4dLLJgdtrUjFg3UqrHJRvD7Kq3k
-https://sheets.googleapis.com/v4/spreadsheets/1YxRFsYqGt9OPMxXi5x2vECE3D9kQyF82wQIBW2jAZJc/values/Main?alt=json&key=AIzaSyBsA6aH4dLLJgdtrUjFg3UqrHJRvD7Kq3k;
+/*---start logic to grab data from google sheet---*/
+var gak = config.gak;
+var gsid = config.gsid;
 
-*/
-
-$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/SHEET/values/Main?alt=json&key=ABC", function (data) {
+$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/" + gsid + "/values/Main?alt=json&key=" + gak, function (data) {
   var i;
   for (i = 1; i < 65; i++) {
     var seed = data.values[i]['32'];

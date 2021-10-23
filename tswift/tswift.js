@@ -37,7 +37,6 @@ $(document).ready(function(){
 /*---end of popup function---*/
 
 /*---start logic to grab data from google sheet---*/
-
 var gak = config.gak;
 var gsid = config.gsid;
 

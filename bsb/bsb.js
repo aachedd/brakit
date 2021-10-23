@@ -38,8 +38,10 @@ $(document).ready(function(){
 
 
 /*---start logic to grab data from google sheet---*/
+var gak = config.gak;
+var gsid = config.gsid;
 
-$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/SHEET/values/Main?alt=json&key=ABC", function (data) {
+$.getJSON("https://sheets.googleapis.com/v4/spreadsheets/" + gsid + "/values/Main?alt=json&key=" + gak, function (data) {
   var i;
   for (i = 1; i < 65; i++) {
     var seed = data.values[i]['5'];
