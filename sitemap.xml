@@ -27,97 +27,114 @@
     <loc>http://brakit.games/cereals/cereals.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
   <url>
     <loc>http://brakit.games/chainrestaurants/chainrestaurants.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/snackfoods/snackfoods.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
   <url>
     <loc>http://brakit.games/sweetcandy/sweetcandy.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/bsb/bsb.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/bsbvnsync/bsbvnsync.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
    <url>
     <loc>http://brakit.games/jayz/jayz.html</loc>
     <lastmod>2021-01-21</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
   <url>
     <loc>http://brakit.games/hovabey/hovabey.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/legend/legend.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/maroon5/maroon5.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/nsync/nsync.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/onehit/onehit.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
   <url>
     <loc>http://brakit.games/r&amp;b/r&amp;b.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/tswift/tswift.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/sitcoms/sitcoms.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
  <url>
     <loc>http://brakit.games/cartoons/cartoons.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.95</priority>
  </url>
-
+ <url>
+    <loc>https://brakit.games/office_episodes/office_episodes.html</loc>
+    <lastmod>2021-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+ </url>
+ <url>
+    <loc>https://brakit.games/xmas_songs/xmas_songs.html</loc>
+    <lastmod>2021-12-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+ </url>
+  <url>
+    <loc>https://brakit.games/the_beatles/the_beatles.html</loc>
+    <lastmod>2022-04-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+ </url>
 </urlset>
