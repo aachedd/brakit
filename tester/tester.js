@@ -1,6 +1,5 @@
 /*---Hiding the two popups until the page loads---*/
 $(".modal").hide();
-$('.popup').hide();
 
 /*---start of modal and popup function---*/
 $(document).ready(function(){
@@ -11,28 +10,11 @@ $(document).ready(function(){
         $(".modal").show();
 
         $(".confirm").click(function(){
-            $(".popup").show();
             $(".modal").hide();
             event.preventDefault();
             $("#defaultOpen").trigger('click');
-        });
-
-        $(".close").click(function(){
-            var user = $("#userPopup").val();
-
-            if($.trim($("#userPopup").val()) == '') {
-                alert("Please enter your name in the box below");
-                event.preventDefault();
-            }
-            else {
-                /*Update this line with name of brakit*/
-                $.trim($("#username").text(user + "'s New Girl Bracket"));
-                $("#username").css("font-weight","Bold");
-                $("#userDivusername").val(user);
-                $('.popup').hide();
-                overlay.appendTo(document.body).remove();
-                return false;
-            }
+            overlay.appendTo(document.body).remove();
+            return false;
         });
     });
 });
