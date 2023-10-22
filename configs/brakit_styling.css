@@ -94,11 +94,7 @@ h2 {
 /*--spotify iframe styling---*/
 
 .spotify {
-  position: fixed;
   overflow: hidden;
-  left: 75%;
-  top: 15%;
-  bottom: 45%;
 }
 
 
