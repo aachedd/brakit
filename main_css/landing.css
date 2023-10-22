@@ -163,3 +163,17 @@ header.masthead .masthead-content .masthead-subheading {
   color: #666;
   padding: 5px 0;
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
