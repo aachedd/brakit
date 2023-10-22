@@ -16,7 +16,6 @@ html {
   scroll-behavior: smooth;
  }
 
-
 body {
   font-family: Lato;
   background-color: #706C61;
@@ -34,7 +33,6 @@ h6 {
 
 .btn-xl {
   text-transform: uppercase;
-  padding: 1.5rem 3rem;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
@@ -45,7 +43,7 @@ h6 {
 }
 
 .navbar {
-  background: #2A2B2A;
+  background: #f0ede4;
 }
 
 .navbar-toggler-icon {
@@ -58,39 +56,8 @@ h6 {
   cursor: pointer;
 }
 
-.nav-link {
-  margin-right: 1em !important;
-}
-
 .nav-link:hover {
   color: #00B2CA;
-}
-
-.navbar-collapse.collapse {
-  display: block!important;
-}
-
-.navbar-nav>li, .navbar-nav {
-  float: left !important;
-}
-
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
-}
-
-.navbar-right {
-  float: right!important;
-}
-.dropdown-menu {
-  color: #F8F4E3;
-  background-color: #F8F4E3;
-  border-color: #F8F4E3;
-}
-
-.dropdown-menu a:hover {
-  color: #F8F4E3;
-  background-color: #00B2CA;
-  border-color: #72B01D;
 }
 
 .landing {

@@ -33,7 +33,6 @@ h6 {
 
 .btn-xl {
 	text-transform: uppercase;
-	padding: 1.5rem 3rem;
 	font-size: .9rem;
 	font-weight: 700;
 	letter-spacing: .1rem
@@ -58,38 +57,10 @@ h6 {
 	cursor: pointer;
 }
 
-.nav-link {
-	margin-right: 1em !important;
-}
-
 .nav-link:hover {
 	color: #00B2CA;
 }
 
-.navbar-collapse.collapse {
-  display: block!important;
-}
-
-
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
-}
-
-.navbar-right {
-  float: right!important;
-}
-
-.dropdown-menu {
-  color: #F8F4E3;
-  background-color: #F8F4E3;
-  border-color: #F8F4E3;
-}
-
-.dropdown-menu a:hover {
-  color: #F8F4E3;
-  background-color: #00B2CA;
-  border-color: #72B01D;
-}
 
 .landing {
   position: absolute;
