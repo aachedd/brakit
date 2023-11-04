@@ -44,6 +44,7 @@ h6 {
 
 .navbar {
   background: #f0ede4;
+  font-size: x-large;
 }
 
 .navbar-toggler-icon {
@@ -58,6 +59,14 @@ h6 {
 
 .nav-link:hover {
   color: #00B2CA;
+}
+
+.dropdown-item:hover {
+  color: #72B01D;
+}
+
+.dropdown-menu {
+  background: #00B2CA;
 }
 
 .landing {

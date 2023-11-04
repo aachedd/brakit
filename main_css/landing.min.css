@@ -44,7 +44,8 @@ h6 {
 }
 
 .navbar {
-	background: #f0ede4;
+	background: #f0ede4; 
+	font-size: x-large;
 }
 
 .navbar-toggler-icon {
@@ -61,6 +62,13 @@ h6 {
 	color: #00B2CA;
 }
 
+.dropdown-item:hover {
+	color: #72B01D;
+}
+
+.dropdown-menu {
+	background: #00B2CA;
+}
 
 .landing {
   position: absolute;
