@@ -14,22 +14,22 @@
      gtag('config', 'UA-173626034-1');
    </script>
 
-   <title>Brakit: Sweet Candy</title>
+   <title>Brakit: Cereals</title>
 
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="Best Sweet Candy Bracket">
-   <meta name="keywords" content="Candy, Sweets, Snacks, Food, Junk Food">
+   <meta name="description" content="Best Breakfast Cereals Bracket">
+   <meta name="keywords" content="Cereals, Breakfast, Food">
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-   <script src="..\config.js"></script>
-   <link rel="stylesheet" type="text/css" href="..\configs\brakit_styling.css">
-   <script src="sweetcandy.js"></script>
-   <script src="..\configs\table_functions.js"></script>
-   <script src="..\configs\tab_functions.js"></script>
-   <link rel="icon" type="image/x-icon" href="..\logo\b_flav.png">
+   <script src="..\..\..\config.js"></script>
+   <link rel="stylesheet" type="text/css" href="..\..\..\configs\brakit_styling.css">
+   <script src="cereals.js"></script>
+   <script src="..\..\..\configs\table_functions.js"></script>
+   <script src="..\..\..\configs\tab_functions.js"></script>
+   <link rel="icon" type="image/x-icon" href="..\..\..\logo\b_flav.png">
 
 </head>
 <!--End of links and references-->
@@ -37,9 +37,9 @@
 <!--Start of the code for the top navbar-->
 <header>
    <nav class="navbar">
-      <a href="..\index.html"> <img src = "..\logo\brakit_greenblue.png" width="200" height="40" ></a>
-      <strong><h2>Best Sweet Candy Bracket</strong></h2>
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+      <a href="..\..\..\index.html"> <img src = "..\..\..\logo\brakit_greenblue.png" width="200" height="40" ></a>
+      <h2><strong>Best Cereals Bracket</strong></h2>
+      <a class="nav-link" href="..\..\..\index.html"><strong>Home</strong></a>
    </nav>
 </header>
 <!--End of the code for the top navbar-->
@@ -48,19 +48,19 @@
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-      <h2 class="text-center"><strong>Do you want candy? No really, do you?</strong></h2>
-      <h3 class="text-center">Well we can't give you any (sorry!) but we do have a bracket of the best sweet and sugary candy. As a disclaimer, this bracket does not include chocolates. It has the sugary, gummy, chewy goodnesses we call Sweet Candy. The regions are: </h3>
+      <h2 class="text-center"><strong>Do you find yourself eating cereal at all times of the day? Is Tony the Tiger your BFF?</strong></h2>
+      <h3 class="text-center">If so, we have the bracket for you! This bracket lists the top sixty-four cereals, compiled by our "expert" panel of cereal eating <i>Homo sapiens</i>. Whether you pour the milk before or after (or not at all), we've got you covered. We've broken it up into four regions: </h3>
       <h3 class="text-left" >
          <ol>
-            <li><strong>Chewy Candy Region:</strong> <i>Sour Patch Kids, Skittles, Sweedish Fish, Starbursts and more!</i></li>
-            <li><strong>Gummy Candy Region:</strong> <i>Gummi Bears, Sour Gummy Worms, Juicy Fruit, Dots and more!</i></li>
-            <li><strong>Candy Jar Region:</strong> <i>Airheads, Twizzlers, Ring Pop, Laffy Taffy and more!</i></li>
-            <li><strong>Hard Candy Region:</strong> <i>Warheads, Nerds, Jolly Ranchers, Lifesavers and more!</i></li>
-         </ol>  
+            <li><strong>Diabeetus Region:</strong> <i>Cereals that are 90% sugar and 10% actual food</i></li>
+            <li><strong>Yellow-ish Region:</strong> <i>Cereals that have nothing else in common other than their yellow-ish hue</i></li>
+            <li><strong>Hate Yourself Region:</strong> <i>Cereals that are sooo healthy, you constantly ask yourself "why am I eating this?"</i></li>
+            <li><strong>Frooty Fucks Region:</strong> <i>Cereals that have a fruit component, real or fake (looking at you, Toucan Sam)</i></li>
+         </ol>   
       </h3>
-      <h3 class="text-center">Ready to get started with the Best Sweet Candy Bracket?? </h3>
+      <h3 class="text-center">Ready to get started with the Best Cereal Bracket?? </h3>
       <a href='' class='confirm'>YES, LET'S GO!</a>
-      <a href='..\index.html' class='goback'>NAH, let me see other Brakits</a>
+      <a href='..\..\..\index.html' class='goback'>NAH, let me see other Brakits</a>
   </div>
 </div>
 <!-- End of the code creating the modal window-->
@@ -68,17 +68,14 @@
 <body>
 
 <div class="container mt-5">
-
-
 <!--Tab headers-->
    <div class="tab">
-     <button class="tablinks" onclick="openRegion(event, 'Region1')" id="defaultOpen">Chewy Candy Region</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region2')">Gummy Candy Region</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region3')">Candy Jar Region</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region4')">Hard Candy Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region1')" id="defaultOpen">Diabeetus Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region2')">Yellow-ish Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region3')">Frooty Fucks Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region4')">Hate Yourself Region</button>
      <button class="tablinks" onclick="openRegion(event, 'RegionFinal')">Final</button>
    </div>
-
 
 <!--Start of the code for the table in the northwest region-->
 <div id="Region1" class="tabcontent">
