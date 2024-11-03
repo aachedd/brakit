@@ -14,22 +14,22 @@
      gtag('config', 'UA-173626034-1');
    </script>
 
-   <title>Brakit: R&B Legends</title>
+   <title>Brakit: Backstreet Boys Songs</title>
 
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="Greatest R&B Artist 90s and After Bracket">
-   <meta name="keywords" content="Songs, Music, Hip Hop, R&B">
+   <meta name="description" content="Backstreet Boys Greatest Songs Bracket">
+   <meta name="keywords" content="Backstreet Boys, BSB, Songs, Music, Boy Bands">
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-   <script src="..\config.js"></script>
-   <link rel="stylesheet" type="text/css" href="..\configs\brakit_styling.css">
-   <script src="r&b.js"></script>
-   <script src="..\configs\table_functions.js"></script>
-   <script src="..\configs\tab_functions.js"></script>
-   <link rel="icon" type="image/x-icon" href="..\logo\b_flav.png">
+   <script src="..\..\..\config.js"></script>
+   <link rel="stylesheet" type="text/css" href="..\..\..\configs\brakit_styling.css">
+   <script src="bsb.js"></script>
+   <script src="..\..\..\configs\table_functions.js"></script>
+   <script src="..\..\..\configs\tab_functions.js"></script>
+   <link rel="icon" type="image/x-icon" href="..\..\..\logo\b_flav.png">
 
 </head>
 <!--End of links and references-->
@@ -37,9 +37,9 @@
 <!--Start of the code for the top navbar-->
 <header>
    <nav class="navbar">
-      <a href="..\index.html"> <img src = "..\logo\brakit_greenblue.png" width="200" height="40" ></a>
-      <strong><h2>Best R&B Artists Bracket</strong></h2>
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+      <a href="..\..\..\index.html"> <img src = "..\..\..\logo\brakit_greenblue.png" width="200" height="40" ></a>
+      <strong><h2> Backstreet Boys Greatest Hits Bracket</strong></h2>
+      <a class="nav-link" href="..\..\..\index.html"><strong>Home</strong></a>
    </nav>
 </header>
 <!--End of the code for the top navbar-->
@@ -48,19 +48,11 @@
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-      <h2 class="text-center"><strong>Do you belt "We Belong Together" in the shower? Does date night always lead to some Ginuwine on Spotify?</strong></h2>
-      <h3 class="text-center">If so, we have the bracket for you! This bracket lists the top sixty-four R&B artists of the 90s and beyond. Whether you're a fan of the earlier power ballads or into the more bumpin' R&B, we've got you covered! We've broken up these sixty-four R&B artists into four regions, included a hover photo of their most popular album, and created a Spotify playlist with their most popular song (scroll down on the playlist for a bonus song for each artist!). The regions are: </h3>
-      <h3 class="text-left" >
-         <ol>
-            <li><strong>1980/1990s Women Region:</strong> <i>Whitney Houston, Mariah Carey, Janet Jackson, Mary J. Blige and more!</i></li>
-            <li><strong>2000/2010s Women Region:</strong> <i>Beyonce, Rihanna, Alicia Keys, India.Arie and more!</i></li>
-            <li><strong>1980/1990s Men Region:</strong> <i> Usher, Boyz II Men, Brian McKnight, New Edition and more!</i></li>
-            <li><strong>2000/2010s Men Region:</strong> <i>John Legend, Chris Brown, The Weeknd, Khalid and more!</i></li>
-         </ol>  
-      </h3>
-      <h3 class="text-center">Ready to get started with the Greatest R&B Artist Bracket?? </h3>
+      <h2 class="text-center"><strong>Fun Fact: Did you know that the Backstreet Boys is the greatest boy band of all time (according to only 1/4 of our team)?</strong></h2>
+      <h3 class="text-center">If you agree, we have the perfect bracket for you! Our fanboy and fangirl staff compiled a list of the top sixty-four songs from the immortal boy band, the Backstreet Boys. So whether you're a fan of Brian, AJ, Howie, Kevin or Nick, we've got you covered. We've broken it up into four regions: </h3>
+      <h3 class="text-center">Ready to get started with the Backstreet Boys Greatest Songs Bracket?? </h3>
       <a href='' class='confirm'>YES, LET'S GO!</a>
-      <a href='..\index.html' class='goback'>NAH, let me see other Brakits</a>
+      <a href='..\..\..\index.html' class='goback'>NAH, let me see other Brakits</a>
   </div>
 </div>
 <!-- End of the code creating the modal window-->
@@ -71,15 +63,15 @@
 
 <!--This DIV is for the spotify iframe-->
    <div class = "spotify" id = "spotify">
-      <iframe src="https://open.spotify.com/embed/playlist/2W65bU1Nmm3LNSWJmy6tgF" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/4BECSrqofzr7EV9qNcUZjN" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
    </div>
 
 <!--Tab headers-->
    <div class="tab">
-     <button class="tablinks" onclick="openRegion(event, 'Region1')" id="defaultOpen">80/90s Women Region</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region4')">00/10s Women Region</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region2')">80/90s Men Region</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region3')">00/10s Men Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region1')" id="defaultOpen">Region 1</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region2')">Region 2</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region3')">Region 3</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region4')">Region 4</button>
      <button class="tablinks" onclick="openRegion(event, 'RegionFinal')">Final</button>
    </div>
 
