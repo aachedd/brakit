@@ -4,7 +4,7 @@
 <!--Start of links and references-->
 <head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173626034-1"></script>
    <script>
      window.dataLayer = window.dataLayer || [];
@@ -14,22 +14,22 @@
      gtag('config', 'UA-173626034-1');
    </script>
 
-   <title>Brakit: New Girl Episodes</title>
+   <title>Brakit: Sitcoms</title>
 
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="New Girl Best Episodes">
-   <meta name="keywords" content="New Girl, Jess, Schmidt, Winston, Cece, Coach, Fox">
+   <meta name="description" content="Best TV Sitcoms Bracket">
+   <meta name="keywords" content="Sitcoms, TV, 1990S, Comedy">
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-   <script src="..\config.js"></script>
-   <link rel="stylesheet" type="text/css" href="..\configs\brakit_styling.css">
-   <script src="new_girl.js"></script>
-   <script src="..\configs\table_functions.js"></script>
-   <script src="..\configs\tab_functions.js"></script>
-   <link rel="icon" type="image/x-icon" href="..\logo\b_flav.png">
+   <script src="..\..\..\config.js"></script>
+   <link rel="stylesheet" type="text/css" href="..\..\..\configs\brakit_styling.css">
+   <script src="sitcoms.js"></script>
+   <script src="..\..\..\configs\table_functions.js"></script>
+   <script src="..\..\..\configs\tab_functions.js"></script>
+   <link rel="icon" type="image/x-icon" href="..\..\..\logo\b_flav.png">
 
 </head>
 <!--End of links and references-->
@@ -37,9 +37,9 @@
 <!--Start of the code for the top navbar-->
 <header>
    <nav class="navbar">
-      <a href="..\index.html"> <img src = "..\logo\brakit_greenblue.png" width="200" height="40" ></a>
-      <strong><h2> Best New Girl Episodes Bracket</strong></h2>
-      <a class="nav-link" href="..\index.html"><strong>Home</strong></a>
+      <a href="..\..\..\index.html"> <img src = "..\..\..\logo\brakit_greenblue.png" width="200" height="40" ></a>
+      <strong><h2>Greatest Sitcoms Bracket</strong></h2>
+      <a class="nav-link" href="..\..\..\index.html"><strong>Home</strong></a>
    </nav>
 </header>
 <!--End of the code for the top navbar-->
@@ -48,12 +48,19 @@
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-      <h2 class="text-center"><strong>Best New Girl Episodes</strong></h2>
-      <h3 class="text-center"> <i>Who's that girl? Who's that girl? It's Jess!</i> Are your best friends Nick, Schmidt, Cece, Winston, and Coach? Are you currently listening to Cotton-Eyed Joe? We grabbed the top 64 rated episodes, according to IMDB, and added in the episode description. So get your race talks snacks, grab a bowl of Nick's famous sauce and get ready for another Winston and Cece mess aroun.... I mean take this bracket!</h3>
-      <br>
-      <h3 class="text-center">Ready to get started with the Best New Girl Episodes Bracket?? </h3>
+      <h2 class="text-center"><strong>Are you closer with Stephanie Tanner, Chandler Bing, Michael Scott, and Gloria Pritchett than you are to your "actual" friends?  </strong></h2>
+      <h3 class="text-center">If so, we have the bracket for you! We've got a team of Netflix-binging, couch-dwelling, comedy-loving experts that compiled this list of the top sixty-four sitcoms from the last four decades. Let's all agree, re-runs are better than watching new shows anyway. We've broken it up into four regions, chronologically: </h3>
+      <h3 class="text-left" >
+         <ol>
+            <li><strong>Pre-1990s Region:</strong> <i>How Rude!</i></li>
+            <li><strong>1990s Region:</strong> <i>PIVOT... PIVOT!</i></li>
+            <li><strong>2000s Region:</strong> <i>Dunder Mifflin, this is Brakit</i></li>
+            <li><strong>2010s Region:</strong> <i>Imagine me naked!</i></li>
+         </ol>   
+      </h3>
+      <h3 class="text-center">Ready to get started with the Best Sitcom Ever Bracket?? </h3>
       <a href='' class='confirm'>YES, LET'S GO!</a>
-      <a href='..\index.html' class='goback'>NAH, let me see other Brakits</a>
+      <a href='..\..\..\index.html' class='goback'>NAH, let me see other Brakits</a>
   </div>
 </div>
 <!-- End of the code creating the modal window-->
@@ -64,10 +71,10 @@
 
 <!--Tab headers-->
    <div class="tab">
-     <button class="tablinks" onclick="openRegion(event, 'Region1')" id="defaultOpen">Region 1</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region2')">Region 2</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region3')">Region 3</button>
-     <button class="tablinks" onclick="openRegion(event, 'Region4')">Region 4</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region4')" id="defaultOpen">Pre-1990s Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region1')">1990s Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region2')">2000s Region</button>
+     <button class="tablinks" onclick="openRegion(event, 'Region3')">2010s Region</button>
      <button class="tablinks" onclick="openRegion(event, 'RegionFinal')">Final</button>
    </div>
 
